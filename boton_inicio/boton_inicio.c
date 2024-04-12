@@ -4,17 +4,14 @@
 
 const uint LED_PIN = 16; // Utiliza el pin GP16 para el LED
 const uint BUTTON_PIN = 9; // Utiliza el pin GP9 para el botón
-const uint SEGMENT_PINS[] = {2, 3, 4, 5, 6, 7, 8}; // Pines para los segmentos del display de 7 segmentos
 
-bool timer_paused = true; // Comienza pausado
-int counter = 9; // Comienza desde 9
+bool led_on = false; // Variable para rastrear si el LED está encendido o apagado
 
-void display_number(int number);
 void gpio_callback(uint gpio, uint32_t events);
 
 int main() {
     stdio_init_all();
-    printf("Hello, 7segment - press button to count down!\n");
+    printf("Press the button to toggle the LED!\n");
 
     // Inicializa el LED
     gpio_init(LED_PIN);
@@ -27,61 +24,22 @@ int main() {
     gpio_pull_up(BUTTON_PIN);
     gpio_set_irq_enabled_with_callback(BUTTON_PIN, GPIO_IRQ_EDGE_FALL, true, &gpio_callback);
 
-    // Inicializar los pines del display de 7 segmentos
-    for (int i = 0; i < 7; ++i) {
-        gpio_init(SEGMENT_PINS[i]);
-        gpio_set_dir(SEGMENT_PINS[i], GPIO_OUT);
-        gpio_set_outover(SEGMENT_PINS[i], GPIO_OVERRIDE_INVERT); // Invierte los valores
-    }
-
     while (true) {
-        if (!timer_paused) {
-            display_number(counter);
-            sleep_ms(250); // Espera un cuarto de segundo
-            
-            // Decrementa el contador y reinicia si alcanza menos de 0
-            if (--counter < 0) {
-                counter = 9;
-            }
+        if (led_on) {
+            printf("Ciclo iniciado\n");
+        } else {
+            printf("Ciclo pausado\n");
         }
+        sleep_ms(100); // Pequeña pausa para evitar sobrecarga de la CPU
     }
+
     return 0;
-}
-
-void display_number(int number) {
-    const int bits[10] = {
-        0x3f,  // 0
-        0x06,  // 1
-        0x5b,  // 2
-        0x4f,  // 3
-        0x66,  // 4
-        0x6d,  // 5
-        0x7d,  // 6
-        0x07,  // 7
-        0x7f,  // 8
-        0x67   // 9
-    };
-
-    // Verifica si el número está dentro del rango válido
-    if (number >= 0 && number <= 9) {
-        // Activa los segmentos correspondientes según la configuración del número
-        uint32_t mask = bits[number] << SEGMENT_PINS[0];
-        gpio_set_mask(mask);
-    } else {
-        // Si el número no está dentro del rango válido, apaga todos los segmentos
-        gpio_clr_mask(0x7F << SEGMENT_PINS[0]); // Apaga todos los segmentos
-    }
 }
 
 void gpio_callback(uint gpio, uint32_t events) {
     if (!gpio_get(BUTTON_PIN)) { // Solo si el botón está presionado
-        timer_paused = !timer_paused;
-        gpio_put(LED_PIN, !timer_paused); // Enciende o apaga el LED según el estado
-
-        if (timer_paused) {
-            printf("Ciclo pausado en %d.\n", counter);
-        } else {
-            printf("Continuando el ciclo...\n");
-        }
+        led_on = !led_on; // Cambia el estado del LED
+        gpio_put(LED_PIN, led_on); // Enciende o apaga el LED según el estado
+        while (!gpio_get(BUTTON_PIN)); // Espera hasta que el botón se suelte
     }
 }
