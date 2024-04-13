@@ -40,6 +40,8 @@ int main() {
             display_number(counter);
             if (counter > 0) {
                 counter--;
+            } else {
+                counter = 9; // Reinicia el contador cuando llega a 0
             }
         } else {
             printf("Ciclo pausado\n");
