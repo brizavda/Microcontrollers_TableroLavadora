@@ -30,7 +30,7 @@ int main() {
         } else {
             printf("Ciclo pausado\n");
         }
-        sleep_ms(100); // Pequeña pausa para evitar sobrecarga de la CPU
+        sleep_ms(1000); // Pequeña pausa para evitar sobrecarga de la CPU
     }
 
     return 0;
