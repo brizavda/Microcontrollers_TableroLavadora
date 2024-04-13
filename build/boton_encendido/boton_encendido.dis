@@ -41,11 +41,11 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING, OCTETS
  18 .debug_ranges 00004848  00000000  00000000  0004f558  2**3
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 19 .debug_line   00016fad  00000000  00000000  00053da0  2**0
+ 19 .debug_line   00016fb0  00000000  00000000  00053da0  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 20 .debug_str    0000724b  00000000  00000000  0006ad4d  2**0
+ 20 .debug_str    0000724b  00000000  00000000  0006ad50  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 21 .debug_frame  00002964  00000000  00000000  00071f98  2**2
+ 21 .debug_frame  00002964  00000000  00000000  00071f9c  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 C:/Users/Gamaliel Abad/Documents/Microcontroladores/Microcontrollers_TableroLavadora/build/boton_encendido/boton_encendido.elf:     file format elf32-littlearm
@@ -345,22 +345,22 @@ Disassembly of section .text:
 10000324:	2101      	movs	r1, #1
 10000326:	2004      	movs	r0, #4
 10000328:	f000 f844 	bl	100003b4 <gpio_set_pulls>
-1000032c:	4812      	ldr	r0, [pc, #72]	; (10000378 <main+0x74>)
-1000032e:	f003 fea1 	bl	10004074 <__wrap_puts>
-10000332:	2032      	movs	r0, #50	; 0x32
-10000334:	f001 f9d0 	bl	100016d8 <sleep_ms>
-10000338:	e006      	b.n	10000348 <main+0x44>
-1000033a:	23d0      	movs	r3, #208	; 0xd0
-1000033c:	061b      	lsls	r3, r3, #24
-1000033e:	2208      	movs	r2, #8
-10000340:	619a      	str	r2, [r3, #24]
-10000342:	480e      	ldr	r0, [pc, #56]	; (1000037c <main+0x78>)
+1000032c:	e006      	b.n	1000033c <main+0x38>
+1000032e:	23d0      	movs	r3, #208	; 0xd0
+10000330:	061b      	lsls	r3, r3, #24
+10000332:	2208      	movs	r2, #8
+10000334:	619a      	str	r2, [r3, #24]
+10000336:	4810      	ldr	r0, [pc, #64]	; (10000378 <main+0x74>)
+10000338:	f001 f9ce 	bl	100016d8 <sleep_ms>
+1000033c:	480f      	ldr	r0, [pc, #60]	; (1000037c <main+0x78>)
+1000033e:	f003 fe99 	bl	10004074 <__wrap_puts>
+10000342:	2032      	movs	r0, #50	; 0x32
 10000344:	f001 f9c8 	bl	100016d8 <sleep_ms>
 10000348:	23d0      	movs	r3, #208	; 0xd0
 1000034a:	061b      	lsls	r3, r3, #24
 1000034c:	685b      	ldr	r3, [r3, #4]
 1000034e:	06db      	lsls	r3, r3, #27
-10000350:	d4fa      	bmi.n	10000348 <main+0x44>
+10000350:	d4f4      	bmi.n	1000033c <main+0x38>
 10000352:	24d0      	movs	r4, #208	; 0xd0
 10000354:	0624      	lsls	r4, r4, #24
 10000356:	2308      	movs	r3, #8
@@ -376,9 +376,9 @@ Disassembly of section .text:
 10000370:	6863      	ldr	r3, [r4, #4]
 10000372:	06db      	lsls	r3, r3, #27
 10000374:	d4ed      	bmi.n	10000352 <main+0x4e>
-10000376:	e7e0      	b.n	1000033a <main+0x36>
-10000378:	10006830 	.word	0x10006830
-1000037c:	000005dc 	.word	0x000005dc
+10000376:	e7da      	b.n	1000032e <main+0x2a>
+10000378:	000005dc 	.word	0x000005dc
+1000037c:	10006830 	.word	0x10006830
 10000380:	10006844 	.word	0x10006844
 
 10000384 <gpio_set_function>:

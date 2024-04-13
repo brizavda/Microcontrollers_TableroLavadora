@@ -1344,9 +1344,9 @@ Discarded input sections
  .debug_frame   0x00000000       0x20 boton_encendido/CMakeFiles/boton_encendido.dir/226ce844c917154b4591a68ffd645516/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
  .ARM.attributes
                 0x00000000       0x2c boton_encendido/CMakeFiles/boton_encendido.dir/226ce844c917154b4591a68ffd645516/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
- .text          0x00000000        0x0 C:\Users\GAMALI~1\AppData\Local\Temp\ccyFDMl0.o
- .data          0x00000000        0x0 C:\Users\GAMALI~1\AppData\Local\Temp\ccyFDMl0.o
- .bss           0x00000000        0x0 C:\Users\GAMALI~1\AppData\Local\Temp\ccyFDMl0.o
+ .text          0x00000000        0x0 C:\Users\GAMALI~1\AppData\Local\Temp\ccwsv7cn.o
+ .data          0x00000000        0x0 C:\Users\GAMALI~1\AppData\Local\Temp\ccwsv7cn.o
+ .bss           0x00000000        0x0 C:\Users\GAMALI~1\AppData\Local\Temp\ccwsv7cn.o
  .data          0x00000000        0x0 c:/progra~1/raspbe~1/picosd~1.1/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 c:/progra~1/raspbe~1/picosd~1.1/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .text          0x00000000        0x0 c:/progra~1/raspbe~1/picosd~1.1/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-calloc.o)
@@ -1562,7 +1562,7 @@ LOAD c:/progra~1/raspbe~1/picosd~1.1/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.
 .boot2          0x10000000      0x100
                 0x10000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 C:\Users\GAMALI~1\AppData\Local\Temp\ccyFDMl0.o
+ .boot2         0x10000000      0x100 C:\Users\GAMALI~1\AppData\Local\Temp\ccwsv7cn.o
                 0x10000100                __boot2_end__ = .
                 0x00000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -3006,7 +3006,7 @@ LOAD boton_encendido/CMakeFiles/boton_encendido.dir/ae783cfadb10a0055c655bcf0b17
 LOAD boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/tusb.c.obj
 LOAD boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 LOAD boton_encendido/CMakeFiles/boton_encendido.dir/226ce844c917154b4591a68ffd645516/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
-LOAD C:\Users\GAMALI~1\AppData\Local\Temp\ccyFDMl0.o
+LOAD C:\Users\GAMALI~1\AppData\Local\Temp\ccwsv7cn.o
 LOAD c:/progra~1/raspbe~1/picosd~1.1/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a
 LOAD c:/progra~1/raspbe~1/picosd~1.1/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libm.a
 START GROUP
@@ -3119,7 +3119,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x00000754       0x2c boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
  .ARM.attributes
-                0x00000780       0x22 C:\Users\GAMALI~1\AppData\Local\Temp\ccyFDMl0.o
+                0x00000780       0x22 C:\Users\GAMALI~1\AppData\Local\Temp\ccwsv7cn.o
  .ARM.attributes
                 0x000007a2       0x1e c:/progra~1/raspbe~1/picosd~1.1/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .ARM.attributes
@@ -3419,50 +3419,50 @@ LOAD linker stubs
  .debug_ranges  0x00004368      0x170 boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/tusb.c.obj
  .debug_ranges  0x000044d8      0x370 boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 
-.debug_line     0x00000000    0x16fad
- .debug_line    0x00000000      0x49c boton_encendido/CMakeFiles/boton_encendido.dir/boton_encendido.c.obj
- .debug_line    0x0000049c      0xd98 boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_line    0x00001234      0x2d6 boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
- .debug_line    0x0000150a      0x4e2 boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
- .debug_line    0x000019ec      0x4df boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_line    0x00001ecb     0x112d boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_line    0x00002ff8      0x28e boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_line    0x00003286     0x116d boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_line    0x000043f3      0x319 boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/critical_section.c.obj
- .debug_line    0x0000470c     0x1cb7 boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
- .debug_line    0x000063c3      0xd04 boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_line    0x000070c7      0x8e8 boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/pheap.c.obj
- .debug_line    0x000079af      0xae6 boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_line    0x00008495      0x60c boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_line    0x00008aa1      0x45b boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_line    0x00008efc      0x2ff boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_line    0x000091fb      0xc0b boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_line    0x00009e06     0x1254 boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_line    0x0000b05a      0x163 boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_line    0x0000b1bd      0x26b boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_line    0x0000b428      0x2ec boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
- .debug_line    0x0000b714      0x43c boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .debug_line    0x0000bb50      0x3cc boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_line    0x0000bf1c       0xad boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .debug_line    0x0000bfc9       0xb3 boton_encendido/CMakeFiles/boton_encendido.dir/ae783cfadb10a0055c655bcf0b179659/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_line    0x0000c07c      0x3eb boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
- .debug_line    0x0000c467      0x394 boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_line    0x0000c7fb       0xdd boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_line    0x0000c8d8       0xeb boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
- .debug_line    0x0000c9c3      0x211 boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .debug_line    0x0000cbd4      0xfc1 boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_line    0x0000db95      0x4f1 boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
- .debug_line    0x0000e086      0xf0e boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
- .debug_line    0x0000ef94      0x34b boton_encendido/CMakeFiles/boton_encendido.dir/ae783cfadb10a0055c655bcf0b179659/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
- .debug_line    0x0000f2df      0x410 boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
- .debug_line    0x0000f6ef      0x866 boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
- .debug_line    0x0000ff55      0xf71 boton_encendido/CMakeFiles/boton_encendido.dir/ae783cfadb10a0055c655bcf0b179659/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- .debug_line    0x00010ec6      0xadf boton_encendido/CMakeFiles/boton_encendido.dir/ae783cfadb10a0055c655bcf0b179659/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- .debug_line    0x000119a5     0x20a7 boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
- .debug_line    0x00013a4c      0x4bf boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
- .debug_line    0x00013f0b      0xea6 boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
- .debug_line    0x00014db1      0xc5b boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/tusb.c.obj
- .debug_line    0x00015a0c     0x15a1 boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+.debug_line     0x00000000    0x16fb0
+ .debug_line    0x00000000      0x49f boton_encendido/CMakeFiles/boton_encendido.dir/boton_encendido.c.obj
+ .debug_line    0x0000049f      0xd98 boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_line    0x00001237      0x2d6 boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+ .debug_line    0x0000150d      0x4e2 boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_line    0x000019ef      0x4df boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_line    0x00001ece     0x112d boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_line    0x00002ffb      0x28e boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_line    0x00003289     0x116d boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_line    0x000043f6      0x319 boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/critical_section.c.obj
+ .debug_line    0x0000470f     0x1cb7 boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_line    0x000063c6      0xd04 boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_line    0x000070ca      0x8e8 boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/pheap.c.obj
+ .debug_line    0x000079b2      0xae6 boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_line    0x00008498      0x60c boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_line    0x00008aa4      0x45b boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_line    0x00008eff      0x2ff boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_line    0x000091fe      0xc0b boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_line    0x00009e09     0x1254 boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_line    0x0000b05d      0x163 boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_line    0x0000b1c0      0x26b boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_line    0x0000b42b      0x2ec boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+ .debug_line    0x0000b717      0x43c boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+ .debug_line    0x0000bb53      0x3cc boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_line    0x0000bf1f       0xad boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+ .debug_line    0x0000bfcc       0xb3 boton_encendido/CMakeFiles/boton_encendido.dir/ae783cfadb10a0055c655bcf0b179659/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_line    0x0000c07f      0x3eb boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+ .debug_line    0x0000c46a      0x394 boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_line    0x0000c7fe       0xdd boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_line    0x0000c8db       0xeb boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+ .debug_line    0x0000c9c6      0x211 boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .debug_line    0x0000cbd7      0xfc1 boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_line    0x0000db98      0x4f1 boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+ .debug_line    0x0000e089      0xf0e boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+ .debug_line    0x0000ef97      0x34b boton_encendido/CMakeFiles/boton_encendido.dir/ae783cfadb10a0055c655bcf0b179659/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+ .debug_line    0x0000f2e2      0x410 boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+ .debug_line    0x0000f6f2      0x866 boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+ .debug_line    0x0000ff58      0xf71 boton_encendido/CMakeFiles/boton_encendido.dir/ae783cfadb10a0055c655bcf0b179659/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ .debug_line    0x00010ec9      0xadf boton_encendido/CMakeFiles/boton_encendido.dir/ae783cfadb10a0055c655bcf0b179659/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ .debug_line    0x000119a8     0x20a7 boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+ .debug_line    0x00013a4f      0x4bf boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+ .debug_line    0x00013f0e      0xea6 boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+ .debug_line    0x00014db4      0xc5b boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/tusb.c.obj
+ .debug_line    0x00015a0f     0x15a1 boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 
 .debug_str      0x00000000     0x724b
  .debug_str     0x00000000      0x44f boton_encendido/CMakeFiles/boton_encendido.dir/boton_encendido.c.obj

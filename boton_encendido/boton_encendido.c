@@ -52,13 +52,14 @@ int main()
     // Variable para almacenar el estado de la lavadora
     bool estado_lavadora = false;
 
-    // Imprime el estado de la lavadora
-    printf("Lavadora apagada\n");
-    sleep_ms(50);
+    
 
     while (true)
     {
-
+        // Imprime el estado de la lavadora
+        printf("Lavadora apagada\n");
+        sleep_ms(50);
+        
         // Si el estado del boton es 0, entonces el botón estará presionado
         // y la lavadora se encederá
         if (gpio_get(BOTON_PRESS) == 0)
