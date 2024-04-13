@@ -38,15 +38,13 @@ int main() {
         if (led_on) {
             printf("Ciclo iniciado\n");
             display_number(counter);
-            sleep_ms(1000); // Espera un segundo antes de actualizar el número en el display
             if (counter > 0) {
                 counter--;
             }
         } else {
             printf("Ciclo pausado\n");
-            // No se reduce el contador cuando el LED está apagado
-            sleep_ms(500); // Pequeña pausa para evitar sobrecarga de la CPU
         }
+        sleep_ms(1000); // Espera un segundo antes de actualizar el número en el display
     }
 
     return 0;
@@ -67,8 +65,14 @@ void display_number(int number) {
     };
 
     // Activa los segmentos correspondientes según la configuración del número
-    uint32_t mask = bits[number] << SEGMENT_PINS[0];
-    gpio_set_mask(mask);
+    uint32_t mask = bits[number];
+    for (int i = 0; i < 7; ++i) {
+        if ((mask >> i) & 1) {
+            gpio_put(SEGMENT_PINS[i], 1);
+        } else {
+            gpio_put(SEGMENT_PINS[i], 0);
+        }
+    }
 }
 
 void gpio_callback(uint gpio, uint32_t events) {
