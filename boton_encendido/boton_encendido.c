@@ -6,9 +6,8 @@
 #define BOTON_PRESS 4
 
 int main()
-{
 
-    
+{
     // Inicializar la salida estándar
     stdio_init_all();
 
@@ -49,49 +48,50 @@ int main()
         }
     }  **/
 
-// Variable para almacenar el estado de la lavadora
-bool estado_lavadora = false;
+    // Variable para almacenar el estado de la lavadora
+    bool estado_lavadora = false;
 
-while (true)
-{
-    // Este bucle while mejora la sensación del usuario al momento de apagar 
-    // la lavadora. Si se mantiene pulsado el botón, se queda en un bucle infinito 
-    // para evitar que se vuelva a encender la lavadora. 
-    while (gpio_get(BOTON_PRESS) == 0)
+    while (true)
     {
-        sleep_ms(2);
-    }
-    
-    // Imprime el estado de la lavadora
-    printf("Lavadora apagada\n");
-    sleep_ms(50);
-    
-    // Si el estado del botón es 0, entonces el botón está presionado
-    // y la lavadora se encenderá.
-    if (gpio_get(BOTON_PRESS) == 0)
-    {
-        // Se le asigna el estado de encendido a la variable.
-        estado_lavadora = true;
-
-        // Un bucle infinito hará que la lavadora se mantenga encendida
-        while (estado_lavadora)
+        // Este bucle while mejora la sensación del usuario al momento de apagar
+        // la lavadora. Si se mantiene pulsado el botón, se queda en un bucle infinito
+        // para evitar que se vuelva a encender la lavadora.
+        while (gpio_get(BOTON_PRESS) == 0)
         {
-            // El LED permanecerá encendido.
-            gpio_put(LED_PIN, 1);
-            sleep_ms(500);
+            sleep_ms(2);
+        }
 
-            // Mensaje tentativo para depurar y monitorear el estado de la lavadora
-            printf("Lavadora encendida\n");
-            sleep_ms(500);
+        // Imprime el estado de la lavadora
+        printf("Lavadora apagada\n");
+        sleep_ms(50);
 
-            // Si el botón recibe en algún momento el valor de 0,
-            // entonces el estado de la lavadora se asignará a falso, apagando la lavadora.
-            if (gpio_get(BOTON_PRESS) == 0)
+        // Si el estado del botón es 0, entonces el botón está presionado
+        // y la lavadora se encenderá.
+        if (gpio_get(BOTON_PRESS) == 0)
+        {
+            // Se le asigna el estado de encendido a la variable.
+            estado_lavadora = true;
+
+            // Un bucle infinito hará que la lavadora se mantenga encendida
+            while (estado_lavadora)
             {
-                sleep_ms(1500);
-                gpio_put(LED_PIN, 0);
-                estado_lavadora = false;
-                sleep_ms(100);
+                // El LED permanecerá encendido.
+                gpio_put(LED_PIN, 1);
+                sleep_ms(500);
+
+                // Mensaje tentativo para depurar y monitorear el estado de la lavadora
+                printf("Lavadora encendida\n");
+                sleep_ms(500);
+
+                // Si el botón recibe en algún momento el valor de 0,
+                // entonces el estado de la lavadora se asignará a falso, apagando la lavadora.
+                if (gpio_get(BOTON_PRESS) == 0)
+                {
+                    sleep_ms(1500);
+                    gpio_put(LED_PIN, 0);
+                    estado_lavadora = false;
+                    sleep_ms(100);
+                }
             }
         }
     }
