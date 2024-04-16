@@ -18,10 +18,46 @@ int main(){
     bool button_pressed = false;
 
     while(true){
+
         while (gpio_get(BOTON_PRESS) == 0)
         {
-            cambio_de_nivel = true;
+            button_pressed = true;
             sleep_ms(100);
+        }
+
+        if (button_pressed == true){
+            
+            if (ciclos != 3)
+            {
+                ciclos++;
+            }else{
+                ciclos = 1;
+            }
+
+        }
+
+        cambio_de_nivel = false;
+        sleep_ms(50);
+
+        if (ciclos == 0)
+        {
+            printf("Selecciona el nivel de agua\n");
+            sleep_ms(50);
+        }
+        else if (ciclos == 1)
+        {
+            printf("Ciclo Normal\n");
+            sleep_ms(50);
+        }
+        else if (ciclos == 2)
+        {
+            printf("Ciclo Delicado\n");
+            sleep_ms(50);
+        }
+        else if (ciclos == 3)
+        {
+            printf("Ciclo Rapido\n");
+            sleep_ms(50);
         }
     }
 
