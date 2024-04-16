@@ -8,9 +8,9 @@ Son 3 secuencias diferentes.
 - Fase de centrifugado: Secuencia en círculo.
 
 Materiales que se necesitaron para implementar el prototipo:
-    1. Display de 7 segmentos ánodo común x1
-    2. Botones DIL Push x3
-    3. Resistencias de 220 Ohms (recomendado) x7
-    4. Cables Jumper Tipo Macho-Macho x15
-    5. Raspberry Pi Pico W
-    6. Protoboard x1
+1. Display de 7 segmentos ánodo común x1
+2. Botones DIL Push x3
+3. Resistencias de 220 Ohms (recomendado) x7
+4. Cables Jumper Tipo Macho-Macho x15
+5. Raspberry Pi Pico W
+6. Protoboard x1
