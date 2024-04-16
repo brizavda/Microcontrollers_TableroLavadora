@@ -9,6 +9,7 @@ set(PICO_BOARD pico_w)
 
 pico_sdk_init()
 add_subdirectory(boton_encendido)
+add_subdirectory(boton_nivel_agua)
 
 
 
