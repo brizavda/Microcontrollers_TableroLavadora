@@ -39,4 +39,14 @@ int main(){
     int boton_previo = 0; // Variable para rastrear el último botón presionado
     int boton_actual = 0;  // Variable para rastrear el botón actual activo
     bool ejecutando = false;    // Estado del modo de secuencia
+
+    while (true) {
+        // Verificar si se ha presionado algún botón
+        if (!gpio_get(BOTON_GPIO1)) {
+            boton_actual = 1;
+        } else if (!gpio_get(BOTON_GPIO2)) {
+            boton_actual = 2;
+        } else if (!gpio_get(BOTON_GPIO3)) {
+            boton_actual = 3;
+        }
 }
