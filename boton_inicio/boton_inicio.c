@@ -14,7 +14,7 @@ void gpio_callback(uint gpio, uint32_t events);
 
 int main() {
     stdio_init_all();
-    printf("Press the button to toggle the LED!\n");
+  
 
     // Inicializa el LED
     gpio_init(LED_PIN);
