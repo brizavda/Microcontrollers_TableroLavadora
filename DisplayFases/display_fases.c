@@ -90,5 +90,10 @@ int main(){
                 default:
                     break;
             }
+            } else {
+            // Si no se está ejecutando ninguna secuencia, mantener los segmentos apagados
+            gpio_clr_mask((1 << 7) - 1 << PRIMER_GPIO); // Apagar todos los segmentos
+            ejecutando = true; // Activar la secuencia para que se ejecute continuamente
         }
+    }
 }
