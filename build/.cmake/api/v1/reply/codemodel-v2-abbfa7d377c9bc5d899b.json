@@ -8,7 +8,8 @@
 					"build" : ".",
 					"childIndexes" : 
 					[
-						1
+						1,
+						81
 					],
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -579,9 +580,9 @@
 					"source" : "C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/pico-sdk/src/rp2_common/boot_stage2",
 					"targetIndexes" : 
 					[
-						0,
 						1,
-						2
+						2,
+						3
 					]
 				},
 				{
@@ -783,8 +784,8 @@
 					"source" : "C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/pico-sdk/src/rp2_common/tinyusb",
 					"targetIndexes" : 
 					[
-						4,
-						5
+						5,
+						6
 					]
 				},
 				{
@@ -847,7 +848,7 @@
 					"source" : "C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/pico-sdk/src/rp2_common/pico_cyw43_driver",
 					"targetIndexes" : 
 					[
-						3
+						4
 					]
 				},
 				{
@@ -1012,6 +1013,21 @@
 					"parentIndex" : 1,
 					"projectIndex" : 1,
 					"source" : "C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/pico-sdk/docs"
+				},
+				{
+					"build" : "boton_ciclos",
+					"jsonFile" : "directory-boton_ciclos-Debug-9db32de558b58bbda5d2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "boton_ciclos",
+					"targetIndexes" : 
+					[
+						0
+					]
 				}
 			],
 			"name" : "Debug",
@@ -1024,9 +1040,14 @@
 					],
 					"directoryIndexes" : 
 					[
-						0
+						0,
+						81
 					],
-					"name" : "pico-fibonacci"
+					"name" : "pico-fibonacci",
+					"targetIndexes" : 
+					[
+						0
+					]
 				},
 				{
 					"directoryIndexes" : 
@@ -1116,17 +1137,24 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						0,
 						1,
 						2,
 						3,
 						4,
-						5
+						5,
+						6
 					]
 				}
 			],
 			"targets" : 
 			[
+				{
+					"directoryIndex" : 81,
+					"id" : "boton_ciclos::@d2e356f657596b167c92",
+					"jsonFile" : "target-boton_ciclos-Debug-f136b5e8ab0310a2ab71.json",
+					"name" : "boton_ciclos",
+					"projectIndex" : 0
+				},
 				{
 					"directoryIndex" : 43,
 					"id" : "bs2_default::@bc554eaed616d198a22d",

@@ -36,7 +36,7 @@ int main(){
 
         }
 
-        cambio_de_nivel = false;
+        button_pressed = false;
         sleep_ms(50);
 
         if (ciclos == 0)

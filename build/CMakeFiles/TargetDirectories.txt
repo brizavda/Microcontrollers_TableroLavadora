@@ -166,3 +166,6 @@ C:/Users/brizi/Documents/Pico-v1.5.1/pico-laundry/build/pico-sdk/src/rp2040/hard
 C:/Users/brizi/Documents/Pico-v1.5.1/pico-laundry/build/pico-sdk/src/rp2040/hardware_structs/CMakeFiles/rebuild_cache.dir
 C:/Users/brizi/Documents/Pico-v1.5.1/pico-laundry/build/pico-sdk/docs/CMakeFiles/edit_cache.dir
 C:/Users/brizi/Documents/Pico-v1.5.1/pico-laundry/build/pico-sdk/docs/CMakeFiles/rebuild_cache.dir
+C:/Users/brizi/Documents/Pico-v1.5.1/pico-laundry/build/boton_ciclos/CMakeFiles/boton_ciclos.dir
+C:/Users/brizi/Documents/Pico-v1.5.1/pico-laundry/build/boton_ciclos/CMakeFiles/edit_cache.dir
+C:/Users/brizi/Documents/Pico-v1.5.1/pico-laundry/build/boton_ciclos/CMakeFiles/rebuild_cache.dir
