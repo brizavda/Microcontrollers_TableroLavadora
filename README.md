@@ -74,17 +74,21 @@ A continuación se muestra el esquema de conexión del botón al microcontrolado
 
 ### Diagrama de flujo de la Función `main()`
 
+El diagrama de flujo main() representa el flujo de control principal del programa. Comienza inicializando los pines GPIO y luego entra en un bucle donde verifica el estado del botón. Dependiendo de si el botón está presionado o no, cambia el estado del LED correspondiente. Además, actualiza el temporizador y muestra el tiempo transcurrido en la consola. Este proceso se repite continuamente hasta que se detiene el programa.
+
 ![diagrama_funcion_main](https://github.com/brizavda/Microcontrollers_TableroLavadora/assets/125591740/ded5f95f-3759-4d90-89cd-952841ec8193)
 
 
 
 
 ### Diagrama de flujo de la Función `display_number(int number)`
+
+Este diagrama de flujo maneja la función display_number, que se encarga de mostrar un número en un display de 7 segmentos. Primero, verifica si el número proporcionado es válido. Si es válido, activa los segmentos correspondientes en el display para mostrar el número. Si el número no es válido, el proceso termina.
 ![mermaid-diagram-2024-04-17-000635](https://github.com/brizavda/Microcontrollers_TableroLavadora/assets/125591740/15d51eff-1fcb-43ce-b0f4-3ccbfa28f6e5)
 
 
  ### Diagrama de Flujo para la Función ` gpio_callback(uint gpio, uint32_t events)`
+ Este diagrama de flujo describe la función gpio_callback, que maneja las interrupciones del botón. Espera la interrupción del botón y luego verifica su estado. Si el botón está presionado, cambia el estado del LED correspondiente y espera hasta que el botón se libere. Una vez que se libera el botón, el proceso termina.
  
  ![mermaid-diagram-2024-04-17-000821](https://github.com/brizavda/Microcontrollers_TableroLavadora/assets/125591740/ecd52ccf-e6c4-4743-9b9b-de6adf68f485)
 
- 
