@@ -15,7 +15,7 @@ Estos materiales son fundamentales para la implementación del control de la lav
 
 Conexión
 
-
+[![Glorious-Maimu-Duup.png](https://i.postimg.cc/5N2JpccD/Glorious-Maimu-Duup.png)](https://postimg.cc/Z02XKM5L)
 
 Descripción del Código
 El código está escrito en C y utiliza las bibliotecas estándar de la Raspberry Pi Pico y las bibliotecas específicas de hardware para controlar los pines GPIO.
