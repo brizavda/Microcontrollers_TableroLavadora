@@ -60,7 +60,7 @@ A continuación se muestra el esquema de conexión del botón al microcontrolado
 ![imagen_prototipo](https://github.com/brizavda/Microcontrollers_TableroLavadora/assets/125591740/e18cf001-2b7f-4989-8f93-b166e2a0afcd)
 
 
-## Instalación y Uso
+## :card_file_box: Instalación y Uso
 
 1. Construye el prototipo de acuerdo con el esquema de conexión proporcionado.
 2. Clona este repositorio en tu dispositivo.
@@ -70,7 +70,11 @@ A continuación se muestra el esquema de conexión del botón al microcontrolado
 6. Para reanudar el ciclo , presiona el botón otra vez.
 
 
-## Diagrama de Flujo
+## Diagramas de Flujo
+
+### Diagrama de flujo de la Función `main()`
+
+![diagrama_funcion_main](https://github.com/brizavda/Microcontrollers_TableroLavadora/assets/125591740/ded5f95f-3759-4d90-89cd-952841ec8193)
 
 
 
