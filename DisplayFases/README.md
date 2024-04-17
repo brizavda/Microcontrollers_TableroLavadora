@@ -63,7 +63,7 @@ NOTA: Este ejemplo y la imágen del prototipo simulan las secuencias de las fase
 ## Instalación y Uso
 
 1. Clona este repositorio en tu dispositivo.
-2. Conecta el botón al microcontrolador según el esquema de conexión proporcionado.
-3. Compila y carga el código en el microcontrolador.
+2. Conecta los componentes a la Raspberry Pi Pico W y a la protoboard según el esquema de conexión proporcionado.
+3. Compila y carga el código en la Raspberry Pi Pico W.
 4. Presiona cualquier botón y la secuencia correspondiente se mostrará.
 5. Oprime otro botón diferente para cambiar de secuencia (es posible que necesites mantener oprimido el botón por uno o dos segundos para que se realice el cambio.)
