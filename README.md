@@ -1,13 +1,12 @@
 # Control de Inicio/Pausa de Ciclo de Lavado
 
-Este proyecto implementa un control de inicio/pausa de ciclo de lavado para una lavadora. Utiliza un botón conectado a un microcontrolador para controlar el inicio y la pausa del ciclo de lavado. Además, muestra en la consola el tiempo transcurrido desde que se inició el ciclo de lavado.
+Este proyecto implementa un control de inicio/pausa de ciclo de lavado para una lavadora. Utiliza un botón conectado a un microcontrolador para controlar el inicio y la pausa del ciclo de lavado. Además, muestra en la consola mensajes de "ciclo iniciado /pausado"
 
 ## Funcionalidades
 
 - **Inicio del Ciclo de Lavado:** Al presionar el botón, se inicia el ciclo de lavado.
 - **Pausa del Ciclo de Lavado:** Si el ciclo de lavado está en marcha, al presionar el botón se pausa el ciclo. Si se presiona nuevamente, se reanuda el ciclo desde el punto en que se detuvo.
-- **Contador de Tiempo:** Muestra en la consola el tiempo transcurrido desde que se inició el ciclo de lavado.
-- **Reinicio Automático:** Cuando el ciclo de lavado finaliza, el contador de tiempo se reinicia automáticamente.
+
 
 ## Implementación del Código
 
@@ -15,21 +14,33 @@ El código está escrito en lenguaje C y está diseñado para ser ejecutado en u
 
 ### Función `main()`
 
-La función principal del programa inicializa los pines GPIO del botón, LED y display de 7 segmentos. Luego, entra en un bucle infinito donde verifica el estado del botón y actualiza el estado del LED. También actualiza el temporizador y muestra el tiempo transcurrido en la consola.
+La función principal del programa inicializa los pines GPIO del botón, LED y display de 7 segmentos. Luego, entra en un bucle infinito donde verifica el estado del botón y actualiza el estado del LED. También actualiza el temporizador y muestra el mensaje del estado del ciclo en la consola.
 
 ### Función `display_number(int number)`
 
 Esta función se encarga de mostrar un número en un display de 7 segmentos. Recibe como argumento el número a mostrar y activa los segmentos correspondientes para representar ese número.
 
+**Propósito:** Mostrar números en un display de 7 segmentos.
+
+**Funcionamiento:** La función recibe un número entero como parámetro y utiliza un array predefinido para determinar qué segmentos deben estar activados para representar ese número en el display.
+
+**Implementación:** Utiliza operaciones de bits para activar los segmentos correspondientes en función del número recibido como parámetro.
+
 ### Función `gpio_callback(uint gpio, uint32_t events)`
 
 Esta función es un callback que se llama cuando se produce una interrupción en el pin GPIO del botón. Cambia el estado del LED y controla la pausa/inicio del ciclo de lavado según el estado del botón.
+
+**Propósito:** Manejar eventos de interrupción del botón.
+
+**Funcionamiento:** La función se llama cuando se produce una interrupción en el pin GPIO del botón. Verifica el estado del botón y cambia el estado del LED y el ciclo de lavado según corresponda.
+
+**Implementación:** Utiliza operaciones de lectura y escritura en los pines GPIO para controlar el estado del botón y del LED.
 
 ## Esquema de Conexión
 
 A continuación se muestra el esquema de conexión del botón al microcontrolador:
 
-![imagen_prototipo](https://github.com/brizavda/Microcontrollers_TableroLavadora/assets/125591740/00e34370-1d6c-4e9e-b014-8413667f3c4d)
+![imagen_prototipo](https://github.com/brizavda/Microcontrollers_TableroLavadora/assets/125591740/e18cf001-2b7f-4989-8f93-b166e2a0afcd)
 
 
 ## Instalación y Uso
@@ -42,7 +53,8 @@ A continuación se muestra el esquema de conexión del botón al microcontrolado
 
 ## Diagrama de Flujo
 
-A continuación se muestra un diagrama de flujo que ilustra el funcionamiento del programa:
+
+
 
 
 
