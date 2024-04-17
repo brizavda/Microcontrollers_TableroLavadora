@@ -25,16 +25,27 @@ int main() {
         gpio_set_outover(SEGMENT_PINS[i], GPIO_OVERRIDE_INVERT); // Invierte los valores
     }
 
+    bool led_on = false; // Variable para rastrear si el LED está encendido o apagado
+    int counter = 9; // Contador para la cuenta regresiva
+    uint64_t last_time = time_us_64(); // Guarda el tiempo actual en microsegundos
+
+    // Inicializa el LED
+    gpio_init(LED_PIN);
+    gpio_set_dir(LED_PIN, GPIO_OUT);
+    gpio_put(LED_PIN, 0); // Comienza apagado
+
     while (true) {
-        int counter = 9; // Contador para la cuenta regresiva
-        bool led_on = false; // Variable para rastrear si el LED está encendido o apagado
+        // Verifica el estado del botón y actualiza el estado del LED
+        if (!gpio_get(BUTTON_PIN)) { // Solo si el botón está presionado
+            led_on = !led_on; // Cambia el estado del LED
+            gpio_put(LED_PIN, led_on); // Enciende o apaga el LED según el estado
+            while (!gpio_get(BUTTON_PIN)); // Espera hasta que el botón se suelte
+        }
 
-        // Inicializa el LED
-        gpio_init(LED_PIN);
-        gpio_set_dir(LED_PIN, GPIO_OUT);
-        gpio_put(LED_PIN, 0); // Comienza apagado
-
-        while (true) {
+        // Actualiza el temporizador cada segundo
+        uint64_t current_time = time_us_64();
+        if (current_time - last_time >= 1000000) {
+            last_time = current_time;
             if (led_on) {
                 printf("Ciclo iniciado\n");
                 display_number(counter);
@@ -46,14 +57,9 @@ int main() {
             } else {
                 printf("Ciclo pausado\n");
             }
-            sleep_ms(1000); // Espera un segundo antes de actualizar el número en el display
-
-            if (!gpio_get(BUTTON_PIN)) { // Solo si el botón está presionado
-                led_on = !led_on; // Cambia el estado del LED
-                gpio_put(LED_PIN, led_on); // Enciende o apaga el LED según el estado
-                while (!gpio_get(BUTTON_PIN)); // Espera hasta que el botón se suelte
-            }
         }
+
+        sleep_ms(100); // Pequeña pausa para evitar sobrecarga de la CPU
     }
 
     return 0;
