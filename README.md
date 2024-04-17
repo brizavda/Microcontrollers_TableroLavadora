@@ -29,7 +29,8 @@ Esta función es un callback que se llama cuando se produce una interrupción en
 
 A continuación se muestra el esquema de conexión del botón al microcontrolador:
 
-![Esquema de Conexión](imagen_prototipo.png)
+![imagen_prototipo](https://github.com/brizavda/Microcontrollers_TableroLavadora/assets/125591740/00e34370-1d6c-4e9e-b014-8413667f3c4d)
+
 
 ## Instalación y Uso
 
