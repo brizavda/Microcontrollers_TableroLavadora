@@ -1,6 +1,6 @@
 # 	:play_or_pause_button: Control de Inicio/Pausa de Ciclo de Lavado
 
-En este apartado del proyecto se  implementa un control de inicio/pausa de ciclo de lavado para nuestra lavadora. Utiliza un botón conectado a un microcontrolador para controlar el inicio y la pausa del ciclo de lavado. Además, muestra en la consola mensajes de "ciclo iniciado /pausado"
+En este apartado del proyecto se implementa un control de inicio/pausa de ciclo para nuestra lavadora. Utiliza un botón conectado a un microcontrolador para controlar el inicio y la pausa del ciclo de lavado. Además, muestra en la consola mensajes de "ciclo iniciado /pausado"
 
 ## :writing_hand: Funcionalidades
 
