@@ -1,20 +1,26 @@
-# Control de Inicio/Pausa de Ciclo de Lavado
+# 	:play_or_pause_button: Control de Inicio/Pausa de Ciclo de Lavado
 
-Este proyecto implementa un control de inicio/pausa de ciclo de lavado para una lavadora. Utiliza un botón conectado a un microcontrolador para controlar el inicio y la pausa del ciclo de lavado. Además, muestra en la consola mensajes de "ciclo iniciado /pausado"
+En este apartado del proyecto se  implementa un control de inicio/pausa de ciclo de lavado para nuestra lavadora. Utiliza un botón conectado a un microcontrolador para controlar el inicio y la pausa del ciclo de lavado. Además, muestra en la consola mensajes de "ciclo iniciado /pausado"
 
-## Funcionalidades
+## :writing_hand: Funcionalidades
 
-- **Inicio del Ciclo de Lavado:** Al presionar el botón, se inicia el ciclo de lavado.
-- **Pausa del Ciclo de Lavado:** Si el ciclo de lavado está en marcha, al presionar el botón se pausa el ciclo. Si se presiona nuevamente, se reanuda el ciclo desde el punto en que se detuvo.
+- **Inicio del Ciclo de Lavado:** Al presionar el botón, se inicia el ciclo de lavado y su temporizador.
+- **Pausa del Ciclo de Lavado:** Si el ciclo de lavado está en marcha, al presionar el botón se pausa el temporizador del ciclo. Si se presiona nuevamente, se reanuda el temporizador desde el punto en que se detuvo.
 
 
-## Implementación del Código
+## :computer: 	:computer_mouse: Implementación del Código
 
 El código está escrito en lenguaje C y está diseñado para ser ejecutado en un microcontrolador como la Raspberry Pi Pico.
 
 ### Función `main()`
 
-La función principal del programa inicializa los pines GPIO del botón, LED y display de 7 segmentos. Luego, entra en un bucle infinito donde verifica el estado del botón y actualiza el estado del LED. También actualiza el temporizador y muestra el mensaje del estado del ciclo en la consola.
+La función principal del programa inicializa los pines GPIO del botón, LED y display de 7 segmentos. Luego, entra en un bucle infinito donde verifica el estado del botón y actualiza el estado del LED. También actualiza el temporizador y muestra el tiempo transcurrido en la consola.
+
+**Implementación:**
+- La función `main()` comienza inicializando los pines GPIO del botón, LED y display de 7 segmentos.
+- Luego, entra en un bucle infinito donde:
+  - Verifica el estado del botón y actualiza el estado del LED según corresponda.
+  - Actualiza el temporizador cada segundo y muestra el tiempo transcurrido en la consola.
 
 ### Función `display_number(int number)`
 
@@ -24,7 +30,9 @@ Esta función se encarga de mostrar un número en un display de 7 segmentos. Rec
 
 **Funcionamiento:** La función recibe un número entero como parámetro y utiliza un array predefinido para determinar qué segmentos deben estar activados para representar ese número en el display.
 
-**Implementación:** Utiliza operaciones de bits para activar los segmentos correspondientes en función del número recibido como parámetro.
+**Implementación:**
+- Utiliza un array de bits predefinido que representa la configuración de los segmentos para cada número del 0 al 9.
+- Luego, activa los segmentos correspondientes según la configuración del número recibido como parámetro.
 
 ### Función `gpio_callback(uint gpio, uint32_t events)`
 
@@ -34,9 +42,18 @@ Esta función es un callback que se llama cuando se produce una interrupción en
 
 **Funcionamiento:** La función se llama cuando se produce una interrupción en el pin GPIO del botón. Verifica el estado del botón y cambia el estado del LED y el ciclo de lavado según corresponda.
 
-**Implementación:** Utiliza operaciones de lectura y escritura en los pines GPIO para controlar el estado del botón y del LED.
+**Implementación:**
+- Utiliza operaciones de lectura y escritura en los pines GPIO para controlar el estado del botón y del LED.
+- Se utiliza un bucle para esperar hasta que el botón se suelte antes de realizar cualquier acción, asegurando así que se detecte correctamente el cambio de estado del botón.
 
-## Esquema de Conexión
+
+### Funcionalidad de los Estados del Botón
+
+- **Estado de Reposo:** Cuando el botón no está presionado, el sistema se encuentra en estado de reposo. En este estado, no se realiza ninguna acción.
+- **Estado de Inicio:** Cuando se presiona el botón, el sistema pasa al estado de inicio. En este estado, se inicia el ciclo de lavado si no estaba en marcha, y se enciende el LED indicador.
+- **Estado de Pausa:** Si el ciclo de lavado está en marcha y se vuelve a presionar el botón, el sistema pasa al estado de pausa. En este estado, se pausa el ciclo de lavado y se apaga el LED indicador. Si se presiona nuevamente el botón, se reanuda el ciclo de lavado desde el punto en que se detuvo y se enciende el LED indicador nuevamente.
+- 
+## :hammer_and_wrench: Esquema de Conexión
 
 A continuación se muestra el esquema de conexión del botón al microcontrolador:
 
@@ -45,11 +62,13 @@ A continuación se muestra el esquema de conexión del botón al microcontrolado
 
 ## Instalación y Uso
 
-1. Clona este repositorio en tu dispositivo.
-2. Conecta el botón al microcontrolador según el esquema de conexión proporcionado.
-3. Compila y carga el código en el microcontrolador.
-4. Inicia el ciclo de lavado presionando el botón.
-5. Para pausar el ciclo, presiona nuevamente el botón. Para reanudar el ciclo, presiona el botón otra vez.
+1. Construye el prototipo de acuerdo con el esquema de conexión proporcionado.
+2. Clona este repositorio en tu dispositivo.
+3. Carga el archivo UF2 (cargado en este mismo repositorio )en tu tarjeta Raspberry Pi Pico.
+4. Inicia el ciclo de lavado y su temporizador presionando el botón.
+5. Para pausar el ciclo y el temporizador, presiona nuevamente el botón.
+6. Para reanudar el ciclo , presiona el botón otra vez.
+
 
 ## Diagrama de Flujo
 
