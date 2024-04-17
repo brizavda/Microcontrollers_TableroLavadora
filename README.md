@@ -79,5 +79,7 @@ A continuación se muestra el esquema de conexión del botón al microcontrolado
 
 
 
+### Diagrama de flujo de la Función `display_number(int number)`
+![mermaid-diagram-2024-04-17-000635](https://github.com/brizavda/Microcontrollers_TableroLavadora/assets/125591740/15d51eff-1fcb-43ce-b0f4-3ccbfa28f6e5)
 
 
