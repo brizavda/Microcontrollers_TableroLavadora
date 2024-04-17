@@ -36,6 +36,9 @@ En resumen, este código permite al usuario seleccionar entre tres ciclos de lav
 
 A continuación se muestra el esquema de conexión del botón al microcontrolador.
 
+![Diseño sin título](https://github.com/brizavda/Microcontrollers_TableroLavadora/assets/141947806/7b004eb0-905e-478d-9352-666e40515e51)
+
+
 ## :card_file_box: Instalación y Uso
 
 1. Construye el prototipo de acuerdo con el esquema de conexión proporcionado.
@@ -44,3 +47,6 @@ A continuación se muestra el esquema de conexión del botón al microcontrolado
 4. Selecciona el ciclo de lavado presionando el botón.
 
 ## Diagramas de Flujo
+
+![Diagrama](https://github.com/brizavda/Microcontrollers_TableroLavadora/assets/141947806/efb08ca1-5b06-4e9f-8821-bd18f6f1e671)
+
