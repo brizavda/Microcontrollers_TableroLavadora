@@ -83,3 +83,8 @@ A continuación se muestra el esquema de conexión del botón al microcontrolado
 ![mermaid-diagram-2024-04-17-000635](https://github.com/brizavda/Microcontrollers_TableroLavadora/assets/125591740/15d51eff-1fcb-43ce-b0f4-3ccbfa28f6e5)
 
 
+ ### Diagrama de Flujo para la Función ` gpio_callback(uint gpio, uint32_t events)`
+ 
+ ![mermaid-diagram-2024-04-17-000821](https://github.com/brizavda/Microcontrollers_TableroLavadora/assets/125591740/ecd52ccf-e6c4-4743-9b9b-de6adf68f485)
+
+ 
