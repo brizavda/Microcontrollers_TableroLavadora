@@ -64,4 +64,4 @@ Este diagrama describe la función `gpio_callback`, que maneja las interrupcione
 
 ![mermaid-diagram-2024-04-17-000821](https://github.com/brizavda/Microcontrollers_TableroLavadora/assets/125591740/ecd52ccf-e6c4-4743-9b9b-de6adf68f485)
 
-Creo que estos cambios hacen que el README sea más cohesivo y fácil de entender. ¿Hay algo más en lo que pueda ayudarte?
+
