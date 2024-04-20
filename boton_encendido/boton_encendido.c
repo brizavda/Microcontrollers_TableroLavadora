@@ -87,7 +87,7 @@ int main()
                 // entonces el estado de la lavadora se asignará a falso, apagando la lavadora.
                 if (gpio_get(BOTON_PRESS) == 0)
                 {
-                    sleep_ms(1500);
+                    sleep_ms(700);
                     gpio_put(LED_PIN, 0);
                     estado_lavadora = false;
                     sleep_ms(100);

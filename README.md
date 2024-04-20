@@ -1,6 +1,6 @@
 
+## Documentación de Proyecto: Botón de encendido y apaado para Lavadora con Raspberry Pi Pico
 
-## Control de Lavadora con Raspberry Pi Pico W
 Este archivo README proporciona una descripción detallada del código que controla una lavadora utilizando una Raspberry Pi Pico W. El código implementa la funcionalidad de encendido y apagado de la lavadora mediante un botón conectado a la Pi Pico.
 
 Materiales Necesarios:
@@ -25,6 +25,7 @@ Antes de utilizar los pines GPIO para entrada o salida, es necesario inicializar
 
 gpio_init(LED_PIN);
 gpio_init(BOTON_PRESS);
+
 Configuración de Dirección de Pines
 Una vez inicializados, los pines GPIO deben configurarse para indicar si serán utilizados como entrada o salida. La función gpio_set_dir se encarga de esta tarea.
 
@@ -41,7 +42,7 @@ gpio_pull_up(BOTON_PRESS);
 Activar la resistencia pull-up en el pin del botón asegura que, cuando no se está presionando el botón, el pin se mantenga en un estado lógico alto.
 
 Uso
-Conecte la Raspberry Pi Pico W a la lavadora según las instrucciones provistas.
+Conecte la Raspberry Pi Pico W a la protoboard según las instrucciones provistas.
 
 Compile el código y cargue el programa en la Raspberry Pi Pico.
 
