@@ -8,6 +8,15 @@
 // Arreglo para definir la secuencia base para todos los ciclos
 int secCiclos[5] = {0x01, 0x20, 0x40, 0x04, 0x08}; // Secuencia en forma de "S"
 
+// Función para cambiar el ciclo actual al presionar el botón
+int cambiarCiclo(int ciclo_actual) {
+    if (botonPresionado()) {
+        // Cambiar al siguiente ciclo al presionar el botón
+        ciclo_actual = (ciclo_actual % 3) + 1;
+        return ciclo_actual;
+    }
+    return ciclo_actual;
+}
 
 int main(){
     stdio_init_all();
