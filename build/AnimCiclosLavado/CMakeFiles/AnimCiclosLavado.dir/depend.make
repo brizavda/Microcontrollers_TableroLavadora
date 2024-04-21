@@ -1,2 +1,2 @@
-# Empty dependencies file for bs2_default.
+# Empty dependencies file for AnimCiclosLavado.
 # This may be replaced when dependencies are built.

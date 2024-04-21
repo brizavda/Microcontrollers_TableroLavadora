@@ -33,6 +33,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
   "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPython/Support.cmake"
   "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPython3.cmake"
+  "C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/Microcontrollers_TableroLavadora/AnimCiclosLavado/CMakeLists.txt"
   "C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/Microcontrollers_TableroLavadora/CMakeLists.txt"
   "C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/Microcontrollers_TableroLavadora/DisplayFases/CMakeLists.txt"
   "C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/Microcontrollers_TableroLavadora/PruebaAnimBarrido/CMakeLists.txt"
@@ -253,6 +254,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "DisplayFases/elf2uf2/tmp/ELF2UF2Build-cfgcmd.txt"
   "DisplayFases/CMakeFiles/CMakeDirectoryInformation.cmake"
   "PruebaAnimBarrido/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "AnimCiclosLavado/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -265,4 +267,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "DisplayFases/CMakeFiles/DisplayFases.dir/DependInfo.cmake"
   "DisplayFases/CMakeFiles/ELF2UF2Build.dir/DependInfo.cmake"
   "PruebaAnimBarrido/CMakeFiles/PruebaAnimBarrido.dir/DependInfo.cmake"
+  "AnimCiclosLavado/CMakeFiles/AnimCiclosLavado.dir/DependInfo.cmake"
   )

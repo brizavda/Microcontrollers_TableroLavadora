@@ -209,6 +209,19 @@ PruebaAnimBarrido\fast:
 	$(MAKE) $(MAKESILENT) -f PruebaAnimBarrido\CMakeFiles\PruebaAnimBarrido.dir\build.make /nologo -$(MAKEFLAGS) PruebaAnimBarrido\CMakeFiles\PruebaAnimBarrido.dir\build
 .PHONY : PruebaAnimBarrido\fast
 
+#=============================================================================
+# Target rules for targets named AnimCiclosLavado
+
+# Build rule for target.
+AnimCiclosLavado: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) AnimCiclosLavado
+.PHONY : AnimCiclosLavado
+
+# fast build rule for target.
+AnimCiclosLavado\fast:
+	$(MAKE) $(MAKESILENT) -f AnimCiclosLavado\CMakeFiles\AnimCiclosLavado.dir\build.make /nologo -$(MAKEFLAGS) AnimCiclosLavado\CMakeFiles\AnimCiclosLavado.dir\build
+.PHONY : AnimCiclosLavado\fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -222,6 +235,7 @@ help:
 	@echo ... bs2_default_bin
 	@echo ... bs2_default_padded_checksummed_asm
 	@echo ... cyw43_driver_picow_cyw43_bus_pio_spi_pio_h
+	@echo ... AnimCiclosLavado
 	@echo ... DisplayFases
 	@echo ... PruebaAnimBarrido
 	@echo ... bs2_default

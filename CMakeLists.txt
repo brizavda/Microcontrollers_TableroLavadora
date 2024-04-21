@@ -12,3 +12,4 @@ pico_sdk_init()
 
 add_subdirectory(DisplayFases)
 add_subdirectory(PruebaAnimBarrido)
+add_subdirectory(AnimCiclosLavado)
