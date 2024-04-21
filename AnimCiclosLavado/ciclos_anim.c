@@ -9,7 +9,7 @@
 int secCiclos[5] = {0x01, 0x20, 0x40, 0x04, 0x08}; // Secuencia en forma de "S"
 
 
-// Función para verificar el estado del botón de manera más sensible
+// Función para verificar el estado del botón
 bool botonPresionado() {
     static bool ultimoEstado = true;
     bool estadoActual = !gpio_get(BOTON_PRESS);
@@ -30,6 +30,25 @@ int cambiarCiclo(int ciclo_actual) {
         return ciclo_actual;
     }
     return ciclo_actual;
+}
+
+// Función para mostrar el ciclo seleccionado por serial
+void mostrarCiclo(int ciclo_actual, int ciclo_anterior) {
+    if (ciclo_actual != ciclo_anterior) {
+        switch (ciclo_actual) {
+            case 1:
+                printf("Ciclo seleccionado: %d - Ciclo Normal\n", ciclo_actual);
+                break;
+            case 2:
+                printf("Ciclo seleccionado: %d - Ciclo Delicado\n", ciclo_actual);
+                break;
+            case 3:
+                printf("Ciclo seleccionado: %d - Ciclo Rápido\n", ciclo_actual);
+                break;
+            default:
+                break;
+        }
+    }
 }
 
 int main(){
