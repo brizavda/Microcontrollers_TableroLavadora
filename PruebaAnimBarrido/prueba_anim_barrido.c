@@ -25,7 +25,7 @@ int palabra_BYE[3] = {
 };
 
 // Función para mostrar una palabra en el display de 4 x 7 segmentos
-void mostrarPalabra(int *word, int length){
+void mostrarPalabra(int *palabra, int length){
     // Mostrar la palabra en el display
     for (int i = 0; i < length; i++)
     {
@@ -45,8 +45,19 @@ void mostrarPalabra(int *word, int length){
                 gpio_put(COMMUN_4, 0);
                 break;
         }
+    // Mostrar la letra correspondiente en el display
+        int32_t mask = palabra[i] << FIRST_GPIO;
+        gpio_set_mask(mask); // Encender los segmentos correspondientes
+        sleep_ms(200);       // Mantener la letra encendida por un tiempo adecuado
 
-        
+        // Apagar los segmentos del display
+        gpio_clr_mask(mask);
+
+        // Apagar el dígito común
+        gpio_put(COMMUN_1, 1);
+        gpio_put(COMMUN_2, 1);
+        gpio_put(COMMUN_3, 1);
+        gpio_put(COMMUN_4, 1);
     }
 }
 
