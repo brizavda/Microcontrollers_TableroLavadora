@@ -27,6 +27,15 @@ int main(){
     int ciclo_anterior = 0;
 
     while (true) {
-    
+        // Cambiar ciclo si se presiona el botón
+        ciclo_actual = cambiarCiclo(ciclo_actual);
+
+        // Mostrar ciclo seleccionado por serial
+        mostrarCiclo(ciclo_actual, ciclo_anterior);
+
+        // Ejecutar la secuencia de LED según el ciclo actual
+        ejecutarSecuencia(ciclo_actual);
+
+        ciclo_anterior = ciclo_actual; // Actualizar el ciclo anterio
     }
 }
