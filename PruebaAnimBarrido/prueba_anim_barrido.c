@@ -59,4 +59,24 @@ int main(){
 
     bool display_activo = false;
     bool estado_anterior_boton = true; // Estado previo del botón (para detección de flanco)
+
+    while (true)
+    {
+        // Leer estado actual del botón
+        bool estado_actual_boton = !gpio_get(BUTTON_GPIO);
+
+        // Detectar flanco de bajada en el botón (cuando se presiona)
+        if (estado_actual_boton && !estado_anterior_boton)
+        {
+            // Cambiar estado del display y encender/apagar el LED
+            display_activo = !display_activo;
+            gpio_put(LED_PIN, display_activo);
+
+            if (display_activo){
+            
+            }
+            else{
+                
+            }
+        }
 }
