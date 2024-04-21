@@ -51,6 +51,41 @@ void mostrarCiclo(int ciclo_actual, int ciclo_anterior) {
     }
 }
 
+// Función para ejecutar la secuencia de LED según el ciclo actual
+void ejecutarSecuencia(int ciclo_actual) {
+    switch (ciclo_actual) {
+        case 1:
+            for (int i = 0; i < 5; i++) {
+                int32_t mask = secCiclos[i] << FIRST_GPIO;
+                gpio_set_mask(mask); // Activar los segmentos correspondientes
+                sleep_ms(100);      // Mantener la letra encendida por un tiempo adecuado
+                gpio_clr_mask(mask); // Apagar los segmentos del display
+            }
+            break;
+
+        case 2:
+            for (int i = 0; i < 5; i++) {
+                int32_t mask = secCiclos[i] << FIRST_GPIO;
+                gpio_set_mask(mask); // Activar los segmentos correspondientes
+                sleep_ms(200);      // Mantener la letra encendida por un tiempo adecuado
+                gpio_clr_mask(mask); // Apagar los segmentos del display
+            }
+            break;
+
+        case 3:
+            for (int i = 0; i < 5; i++) {
+                int32_t mask = secCiclos[i] << FIRST_GPIO;
+                gpio_set_mask(mask); // Activar los segmentos correspondientes
+                sleep_ms(50);      // Mantener la letra encendida por un tiempo adecuado
+                gpio_clr_mask(mask); // Apagar los segmentos del display
+            }
+            break;
+
+        default:
+            break;
+    }
+}
+
 int main(){
     stdio_init_all();
     printf("Ciclos de lavadora - Normal(1), Delicado(2), Rápido(3)\n");
