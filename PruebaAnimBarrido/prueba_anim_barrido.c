@@ -24,6 +24,11 @@ int palabra_BYE[3] = {
     0x79  // e
 };
 
+// Función para mostrar una palabra en el display de 4 x 7 segmentos
+void mostrarPalabra(int *word, int length){
+
+}
+
 int main(){
     stdio_init_all();
 
