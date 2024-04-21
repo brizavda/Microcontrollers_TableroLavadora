@@ -56,4 +56,7 @@ int main(){
     // Configurar pin del LED como salida
     gpio_init(LED_PIN);
     gpio_set_dir(LED_PIN, GPIO_OUT);
+
+    bool display_activo = false;
+    bool estado_anterior_boton = true; // Estado previo del botón (para detección de flanco)
 }
