@@ -35,6 +35,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPython3.cmake"
   "C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/Microcontrollers_TableroLavadora/CMakeLists.txt"
   "C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/Microcontrollers_TableroLavadora/DisplayFases/CMakeLists.txt"
+  "C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/Microcontrollers_TableroLavadora/PruebaAnimBarrido/CMakeLists.txt"
   "CMakeFiles/3.29.0-rc4/CMakeASMCompiler.cmake"
   "CMakeFiles/3.29.0-rc4/CMakeCCompiler.cmake"
   "CMakeFiles/3.29.0-rc4/CMakeCXXCompiler.cmake"
@@ -251,6 +252,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "DisplayFases/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch-info.txt"
   "DisplayFases/elf2uf2/tmp/ELF2UF2Build-cfgcmd.txt"
   "DisplayFases/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "PruebaAnimBarrido/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -262,4 +264,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/DependInfo.cmake"
   "DisplayFases/CMakeFiles/DisplayFases.dir/DependInfo.cmake"
   "DisplayFases/CMakeFiles/ELF2UF2Build.dir/DependInfo.cmake"
+  "PruebaAnimBarrido/CMakeFiles/PruebaAnimBarrido.dir/DependInfo.cmake"
   )

@@ -196,6 +196,19 @@ ELF2UF2Build\fast:
 	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\ELF2UF2Build.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\ELF2UF2Build.dir\build
 .PHONY : ELF2UF2Build\fast
 
+#=============================================================================
+# Target rules for targets named PruebaAnimBarrido
+
+# Build rule for target.
+PruebaAnimBarrido: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) PruebaAnimBarrido
+.PHONY : PruebaAnimBarrido
+
+# fast build rule for target.
+PruebaAnimBarrido\fast:
+	$(MAKE) $(MAKESILENT) -f PruebaAnimBarrido\CMakeFiles\PruebaAnimBarrido.dir\build.make /nologo -$(MAKEFLAGS) PruebaAnimBarrido\CMakeFiles\PruebaAnimBarrido.dir\build
+.PHONY : PruebaAnimBarrido\fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -210,6 +223,7 @@ help:
 	@echo ... bs2_default_padded_checksummed_asm
 	@echo ... cyw43_driver_picow_cyw43_bus_pio_spi_pio_h
 	@echo ... DisplayFases
+	@echo ... PruebaAnimBarrido
 	@echo ... bs2_default
 .PHONY : help
 
