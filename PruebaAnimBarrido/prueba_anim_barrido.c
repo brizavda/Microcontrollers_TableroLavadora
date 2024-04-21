@@ -23,3 +23,15 @@ int palabra_BYE[3] = {
     0x6E, // y
     0x79  // e
 };
+
+int main(){
+    stdio_init_all();
+
+    // Configurar GPIOs para los segmentos del display
+    for (int gpio = FIRST_GPIO; gpio < FIRST_GPIO + 7; gpio++)
+    {
+        gpio_init(gpio);
+        gpio_set_dir(gpio, GPIO_OUT);
+        gpio_put(gpio, 0); // Apagar todos los segmentos al inicio
+    }
+}
