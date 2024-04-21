@@ -73,10 +73,15 @@ int main(){
             gpio_put(LED_PIN, display_activo);
 
             if (display_activo){
-            
+            // Mostrar la palabra "HOLA" al presionar el botón
+                mostrarPalabra(palabra_HOLA, 4);
             }
             else{
-                
+                // Mostrar la palabra "BYE" al presionar el botón nuevamente
+                mostrarPalabra(palabra_BYE, 3);
             }
         }
+        // Actualizar estado previo del botón
+        estado_anterior_boton = estado_actual_boton;
+    }
 }
