@@ -8,6 +8,20 @@
 // Arreglo para definir la secuencia base para todos los ciclos
 int secCiclos[5] = {0x01, 0x20, 0x40, 0x04, 0x08}; // Secuencia en forma de "S"
 
+
+// Función para verificar el estado del botón de manera más sensible
+bool botonPresionado() {
+    static bool ultimoEstado = true;
+    bool estadoActual = !gpio_get(BOTON_PRESS);
+
+    if (estadoActual != ultimoEstado) {
+        ultimoEstado = estadoActual;
+        return estadoActual;
+    }
+
+    return false;
+}
+
 // Función para cambiar el ciclo actual al presionar el botón
 int cambiarCiclo(int ciclo_actual) {
     if (botonPresionado()) {
