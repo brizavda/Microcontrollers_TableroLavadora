@@ -26,7 +26,28 @@ int palabra_BYE[3] = {
 
 // Función para mostrar una palabra en el display de 4 x 7 segmentos
 void mostrarPalabra(int *word, int length){
+    // Mostrar la palabra en el display
+    for (int i = 0; i < length; i++)
+    {
+        // Encender el dígito común correspondiente
+        switch (i)
+        {
+            case 0:
+                gpio_put(COMMUN_1, 0);
+                break;
+            case 1:
+                gpio_put(COMMUN_2, 0);
+                break;
+            case 2:
+                gpio_put(COMMUN_3, 0);
+                break;
+            case 3:
+                gpio_put(COMMUN_4, 0);
+                break;
+        }
 
+        
+    }
 }
 
 int main(){
