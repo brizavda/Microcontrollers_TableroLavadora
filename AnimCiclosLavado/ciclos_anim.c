@@ -22,4 +22,11 @@ int main(){
         gpio_init(gpio);
         gpio_set_dir(gpio, GPIO_OUT);
     }
+
+    int ciclo_actual = 1;
+    int ciclo_anterior = 0;
+
+    while (true) {
+    
+    }
 }
