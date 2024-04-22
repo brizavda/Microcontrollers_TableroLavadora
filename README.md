@@ -16,7 +16,7 @@ El siguiente apartado mostrara la prioridad de los botones dentro del proyecto d
 
 ### Diagrama de actividades 
 
-[](D. actividades tablero de lavadora-Página-1.3.jpg)
+[](D. actividades tablero de lavadora-Página-1.drawio.png)
 
 ### Pasos para el funcionamiento del tablero de lavadora
 
