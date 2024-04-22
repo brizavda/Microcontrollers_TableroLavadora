@@ -16,7 +16,7 @@ El siguiente apartado mostrara la prioridad de los botones dentro del proyecto d
 
 ### Diagrama de actividades 
 
-[](D. actividades tablero de lavadora-Página-1.3.jpg)
+[](https://github.com/brizavda/Microcontrollers_TableroLavadora/blob/main/D.%20actividades%20tablero%20de%20lavadora-P%C3%A1gina-1.3.jpg)
 
 ### Pasos para el funcionamiento del tablero de lavadora
 
