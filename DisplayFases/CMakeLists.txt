@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.13)
 
 add_executable(DisplayFases
-        display_fases.c
+        display_fasesM.c
         )
 
 # pull in common dependencies

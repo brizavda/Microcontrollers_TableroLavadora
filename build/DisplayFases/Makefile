@@ -1281,35 +1281,35 @@ ELF2UF2Build\fast:
 	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
 .PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.s
 
-display_fases.obj: display_fases.c.obj
-.PHONY : display_fases.obj
+display_fasesM.obj: display_fasesM.c.obj
+.PHONY : display_fasesM.obj
 
 # target to build an object file
-display_fases.c.obj:
+display_fasesM.c.obj:
 	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
-	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\display_fases.c.obj
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj
 	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
-.PHONY : display_fases.c.obj
+.PHONY : display_fasesM.c.obj
 
-display_fases.i: display_fases.c.i
-.PHONY : display_fases.i
+display_fasesM.i: display_fasesM.c.i
+.PHONY : display_fasesM.i
 
 # target to preprocess a source file
-display_fases.c.i:
+display_fasesM.c.i:
 	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
-	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\display_fases.c.i
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.i
 	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
-.PHONY : display_fases.c.i
+.PHONY : display_fasesM.c.i
 
-display_fases.s: display_fases.c.s
-.PHONY : display_fases.s
+display_fasesM.s: display_fasesM.c.s
+.PHONY : display_fasesM.s
 
 # target to generate assembly for a file
-display_fases.c.s:
+display_fasesM.c.s:
 	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
-	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\display_fases.c.s
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.s
 	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
-.PHONY : display_fases.c.s
+.PHONY : display_fasesM.c.s
 
 # Help Target
 help:
@@ -1434,9 +1434,9 @@ help:
 	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj
 	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i
 	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s
-	@echo ... display_fases.obj
-	@echo ... display_fases.i
-	@echo ... display_fases.s
+	@echo ... display_fasesM.obj
+	@echo ... display_fasesM.i
+	@echo ... display_fasesM.s
 .PHONY : help
 
 

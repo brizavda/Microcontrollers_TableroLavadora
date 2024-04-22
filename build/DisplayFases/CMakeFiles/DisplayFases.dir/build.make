@@ -58,24 +58,24 @@ include DisplayFases\CMakeFiles\DisplayFases.dir\progress.make
 # Include the compile flags for this target's objects.
 include DisplayFases\CMakeFiles\DisplayFases.dir\flags.make
 
-DisplayFases\CMakeFiles\DisplayFases.dir\display_fases.c.obj: DisplayFases\CMakeFiles\DisplayFases.dir\flags.make
-DisplayFases\CMakeFiles\DisplayFases.dir\display_fases.c.obj: C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\DisplayFases\display_fases.c
-DisplayFases\CMakeFiles\DisplayFases.dir\display_fases.c.obj: DisplayFases\CMakeFiles\DisplayFases.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object DisplayFases/CMakeFiles/DisplayFases.dir/display_fases.c.obj"
+DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj: DisplayFases\CMakeFiles\DisplayFases.dir\flags.make
+DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj: C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\DisplayFases\display_fasesM.c
+DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj: DisplayFases\CMakeFiles\DisplayFases.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object DisplayFases/CMakeFiles/DisplayFases.dir/display_fasesM.c.obj"
 	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT DisplayFases\CMakeFiles\DisplayFases.dir\display_fases.c.obj -MF CMakeFiles\DisplayFases.dir\display_fases.c.obj.d -o CMakeFiles\DisplayFases.dir\display_fases.c.obj -c C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\DisplayFases\display_fases.c
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj -MF CMakeFiles\DisplayFases.dir\display_fasesM.c.obj.d -o CMakeFiles\DisplayFases.dir\display_fasesM.c.obj -c C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\DisplayFases\display_fasesM.c
 	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
 
-DisplayFases\CMakeFiles\DisplayFases.dir\display_fases.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/DisplayFases.dir/display_fases.c.i"
+DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/DisplayFases.dir/display_fasesM.c.i"
 	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\DisplayFases\display_fases.c > CMakeFiles\DisplayFases.dir\display_fases.c.i
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\DisplayFases\display_fasesM.c > CMakeFiles\DisplayFases.dir\display_fasesM.c.i
 	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
 
-DisplayFases\CMakeFiles\DisplayFases.dir\display_fases.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/DisplayFases.dir/display_fases.c.s"
+DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/DisplayFases.dir/display_fasesM.c.s"
 	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\DisplayFases\display_fases.c -o CMakeFiles\DisplayFases.dir\display_fases.c.s
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\DisplayFases\display_fasesM.c -o CMakeFiles\DisplayFases.dir\display_fasesM.c.s
 	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
 
 DisplayFases\CMakeFiles\DisplayFases.dir\5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj: DisplayFases\CMakeFiles\DisplayFases.dir\flags.make
@@ -969,7 +969,7 @@ DisplayFases\CMakeFiles\DisplayFases.dir\5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\p
 
 # Object files for target DisplayFases
 DisplayFases_OBJECTS = \
-"CMakeFiles\DisplayFases.dir\display_fases.c.obj" \
+"CMakeFiles\DisplayFases.dir\display_fasesM.c.obj" \
 "CMakeFiles\DisplayFases.dir\5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj" \
 "CMakeFiles\DisplayFases.dir\5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.obj" \
 "CMakeFiles\DisplayFases.dir\5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_platform\platform.c.obj" \
@@ -1019,7 +1019,7 @@ DisplayFases_OBJECTS = \
 # External object files for target DisplayFases
 DisplayFases_EXTERNAL_OBJECTS =
 
-DisplayFases\DisplayFases.elf: DisplayFases\CMakeFiles\DisplayFases.dir\display_fases.c.obj
+DisplayFases\DisplayFases.elf: DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj
 DisplayFases\DisplayFases.elf: DisplayFases\CMakeFiles\DisplayFases.dir\5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj
 DisplayFases\DisplayFases.elf: DisplayFases\CMakeFiles\DisplayFases.dir\5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.obj
 DisplayFases\DisplayFases.elf: DisplayFases\CMakeFiles\DisplayFases.dir\5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_platform\platform.c.obj
