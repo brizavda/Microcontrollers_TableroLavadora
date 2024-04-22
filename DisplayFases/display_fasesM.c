@@ -36,7 +36,16 @@ void configurarGPIOs() {
 }
 
 //Función para detectar botones
-
+int detectarBotonPresionado(int boton_actual) {
+    if (!gpio_get(BOTON_GPIO1)) {
+            boton_actual = 1;
+        } else if (!gpio_get(BOTON_GPIO2)) {
+            boton_actual = 2;
+        } else if (!gpio_get(BOTON_GPIO3)) {
+            boton_actual = 3;
+        }
+    return boton_actual;
+}
 //Función para cambiar la secuencia
 
 //Función para ejecutar la secuencia
@@ -51,6 +60,12 @@ int main(){
     bool ejecutando = false;    // Estado del modo de secuencia
 
     while(true){
-        
+        //Función para detectar botones
+        detectarBotonPresionado(boton_actual);
+        //Función para cambiar la secuencia
+
+        //Función para ejecutar la secuencia
+
+        sleep_ms(100);
     }
 }
