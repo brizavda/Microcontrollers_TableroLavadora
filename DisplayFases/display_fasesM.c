@@ -45,4 +45,12 @@ int main(){
     stdio_init_all();
 
     configurarGPIOs();
+
+    int boton_previo = 0; // Variable para rastrear el último botón presionado
+    int boton_actual = 0;  // Variable para rastrear el botón actual activo
+    bool ejecutando = false;    // Estado del modo de secuencia
+
+    while(true){
+        
+    }
 }
