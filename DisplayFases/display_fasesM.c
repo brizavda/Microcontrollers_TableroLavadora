@@ -64,6 +64,7 @@ void ejecutarSecuencia(int boton_actual, bool *ejecutando) {
                 for (int i = 0; i < 4; i++) {
                     int32_t mascara = secLavar[i] << PRIMER_GPIO;
                     gpio_set_mask(mascara);      // Activar segmentos según la máscara
+                    sleep_ms(250);
                     gpio_clr_mask(mascara);      // Apagar segmentos
                 }
                 break;
@@ -72,6 +73,7 @@ void ejecutarSecuencia(int boton_actual, bool *ejecutando) {
                 for (int i = 0; i < 8; i++) {
                     int32_t mascara = secEnjuagar[i] << PRIMER_GPIO;
                     gpio_set_mask(mascara);      // Activar segmentos según la máscara
+                    sleep_ms(250);
                     gpio_clr_mask(mascara);      // Apagar segmentos
                 }
                 break;
@@ -80,6 +82,7 @@ void ejecutarSecuencia(int boton_actual, bool *ejecutando) {
                 for (int i = 0; i < 6; i++) {
                     int32_t mascara = secCentrifugar[i] << PRIMER_GPIO;
                     gpio_set_mask(mascara);      // Activar segmentos según la máscara
+                    sleep_ms(250);
                     gpio_clr_mask(mascara);      // Apagar segmentos
                 }
                 break;

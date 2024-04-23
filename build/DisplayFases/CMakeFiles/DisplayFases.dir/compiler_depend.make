@@ -1538,6 +1538,77 @@ DisplayFases\CMakeFiles\DisplayFases.dir\5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\p
 DisplayFases\CMakeFiles\DisplayFases.dir\5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdint.h"
 
 
+DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj: C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\DisplayFases\display_fasesM.c
+DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj: C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\boards\include\boards\pico_w.h
+DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj: C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2_common\cmsis\include\cmsis\rename_exceptions.h
+DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj: generated\pico_base\pico\config_autogen.h
+DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj: generated\pico_base\pico\version.h
+DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj: C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\common\pico_base\include\pico.h
+DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj: C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\common\pico_base\include\pico\assert.h
+DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj: C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\common\pico_base\include\pico\config.h
+DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj: C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\common\pico_base\include\pico\error.h
+DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj: C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\common\pico_base\include\pico\types.h
+DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj: C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\common\pico_stdlib\include\pico\stdlib.h
+DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj: C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\common\pico_time\include\pico\time.h
+DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj: C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2040\hardware_regs\include\hardware\platform_defs.h
+DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj: C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\addressmap.h
+DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj: C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\dreq.h
+DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj: C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\intctrl.h
+DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj: C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\io_bank0.h
+DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj: C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\m0plus.h
+DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj: C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\pads_bank0.h
+DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj: C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\sio.h
+DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj: C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\timer.h
+DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj: C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\uart.h
+DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj: C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\interp.h
+DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj: C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\iobank0.h
+DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj: C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\padsbank0.h
+DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj: C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\sio.h
+DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj: C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\timer.h
+DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj: C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\uart.h
+DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj: C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2_common\hardware_base\include\hardware\address_mapped.h
+DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj: C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2_common\hardware_gpio\include\hardware\gpio.h
+DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj: C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2_common\hardware_irq\include\hardware\irq.h
+DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj: C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2_common\hardware_timer\include\hardware\timer.h
+DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj: C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2_common\hardware_uart\include\hardware\uart.h
+DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj: C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2_common\pico_platform\include\pico\platform.h
+DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj: C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2_common\pico_stdio\include\pico\stdio.h
+DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj: C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\include\pico\stdio_uart.h
+DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\_ansi.h"
+DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\_newlib_version.h"
+DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\assert.h"
+DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\_default_types.h"
+DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\_endian.h"
+DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\_types.h"
+DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\endian.h"
+DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\ieeefp.h"
+DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\types.h"
+DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\newlib.h"
+DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\stdint.h"
+DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\stdio.h"
+DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_intsup.h"
+DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_pthreadtypes.h"
+DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_sigset.h"
+DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_stdint.h"
+DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_timespec.h"
+DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_timeval.h"
+DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_types.h"
+DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\cdefs.h"
+DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\config.h"
+DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\features.h"
+DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\lock.h"
+DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\reent.h"
+DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\sched.h"
+DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\select.h"
+DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\stdio.h"
+DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\timespec.h"
+DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\types.h"
+DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdarg.h"
+DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdbool.h"
+DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stddef.h"
+DisplayFases\CMakeFiles\DisplayFases.dir\display_fasesM.c.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdint.h"
+
+
 
 "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\stdint.h":
 
@@ -1894,3 +1965,5 @@ C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\
 C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c:
 
 C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\common\pico_stdlib\include\pico\stdlib.h:
+
+C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\DisplayFases\display_fasesM.c:
