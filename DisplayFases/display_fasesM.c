@@ -109,7 +109,7 @@ int main(){
         //Función para cambiar la secuencia
         cambiarSecuencia(&boton_previo, boton_actual, &ejecutando);
         //Función para ejecutar la secuencia
-        ejecutarSecuencia(boton_actual, ejecutando);
+        ejecutarSecuencia(boton_actual, &ejecutando);
         sleep_ms(100);
     }
 }

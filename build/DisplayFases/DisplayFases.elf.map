@@ -1079,9 +1079,9 @@ Discarded input sections
                 0x00000000        0x8 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .rodata.__bi_70.1
                 0x00000000        0xc CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .text          0x00000000        0x0 C:\Users\royza\AppData\Local\Temp\ccVogiJS.o
- .data          0x00000000        0x0 C:\Users\royza\AppData\Local\Temp\ccVogiJS.o
- .bss           0x00000000        0x0 C:\Users\royza\AppData\Local\Temp\ccVogiJS.o
+ .text          0x00000000        0x0 C:\Users\royza\AppData\Local\Temp\ccsX9Nyo.o
+ .data          0x00000000        0x0 C:\Users\royza\AppData\Local\Temp\ccsX9Nyo.o
+ .bss           0x00000000        0x0 C:\Users\royza\AppData\Local\Temp\ccsX9Nyo.o
  .data          0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .text          0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-calloc.o)
@@ -1297,11 +1297,11 @@ LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../
 .boot2          0x10000000      0x100
                 0x10000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 C:\Users\royza\AppData\Local\Temp\ccVogiJS.o
+ .boot2         0x10000000      0x100 C:\Users\royza\AppData\Local\Temp\ccsX9Nyo.o
                 0x10000100                __boot2_end__ = .
                 0x00000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
-.text           0x10000100     0x41c0
+.text           0x10000100     0x41b0
                 0x10000100                __logical_binary_start = .
  *(.vectors)
  .vectors       0x10000100       0xd4 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
@@ -1372,395 +1372,396 @@ LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../
                 0x100003aa       0x1a CMakeFiles/DisplayFases.dir/display_fasesM.c.obj
                 0x100003aa                cambiarSecuencia
  .text.ejecutarSecuencia
-                0x100003c4       0x94 CMakeFiles/DisplayFases.dir/display_fasesM.c.obj
+                0x100003c4       0x80 CMakeFiles/DisplayFases.dir/display_fasesM.c.obj
                 0x100003c4                ejecutarSecuencia
- .text.main     0x10000458       0x38 CMakeFiles/DisplayFases.dir/display_fasesM.c.obj
-                0x10000458                main
+ .text.main     0x10000444       0x38 CMakeFiles/DisplayFases.dir/display_fasesM.c.obj
+                0x10000444                main
  .text.gpio_set_function
-                0x10000490       0x30 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x10000490                gpio_set_function
+                0x1000047c       0x30 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x1000047c                gpio_set_function
  .text.gpio_set_pulls
-                0x100004c0       0x34 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x100004c0                gpio_set_pulls
+                0x100004ac       0x34 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x100004ac                gpio_set_pulls
  .text.gpio_set_outover
-                0x100004f4       0x24 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x100004f4                gpio_set_outover
+                0x100004e0       0x24 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x100004e0                gpio_set_outover
  .text.gpio_init
-                0x10000518       0x16 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x10000518                gpio_init
- *fill*         0x1000052e        0x2 
+                0x10000504       0x16 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x10000504                gpio_init
+ *fill*         0x1000051a        0x2 
  .text.running_on_fpga
-                0x10000530       0x14 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
-                0x10000530                running_on_fpga
+                0x1000051c       0x14 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+                0x1000051c                running_on_fpga
  .text.hw_claim_lock
-                0x10000544       0x18 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x10000544                hw_claim_lock
+                0x10000530       0x18 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x10000530                hw_claim_lock
  .text.hw_claim_unlock
-                0x1000055c       0x14 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x1000055c                hw_claim_unlock
+                0x10000548       0x14 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x10000548                hw_claim_unlock
  .text.hw_claim_or_assert
-                0x10000570       0x32 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x10000570                hw_claim_or_assert
- *fill*         0x100005a2        0x2 
+                0x1000055c       0x32 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x1000055c                hw_claim_or_assert
+ *fill*         0x1000058e        0x2 
  .text.spin_locks_reset
-                0x100005a4       0x20 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x100005a4                spin_locks_reset
+                0x10000590       0x20 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x10000590                spin_locks_reset
  .text.next_striped_spin_lock_num
-                0x100005c4       0x1c CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x100005c4                next_striped_spin_lock_num
+                0x100005b0       0x1c CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x100005b0                next_striped_spin_lock_num
  .text.set_raw_irq_handler_and_unlock
-                0x100005e0       0x28 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x100005cc       0x28 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .text.make_branch
-                0x10000608       0x48 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x100005f4       0x48 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .text.insert_branch_and_link
-                0x10000650       0x40 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x1000063c       0x40 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .text.irq_is_enabled
-                0x10000690       0x18 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000690                irq_is_enabled
+                0x1000067c       0x18 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x1000067c                irq_is_enabled
  .text.irq_set_mask_enabled
-                0x100006a8       0x20 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x100006a8                irq_set_mask_enabled
+                0x10000694       0x20 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000694                irq_set_mask_enabled
  .text.irq_set_enabled
-                0x100006c8        0xe CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x100006c8                irq_set_enabled
- *fill*         0x100006d6        0x2 
+                0x100006b4        0xe CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x100006b4                irq_set_enabled
+ *fill*         0x100006c2        0x2 
  .text.irq_get_vtable_handler
-                0x100006d8       0x10 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x100006d8                irq_get_vtable_handler
+                0x100006c4       0x10 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x100006c4                irq_get_vtable_handler
  .text.irq_set_exclusive_handler
-                0x100006e8       0x54 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x100006e8                irq_set_exclusive_handler
+                0x100006d4       0x54 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x100006d4                irq_set_exclusive_handler
  .text.irq_remove_handler
-                0x1000073c      0x1ac CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x1000073c                irq_remove_handler
+                0x10000728      0x1ac CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000728                irq_remove_handler
  .text.irq_add_tail_to_free_list
-                0x100008e8       0xf0 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x100008e8                irq_add_tail_to_free_list
+                0x100008d4       0xf0 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x100008d4                irq_add_tail_to_free_list
  .text.irq_init_priorities
-                0x100009d8       0x1c CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x100009d8                irq_init_priorities
+                0x100009c4       0x1c CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x100009c4                irq_init_priorities
  .text.lock_init
-                0x100009f4       0x10 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
-                0x100009f4                lock_init
+                0x100009e0       0x10 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+                0x100009e0                lock_init
  .text.mutex_init
-                0x10000a04       0x1a CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x10000a04                mutex_init
+                0x100009f0       0x1a CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x100009f0                mutex_init
  .text.recursive_mutex_init
-                0x10000a1e       0x1e CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x10000a1e                recursive_mutex_init
+                0x10000a0a       0x1e CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x10000a0a                recursive_mutex_init
  .text.alarm_pool_post_alloc_init
-                0x10000a3c       0x40 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000a28       0x40 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.sleep_until_callback
-                0x10000a7c       0x30 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000a68       0x30 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.timer_pool_entry_comparator
-                0x10000aac       0x7c CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10000aac                timer_pool_entry_comparator
+                0x10000a98       0x7c CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000a98                timer_pool_entry_comparator
  .text.ph_add_child_node
-                0x10000b28       0xa4 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000b14       0xa4 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.ph_merge_nodes
-                0x10000bcc       0x3e CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x10000c0a        0x2 
+                0x10000bb8       0x3e CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x10000bf6        0x2 
  .text.add_alarm_under_lock
-                0x10000c0c      0x174 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000bf8      0x174 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_alarm_callback
-                0x10000d80      0x33c CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000d6c      0x33c CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_init_default
-                0x100010bc       0x40 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x100010bc                alarm_pool_init_default
+                0x100010a8       0x40 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x100010a8                alarm_pool_init_default
  .text.alarm_pool_get_default
-                0x100010fc       0x2c CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x100010fc                alarm_pool_get_default
+                0x100010e8       0x2c CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x100010e8                alarm_pool_get_default
  .text.alarm_pool_add_alarm_at
-                0x10001128      0x168 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10001128                alarm_pool_add_alarm_at
+                0x10001114      0x168 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10001114                alarm_pool_add_alarm_at
  .text.alarm_pool_cancel_alarm
-                0x10001290       0xf8 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10001290                alarm_pool_cancel_alarm
+                0x1000127c       0xf8 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x1000127c                alarm_pool_cancel_alarm
  .text.sleep_until
-                0x10001388       0xfc CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10001388                sleep_until
+                0x10001374       0xfc CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10001374                sleep_until
  .text.sleep_us
-                0x10001484       0x58 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x10001484                sleep_us
+                0x10001470       0x58 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10001470                sleep_us
  .text.sleep_ms
-                0x100014dc       0x14 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x100014dc                sleep_ms
+                0x100014c8       0x14 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x100014c8                sleep_ms
  .text.best_effort_wfe_or_timeout
-                0x100014f0       0xac CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x100014f0                best_effort_wfe_or_timeout
+                0x100014dc       0xac CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x100014dc                best_effort_wfe_or_timeout
  .text.hardware_alarm_irq_handler
-                0x1000159c       0x90 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001588       0x90 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .text.hardware_alarm_claim
-                0x1000162c       0x18 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x1000162c                hardware_alarm_claim
+                0x10001618       0x18 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001618                hardware_alarm_claim
  .text.time_us_64
-                0x10001644       0x18 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10001644                time_us_64
+                0x10001630       0x18 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001630                time_us_64
  .text.busy_wait_until
-                0x1000165c       0x28 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x1000165c                busy_wait_until
+                0x10001648       0x28 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001648                busy_wait_until
  .text.busy_wait_us
-                0x10001684       0x48 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10001684                busy_wait_us
+                0x10001670       0x48 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001670                busy_wait_us
  .text.hardware_alarm_set_callback
-                0x100016cc       0x90 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x100016cc                hardware_alarm_set_callback
+                0x100016b8       0x90 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x100016b8                hardware_alarm_set_callback
  .text.hardware_alarm_set_target
-                0x1000175c       0xe8 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x1000175c                hardware_alarm_set_target
+                0x10001748       0xe8 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001748                hardware_alarm_set_target
  .text.hardware_alarm_cancel
-                0x10001844       0x40 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10001844                hardware_alarm_cancel
+                0x10001830       0x40 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10001830                hardware_alarm_cancel
  .text.ph_add_child_node
-                0x10001884       0xa4 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001870       0xa4 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_merge_nodes
-                0x10001928       0x3e CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
- *fill*         0x10001966        0x2 
+                0x10001914       0x3e CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ *fill*         0x10001952        0x2 
  .text.ph_clear
-                0x10001968       0x70 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x10001968                ph_clear
+                0x10001954       0x70 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001954                ph_clear
  .text.ph_post_alloc_init
-                0x100019d8        0xe CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x100019d8                ph_post_alloc_init
- *fill*         0x100019e6        0x2 
+                0x100019c4        0xe CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x100019c4                ph_post_alloc_init
+ *fill*         0x100019d2        0x2 
  .text.ph_merge_two_pass
-                0x100019e8       0xa8 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x100019e8                ph_merge_two_pass
+                0x100019d4       0xa8 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x100019d4                ph_merge_two_pass
  .text.ph_remove_any_head
-                0x10001a90      0x128 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001a7c      0x128 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_remove_head
-                0x10001bb8       0x14 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x10001bb8                ph_remove_head
+                0x10001ba4       0x14 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001ba4                ph_remove_head
  .text.ph_remove_and_free_node
-                0x10001bcc       0xf8 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x10001bcc                ph_remove_and_free_node
+                0x10001bb8       0xf8 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001bb8                ph_remove_and_free_node
  .text.uart_disable_before_lcr_write
-                0x10001cc4       0x48 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+                0x10001cb0       0x48 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
  .text.uart_write_lcr_bits_masked
-                0x10001d0c       0x22 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
- *fill*         0x10001d2e        0x2 
+                0x10001cf8       0x22 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+ *fill*         0x10001d1a        0x2 
  .text.uart_set_baudrate
-                0x10001d30       0x5c CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-                0x10001d30                uart_set_baudrate
+                0x10001d1c       0x5c CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+                0x10001d1c                uart_set_baudrate
  .text.uart_set_format
-                0x10001d8c       0x2c CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-                0x10001d8c                uart_set_format
+                0x10001d78       0x2c CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+                0x10001d78                uart_set_format
  .text.uart_set_translate_crlf
-                0x10001db8       0x28 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-                0x10001db8                uart_set_translate_crlf
+                0x10001da4       0x28 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+                0x10001da4                uart_set_translate_crlf
  .text.uart_init
-                0x10001de0       0x80 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-                0x10001de0                uart_init
+                0x10001dcc       0x80 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+                0x10001dcc                uart_init
  .text.clock_configure
-                0x10001e60      0x108 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x10001e60                clock_configure
+                0x10001e4c      0x108 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x10001e4c                clock_configure
  .text.clocks_init
-                0x10001f68      0x100 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x10001f68                clocks_init
+                0x10001f54      0x100 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x10001f54                clocks_init
  .text.clock_get_hz
-                0x10002068        0xc CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x10002068                clock_get_hz
+                0x10002054        0xc CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x10002054                clock_get_hz
  .text.pll_init
-                0x10002074      0x120 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-                0x10002074                pll_init
+                0x10002060      0x120 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+                0x10002060                pll_init
  .text.watchdog_start_tick
-                0x10002194       0x10 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-                0x10002194                watchdog_start_tick
+                0x10002180       0x10 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x10002180                watchdog_start_tick
  .text.xosc_init
-                0x100021a4       0x28 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-                0x100021a4                xosc_init
- .text._exit    0x100021cc        0x4 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x100021cc                _exit
- .text.exit     0x100021d0        0x6 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x100021d0                exit
- *fill*         0x100021d6        0x2 
+                0x10002190       0x28 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+                0x10002190                xosc_init
+ .text._exit    0x100021b8        0x4 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x100021b8                _exit
+ .text.exit     0x100021bc        0x6 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x100021bc                exit
+ *fill*         0x100021c2        0x2 
  .text.__assert_func
-                0x100021d8       0x3c CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x100021d8                __assert_func
+                0x100021c4       0x3c CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x100021c4                __assert_func
  .text.runtime_init
-                0x10002214       0xf8 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10002214                runtime_init
- .text.panic    0x1000230c       0x30 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x1000230c                panic
+                0x10002200       0xf8 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10002200                runtime_init
+ .text.panic    0x100022f8       0x30 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x100022f8                panic
  .text._out_null
-                0x1000233c        0x2 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10002328        0x2 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_fct
-                0x1000233e        0xe CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._atoi    0x1000234c       0x24 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x1000232a        0xe CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._atoi    0x10002338       0x24 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_rev
-                0x10002370       0xae CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x1000235c       0xae CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._ntoa_format
-                0x1000241e      0x112 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x1000240a      0x112 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._ntoa_long
-                0x10002530       0xbc CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x1000251c       0xbc CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._ntoa_long_long
-                0x100025ec       0xe2 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- *fill*         0x100026ce        0x2 
- .text._etoa    0x100026d0      0x414 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._ftoa    0x10002ae4      0x354 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x100025d8       0xe2 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ *fill*         0x100026ba        0x2 
+ .text._etoa    0x100026bc      0x414 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._ftoa    0x10002ad0      0x354 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._vsnprintf
-                0x10002e38      0x624 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10002e24      0x624 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text.vfctprintf
-                0x1000345c       0x20 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-                0x1000345c                vfctprintf
- .text          0x1000347c       0x10 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x10003448       0x20 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10003448                vfctprintf
+ .text          0x10003468       0x10 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .text.rom_func_lookup
-                0x1000348c       0x10 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x1000348c                rom_func_lookup
+                0x10003478       0x10 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x10003478                rom_func_lookup
  .text.rom_data_lookup
-                0x1000349c       0x10 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x1000349c                rom_data_lookup
+                0x10003488       0x10 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x10003488                rom_data_lookup
  .text.rom_funcs_lookup
-                0x100034ac       0x36 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x100034ac                rom_funcs_lookup
- *fill*         0x100034e2        0x2 
+                0x10003498       0x36 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x10003498                rom_funcs_lookup
+ *fill*         0x100034ce        0x2 
  .text.__wrap___aeabi_idiv
-                0x100034e4       0x50 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x100034e4                __wrap___aeabi_idivmod
-                0x100034e4                divmod_s32s32
-                0x100034e4                div_s32s32
-                0x100034e4                __wrap___aeabi_idiv
-                0x100034ec                divmod_s32s32_unsafe
-                0x10003518                divmod_s32s32_savestate
+                0x100034d0       0x50 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x100034d0                __wrap___aeabi_idivmod
+                0x100034d0                divmod_s32s32
+                0x100034d0                div_s32s32
+                0x100034d0                __wrap___aeabi_idiv
+                0x100034d8                divmod_s32s32_unsafe
+                0x10003504                divmod_s32s32_savestate
  .text.__wrap___aeabi_uidiv
-                0x10003534       0x4c CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x10003534                __wrap___aeabi_uidiv
-                0x10003534                __wrap___aeabi_uidivmod
-                0x10003534                div_u32u32
-                0x10003534                divmod_u32u32
-                0x1000353c                divmod_u32u32_unsafe
-                0x10003564                divmod_u32u32_savestate
+                0x10003520       0x4c CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x10003520                __wrap___aeabi_uidiv
+                0x10003520                __wrap___aeabi_uidivmod
+                0x10003520                div_u32u32
+                0x10003520                divmod_u32u32
+                0x10003528                divmod_u32u32_unsafe
+                0x10003550                divmod_u32u32_savestate
  .text.__wrap___aeabi_ldiv
-                0x10003580      0x424 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x10003580                div_s64s64
-                0x10003580                divmod_s64s64
-                0x10003580                __wrap___aeabi_ldivmod
-                0x100035b0                divmod_u64u64
-                0x100035b0                div_u64u64
-                0x100035b0                __wrap___aeabi_uldivmod
-                0x100035c0                divmod_u64u64_savestate
-                0x100035e0                divmod_s64s64_unsafe
-                0x10003668                divmod_u64u64_unsafe
+                0x1000356c      0x424 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x1000356c                div_s64s64
+                0x1000356c                divmod_s64s64
+                0x1000356c                __wrap___aeabi_ldivmod
+                0x1000359c                divmod_u64u64
+                0x1000359c                div_u64u64
+                0x1000359c                __wrap___aeabi_uldivmod
+                0x100035ac                divmod_u64u64_savestate
+                0x100035cc                divmod_s64s64_unsafe
+                0x10003654                divmod_u64u64_unsafe
  .text.__wrap___aeabi_darithmetic
-                0x100039a4       0x60 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x100039a4                __wrap___aeabi_drsub
-                0x100039aa                __wrap___aeabi_dsub
-                0x100039b4                __wrap___aeabi_dadd
-                0x100039be                __wrap___aeabi_ddiv
-                0x100039f2                __wrap___aeabi_dmul
+                0x10003990       0x60 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003990                __wrap___aeabi_drsub
+                0x10003996                __wrap___aeabi_dsub
+                0x100039a0                __wrap___aeabi_dadd
+                0x100039aa                __wrap___aeabi_ddiv
+                0x100039de                __wrap___aeabi_dmul
  .text.__wrap___aeabi_cdcmple
-                0x10003a04       0x6c CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003a04                __wrap___aeabi_cdrcmple
-                0x10003a14                __wrap___aeabi_cdcmpeq
-                0x10003a14                __wrap___aeabi_cdcmple
+                0x100039f0       0x6c CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x100039f0                __wrap___aeabi_cdrcmple
+                0x10003a00                __wrap___aeabi_cdcmpeq
+                0x10003a00                __wrap___aeabi_cdcmple
  .text.__wrap___aeabi_dcmplt
-                0x10003a70        0xc CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003a70                __wrap___aeabi_dcmplt
+                0x10003a5c        0xc CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003a5c                __wrap___aeabi_dcmplt
  .text.__wrap___aeabi_dcmple
-                0x10003a7c       0x10 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003a7c                __wrap___aeabi_dcmple
+                0x10003a68       0x10 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003a68                __wrap___aeabi_dcmple
  .text.__wrap___aeabi_dcmpge
-                0x10003a8c       0x10 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003a8c                __wrap___aeabi_dcmpge
+                0x10003a78       0x10 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003a78                __wrap___aeabi_dcmpge
  .text.__wrap___aeabi_dcmpgt
-                0x10003a9c        0xa CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003a9c                __wrap___aeabi_dcmpgt
+                0x10003a88        0xa CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003a88                __wrap___aeabi_dcmpgt
  .text.__wrap___aeabi_dcmpun
-                0x10003aa6       0x1c CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003aa6                __wrap___aeabi_dcmpun
- *fill*         0x10003ac2        0x2 
+                0x10003a92       0x1c CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003a92                __wrap___aeabi_dcmpun
+ *fill*         0x10003aae        0x2 
  .text.__wrap___aeabi_i2d
-                0x10003ac4       0x38 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003ac4                __wrap___aeabi_ui2d
-                0x10003acc                __wrap___aeabi_i2d
+                0x10003ab0       0x38 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003ab0                __wrap___aeabi_ui2d
+                0x10003ab8                __wrap___aeabi_i2d
  .text.__wrap___aeabi_d2iz
-                0x10003afc       0x48 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003afc                double2int_z
-                0x10003afc                __wrap___aeabi_d2iz
+                0x10003ae8       0x48 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003ae8                double2int_z
+                0x10003ae8                __wrap___aeabi_d2iz
  .text.__wrap___aeabi_d2uiz
-                0x10003b44       0x10 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003b44                __wrap___aeabi_d2uiz
-                0x10003b44                double2uint
+                0x10003b30       0x10 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003b30                __wrap___aeabi_d2uiz
+                0x10003b30                double2uint
  .text.missing_double_func_shim
-                0x10003b54        0xc CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x10003b40        0xc CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
  .text.__aeabi_double_init
-                0x10003b60       0xcc CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-                0x10003b60                __aeabi_double_init
+                0x10003b4c       0xcc CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x10003b4c                __aeabi_double_init
  .text.double_table_shim_on_use_helper
-                0x10003c2c       0x34 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10003c2c                double_table_shim_on_use_helper
+                0x10003c18       0x34 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10003c18                double_table_shim_on_use_helper
  .text.__aeabi_lmul
-                0x10003c60       0x32 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-                0x10003c60                __wrap___aeabi_lmul
- *fill*         0x10003c92        0x2 
+                0x10003c4c       0x32 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+                0x10003c4c                __wrap___aeabi_lmul
+ *fill*         0x10003c7e        0x2 
  .text.missing_float_func_shim
-                0x10003c94        0xc CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x10003c80        0xc CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
  .text.__aeabi_float_init
-                0x10003ca0       0x88 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-                0x10003ca0                __aeabi_float_init
- .text          0x10003d28       0x10 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x10003d28                __aeabi_mem_init
- .text.memcpy   0x10003d38        0xc CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x10003d38                __wrap_memcpy
-                0x10003d38                __wrap___aeabi_memcpy
+                0x10003c8c       0x88 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x10003c8c                __aeabi_float_init
+ .text          0x10003d14       0x10 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x10003d14                __aeabi_mem_init
+ .text.memcpy   0x10003d24        0xc CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x10003d24                __wrap_memcpy
+                0x10003d24                __wrap___aeabi_memcpy
  .text.stdio_out_chars_no_crlf
-                0x10003d44        0xe CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- *fill*         0x10003d52        0x2 
+                0x10003d30        0xe CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ *fill*         0x10003d3e        0x2 
  .text.stdio_out_chars_crlf
-                0x10003d54       0x80 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10003d40       0x80 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_stack_buffer_flush
-                0x10003dd4       0x44 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10003dc0       0x44 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_buffered_printer
-                0x10003e18       0x20 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10003e04       0x20 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdout_serialize_begin
-                0x10003e38       0x5c CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10003e38                stdout_serialize_begin
+                0x10003e24       0x5c CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10003e24                stdout_serialize_begin
  .text.stdout_serialize_end
-                0x10003e94       0x10 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10003e94                stdout_serialize_end
+                0x10003e80       0x10 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10003e80                stdout_serialize_end
  .text.stdio_put_string
-                0x10003ea4       0x98 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10003e90       0x98 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_set_driver_enabled
-                0x10003f3c       0x2c CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10003f3c                stdio_set_driver_enabled
+                0x10003f28       0x2c CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10003f28                stdio_set_driver_enabled
  .text.stdio_flush
-                0x10003f68       0x20 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10003f68                stdio_flush
+                0x10003f54       0x20 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10003f54                stdio_flush
  .text.__wrap_puts
-                0x10003f88       0x1e CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10003f88                __wrap_puts
- *fill*         0x10003fa6        0x2 
+                0x10003f74       0x1e CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10003f74                __wrap_puts
+ *fill*         0x10003f92        0x2 
  .text.__wrap_vprintf
-                0x10003fa8       0x40 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10003fa8                __wrap_vprintf
+                0x10003f94       0x40 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10003f94                __wrap_vprintf
  .text.__wrap_printf
-                0x10003fe8       0x18 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10003fe8                __wrap_printf
+                0x10003fd4       0x18 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10003fd4                __wrap_printf
  .text.stdio_init_all
-                0x10004000        0xa CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10004000                stdio_init_all
- *fill*         0x1000400a        0x2 
+                0x10003fec        0xa CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10003fec                stdio_init_all
+ *fill*         0x10003ff6        0x2 
  .text.stdio_uart_out_chars
-                0x1000400c       0x74 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x10003ff8       0x74 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .text.stdio_uart_in_chars
-                0x10004080       0x80 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-                0x10004080                stdio_uart_in_chars
+                0x1000406c       0x80 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x1000406c                stdio_uart_in_chars
  .text.on_uart_rx
-                0x10004100       0x28 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x100040ec       0x28 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .text.stdio_uart_set_chars_available_callback
-                0x10004128       0x8c CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x10004114       0x8c CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .text.stdio_uart_init_full
-                0x100041b4       0x44 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-                0x100041b4                stdio_uart_init_full
+                0x100041a0       0x44 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x100041a0                stdio_uart_init_full
  .text.stdio_uart_init
-                0x100041f8       0x28 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-                0x100041f8                stdio_uart_init
- .text.strlen   0x10004220       0x5c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-strlen-stub.o)
-                0x10004220                strlen
+                0x100041e4       0x28 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x100041e4                stdio_uart_init
+ .text.strlen   0x1000420c       0x5c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-strlen-stub.o)
+                0x1000420c                strlen
  *(.fini)
- .fini          0x1000427c        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crti.o
-                0x1000427c                _fini
- .fini.__stub   0x10004280       0x40 linker stubs
+ .fini          0x10004268        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crti.o
+                0x10004268                _fini
+ *fill*         0x1000426c        0x4 
+ .fini.__stub   0x10004270       0x40 linker stubs
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
@@ -1772,264 +1773,264 @@ LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
  *(.eh_frame*)
- .eh_frame      0x100042c0        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
-                0x100042c0                . = ALIGN (0x4)
+ .eh_frame      0x100042b0        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+                0x100042b0                . = ALIGN (0x4)
 
-.glue_7         0x100042c0        0x0
- .glue_7        0x100042c0        0x0 linker stubs
+.glue_7         0x100042b0        0x0
+ .glue_7        0x100042b0        0x0 linker stubs
 
-.glue_7t        0x100042c0        0x0
- .glue_7t       0x100042c0        0x0 linker stubs
+.glue_7t        0x100042b0        0x0
+ .glue_7t       0x100042b0        0x0 linker stubs
 
-.vfp11_veneer   0x100042c0        0x0
- .vfp11_veneer  0x100042c0        0x0 linker stubs
+.vfp11_veneer   0x100042b0        0x0
+ .vfp11_veneer  0x100042b0        0x0 linker stubs
 
-.v4_bx          0x100042c0        0x0
- .v4_bx         0x100042c0        0x0 linker stubs
+.v4_bx          0x100042b0        0x0
+ .v4_bx         0x100042b0        0x0 linker stubs
 
-.iplt           0x100042c0        0x0
- .iplt          0x100042c0        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+.iplt           0x100042b0        0x0
+ .iplt          0x100042b0        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
 
-.rodata         0x100042c0     0x11d8
+.rodata         0x100042b0     0x11d8
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .rodata*)
  .rodata.configurarGPIOs.str1.4
-                0x100042c0       0x2f CMakeFiles/DisplayFases.dir/display_fasesM.c.obj
- *fill*         0x100042ef        0x1 
+                0x100042b0       0x2f CMakeFiles/DisplayFases.dir/display_fasesM.c.obj
+ *fill*         0x100042df        0x1 
  .rodata.make_branch.str1.4
-                0x100042f0       0x9e CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x1000438e        0x2 
+                0x100042e0       0x9e CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x1000437e        0x2 
  .rodata.insert_branch_and_link.str1.4
-                0x10004390       0x10 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10004380       0x10 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .rodata.irq_set_exclusive_handler.str1.4
-                0x100043a0       0x36 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x100043d6        0x2 
+                0x10004390       0x36 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x100043c6        0x2 
  .rodata.irq_add_shared_handler.str1.4
-                0x100043d8       0xd9 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x100044b1        0x3 
+                0x100043c8       0xd9 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x100044a1        0x3 
  .rodata.irq_remove_handler.str1.4
-                0x100044b4       0x3a CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x100044ee        0x2 
+                0x100044a4       0x3a CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x100044de        0x2 
  .rodata.irq_add_tail_to_free_list.str1.4
-                0x100044f0       0x3a CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x1000452a        0x2 
+                0x100044e0       0x3a CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x1000451a        0x2 
  .rodata.__func__.0
-                0x1000452c       0x1a CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x10004546        0x2 
+                0x1000451c       0x1a CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x10004536        0x2 
  .rodata.__func__.1
-                0x10004548       0x17 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x1000455f        0x1 
+                0x10004538       0x17 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x1000454f        0x1 
  .rodata.__func__.2
-                0x10004560       0x13 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x10004573        0x1 
+                0x10004550       0x13 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x10004563        0x1 
  .rodata.__func__.3
-                0x10004574        0xc CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10004564        0xc CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .rodata.__func__.4
-                0x10004580        0xf CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x1000458f        0x1 
+                0x10004570        0xf CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x1000457f        0x1 
  .rodata.__func__.6
-                0x10004590       0x1a CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x100045aa        0x2 
+                0x10004580       0x1a CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x1000459a        0x2 
  .rodata.str1.4
-                0x100045ac      0x151 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- *fill*         0x100046fd        0x3 
+                0x1000459c      0x151 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+ *fill*         0x100046ed        0x3 
  .rodata.__func__.1
-                0x10004700        0xb CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- *fill*         0x1000470b        0x1 
+                0x100046f0        0xb CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+ *fill*         0x100046fb        0x1 
  .rodata.__func__.3
-                0x1000470c       0x18 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x100046fc       0x18 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
  .rodata.repeating_timer_callback.str1.4
-                0x10004724       0x7c CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10004714       0x7c CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
  .rodata.timer_pool_entry_comparator.str1.4
-                0x100047a0       0x22 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x100047c2        0x2 
+                0x10004790       0x22 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x100047b2        0x2 
  .rodata.ph_add_child_node.str1.4
-                0x100047c4       0xc6 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x1000488a        0x2 
+                0x100047b4       0xc6 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x1000487a        0x2 
  .rodata.add_alarm_under_lock.str1.4
-                0x1000488c       0x28 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x1000487c       0x28 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
                                  0x2b (size before relaxing)
  .rodata.alarm_pool_alarm_callback.str1.4
-                0x100048b4       0x98 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x100048a4       0x98 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
                                 0x12c (size before relaxing)
  .rodata.alarm_pool_get_default.str1.4
-                0x1000494c       0x21 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x1000496d        0x3 
+                0x1000493c       0x21 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x1000495d        0x3 
  .rodata.alarm_pool_cancel_alarm.str1.4
-                0x10004970       0x27 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x10004997        0x1 
+                0x10004960       0x27 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x10004987        0x1 
  .rodata.sleep_until.str1.4
-                0x10004998       0x4d CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x100049e5        0x3 
+                0x10004988       0x4d CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x100049d5        0x3 
  .rodata.__func__.1
-                0x100049e8       0x18 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x100049d8       0x18 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
  .rodata.__func__.10
-                0x10004a00       0x15 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x10004a15        0x3 
+                0x100049f0       0x15 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x10004a05        0x3 
  .rodata.__func__.11
-                0x10004a18       0x1a CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x10004a32        0x2 
+                0x10004a08       0x1a CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x10004a22        0x2 
  .rodata.__func__.12
-                0x10004a34        0xa CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x10004a3e        0x2 
+                0x10004a24        0xa CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x10004a2e        0x2 
  .rodata.__func__.3
-                0x10004a40       0x17 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x10004a57        0x1 
+                0x10004a30       0x17 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x10004a47        0x1 
  .rodata.__func__.4
-                0x10004a58       0x12 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x10004a6a        0x2 
+                0x10004a48       0x12 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x10004a5a        0x2 
  .rodata.__func__.5
-                0x10004a6c        0xd CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x10004a79        0x3 
+                0x10004a5c        0xd CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x10004a69        0x3 
  .rodata.__func__.6
-                0x10004a7c       0x12 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x10004a8e        0x2 
+                0x10004a6c       0x12 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x10004a7e        0x2 
  .rodata.__func__.7
-                0x10004a90        0xf CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x10004a9f        0x1 
+                0x10004a80        0xf CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x10004a8f        0x1 
  .rodata.__func__.8
-                0x10004aa0        0xc CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x10004a90        0xc CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
  .rodata.__func__.9
-                0x10004aac       0x15 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
- *fill*         0x10004ac1        0x3 
+                0x10004a9c       0x15 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ *fill*         0x10004ab1        0x3 
  .rodata.hardware_alarm_claim.str1.4
-                0x10004ac4       0x22 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10004ab4       0x22 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .rodata.busy_wait_us.str1.4
-                0x10004ae6       0x92 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- *fill*         0x10004ae6        0x2 
+                0x10004ad6       0x92 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ *fill*         0x10004ad6        0x2 
  .rodata.hardware_alarm_set_target.str1.4
-                0x10004ae8       0x96 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- *fill*         0x10004b7e        0x2 
+                0x10004ad8       0x96 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ *fill*         0x10004b6e        0x2 
  .rodata.__func__.0
-                0x10004b80       0x1a CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- *fill*         0x10004b9a        0x2 
+                0x10004b70       0x1a CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ *fill*         0x10004b8a        0x2 
  .rodata.__func__.1
-                0x10004b9c       0x15 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10004b8c       0x15 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .rodata.ph_add_child_node.str1.4
-                0x10004bb1       0xc6 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
- *fill*         0x10004bb1        0x3 
+                0x10004ba1       0xc6 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ *fill*         0x10004ba1        0x3 
  .rodata.ph_remove_any_head.str1.4
-                0x10004bb4       0xc0 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10004ba4       0xc0 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
                                  0xd4 (size before relaxing)
  .rodata.ph_remove_and_free_node.str1.4
-                0x10004c74       0x1e CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10004c64       0x1e CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
                                  0x26 (size before relaxing)
- *fill*         0x10004c92        0x2 
+ *fill*         0x10004c82        0x2 
  .rodata.__func__.0
-                0x10004c94       0x18 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10004c84       0x18 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .rodata.__func__.1
-                0x10004cac       0x13 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
- *fill*         0x10004cbf        0x1 
+                0x10004c9c       0x13 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ *fill*         0x10004caf        0x1 
  .rodata.__func__.2
-                0x10004cc0       0x12 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
- *fill*         0x10004cd2        0x2 
+                0x10004cb0       0x12 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ *fill*         0x10004cc2        0x2 
  .rodata.__func__.3
-                0x10004cd4        0xc CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10004cc4        0xc CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .rodata.clock_configure.str1.4
-                0x10004ce0       0x88 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x10004cd0       0x88 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
  .rodata.__func__.1
-                0x10004d68       0x10 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x10004d58       0x10 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
  .rodata.pll_init.str1.4
-                0x10004d78      0x154 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+                0x10004d68      0x154 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
  .rodata.__func__.0
-                0x10004ecc        0x9 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- *fill*         0x10004ed5        0x3 
+                0x10004ebc        0x9 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ *fill*         0x10004ec5        0x3 
  .rodata.__assert_func.str1.4
-                0x10004ed8       0x3f CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10004ec8       0x3f CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
                                  0x43 (size before relaxing)
- *fill*         0x10004f17        0x1 
+ *fill*         0x10004f07        0x1 
  .rodata.runtime_init.str1.4
-                0x10004f18       0x92 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- *fill*         0x10004faa        0x2 
+                0x10004f08       0x92 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ *fill*         0x10004f9a        0x2 
  .rodata.panic.str1.4
-                0x10004fac       0x12 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- *fill*         0x10004fbe        0x2 
+                0x10004f9c       0x12 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ *fill*         0x10004fae        0x2 
  .rodata.__func__.2
-                0x10004fc0        0xd CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- *fill*         0x10004fcd        0x3 
+                0x10004fb0        0xd CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ *fill*         0x10004fbd        0x3 
  .rodata._ftoa.str1.4
-                0x10004fd0       0x15 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- *fill*         0x10004fe5        0x3 
+                0x10004fc0       0x15 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ *fill*         0x10004fd5        0x3 
  .rodata._vsnprintf
-                0x10004fe8      0x1e0 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10004fd8      0x1e0 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .rodata.pow10.0
-                0x100051c8       0x50 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x100051b8       0x50 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .rodata.missing_double_func_shim.str1.4
-                0x10005218       0x18 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x10005208       0x18 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
  .rodata.__aeabi_double_init.str1.4
-                0x10005230       0xcd CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- *fill*         0x100052fd        0x3 
+                0x10005220       0xcd CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ *fill*         0x100052ed        0x3 
  .rodata.__func__.0
-                0x10005300       0x14 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x100052f0       0x14 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
  .rodata.missing_float_func_shim.str1.4
-                0x10005314        0x1 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x10005304        0x1 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
  .rodata.__aeabi_float_init.str1.4
-                0x10005314       0xab CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- *fill*         0x100053bf        0x1 
+                0x10005304       0xab CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ *fill*         0x100053af        0x1 
  .rodata.__func__.0
-                0x100053c0       0x13 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- *fill*         0x100053d3        0x1 
+                0x100053b0       0x13 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ *fill*         0x100053c3        0x1 
  .rodata.str1.4
-                0x100053d4       0x44 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x100053c4       0x44 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_44
-                0x10005418        0xc CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10005408        0xc CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_75
-                0x10005424        0xc CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10005414        0xc CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_81
-                0x10005430        0xc CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10005420        0xc CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.stdout_serialize_begin.str1.4
-                0x1000543c       0x92 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x1000542c       0x92 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .rodata.__func__.3
-                0x1000543c       0x15 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- *fill*         0x10005451        0x3 
+                0x1000542c       0x15 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ *fill*         0x10005441        0x3 
  .rodata.crlf_str.2
-                0x10005454        0x2 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- *fill*         0x10005456        0x2 
+                0x10005444        0x2 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ *fill*         0x10005446        0x2 
  .rodata.str1.4
-                0x10005458       0x2c CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x10005448       0x2c CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .rodata.__bi_33.4
-                0x10005484        0xc CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x10005474        0xc CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .rodata.__bi_34.5
-                0x10005490        0x8 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-                0x10005498                . = ALIGN (0x4)
+                0x10005480        0x8 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x10005488                . = ALIGN (0x4)
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.flashdata*)))
-                0x10005498                . = ALIGN (0x4)
+                0x10005488                . = ALIGN (0x4)
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x10005498                __exidx_start = .
+                0x10005488                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x10005498                __exidx_end = .
-                0x10005498                . = ALIGN (0x4)
-                0x10005498                __binary_info_start = .
+                0x10005488                __exidx_end = .
+                0x10005488                . = ALIGN (0x4)
+                0x10005488                __binary_info_start = .
 
-.binary_info    0x10005498       0x24
+.binary_info    0x10005488       0x24
  *(.binary_info.keep.*)
  .binary_info.keep.__bi_ptr22
-                0x10005498        0x4 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10005488        0x4 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr30
-                0x1000549c        0x4 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x1000548c        0x4 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr38
-                0x100054a0        0x4 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10005490        0x4 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr44
-                0x100054a4        0x4 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10005494        0x4 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr50
-                0x100054a8        0x4 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10005498        0x4 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr75
-                0x100054ac        0x4 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x1000549c        0x4 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr81
-                0x100054b0        0x4 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x100054a0        0x4 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  *(.binary_info.*)
  .binary_info.__bi_ptr33
-                0x100054b4        0x4 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x100054a4        0x4 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .binary_info.__bi_ptr34
-                0x100054b8        0x4 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-                0x100054bc                __binary_info_end = .
+                0x100054a8        0x4 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x100054ac                __binary_info_end = .
 
-.rel.dyn        0x100054bc        0x0
- .rel.iplt      0x100054bc        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
-                0x100054bc                . = ALIGN (0x4)
+.rel.dyn        0x100054ac        0x0
+ .rel.iplt      0x100054ac        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+                0x100054ac                . = ALIGN (0x4)
 
 .ram_vector_table
                 0x20000000       0xc0
@@ -2038,7 +2039,7 @@ LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../
                 0x20000000       0xc0 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
                 0x20000000                ram_vector_table
 
-.data           0x200000c0      0x294 load address 0x100054bc
+.data           0x200000c0      0x294 load address 0x100054ac
                 0x200000c0                __data_start__ = .
  *(vtable)
  *(.time_critical*)
@@ -2131,29 +2132,29 @@ LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../
  *(.jcr)
                 0x20000354                . = ALIGN (0x4)
                 0x20000354                __data_end__ = .
-                0x100054bc                __etext = LOADADDR (.data)
+                0x100054ac                __etext = LOADADDR (.data)
 
-.igot.plt       0x20000354        0x0 load address 0x10005750
+.igot.plt       0x20000354        0x0 load address 0x10005740
  .igot.plt      0x20000354        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
 
 .uninitialized_data
-                0x20000354        0x0 load address 0x10005750
+                0x20000354        0x0 load address 0x10005740
                 0x20000354                . = ALIGN (0x4)
  *(.uninitialized_data*)
 
-.scratch_x      0x20040000        0x0 load address 0x10005750
+.scratch_x      0x20040000        0x0 load address 0x10005740
                 0x20040000                __scratch_x_start__ = .
  *(.scratch_x.*)
                 0x20040000                . = ALIGN (0x4)
                 0x20040000                __scratch_x_end__ = .
-                0x10005750                __scratch_x_source__ = LOADADDR (.scratch_x)
+                0x10005740                __scratch_x_source__ = LOADADDR (.scratch_x)
 
-.scratch_y      0x20041000        0x0 load address 0x10005750
+.scratch_y      0x20041000        0x0 load address 0x10005740
                 0x20041000                __scratch_y_start__ = .
  *(.scratch_y.*)
                 0x20041000                . = ALIGN (0x4)
                 0x20041000                __scratch_y_end__ = .
-                0x10005750                __scratch_y_source__ = LOADADDR (.scratch_y)
+                0x10005740                __scratch_y_source__ = LOADADDR (.scratch_y)
 
 .bss            0x20000358      0x3d8
                 0x20000358                . = ALIGN (0x4)
@@ -2217,8 +2218,8 @@ LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../
  *(.stack*)
  .stack         0x20041000      0x800 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 
-.flash_end      0x10005750        0x0
-                0x10005750                PROVIDE (__flash_binary_end = .)
+.flash_end      0x10005740        0x0
+                0x10005740                PROVIDE (__flash_binary_end = .)
                 0x20040000                __StackLimit = (ORIGIN (RAM) + LENGTH (RAM))
                 0x20041000                __StackOneTop = (ORIGIN (SCRATCH_X) + LENGTH (SCRATCH_X))
                 0x20042000                __StackTop = (ORIGIN (SCRATCH_Y) + LENGTH (SCRATCH_Y))
@@ -2273,7 +2274,7 @@ LOAD CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/
 LOAD CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 LOAD CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 LOAD CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-LOAD C:\Users\royza\AppData\Local\Temp\ccVogiJS.o
+LOAD C:\Users\royza\AppData\Local\Temp\ccsX9Nyo.o
 LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a
 LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libm.a
 START GROUP
@@ -2364,7 +2365,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x00000570       0x2c CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .ARM.attributes
-                0x0000059c       0x22 C:\Users\royza\AppData\Local\Temp\ccVogiJS.o
+                0x0000059c       0x22 C:\Users\royza\AppData\Local\Temp\ccsX9Nyo.o
  .ARM.attributes
                 0x000005be       0x1e c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .ARM.attributes
@@ -2397,98 +2398,98 @@ LOAD linker stubs
  .comment       0x00000049       0x4a CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .comment       0x00000049       0x4a CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 
-.debug_info     0x00000000    0x16174
- .debug_info    0x00000000      0xc11 CMakeFiles/DisplayFases.dir/display_fasesM.c.obj
- .debug_info    0x00000c11     0x187e CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_info    0x0000248f      0x1e3 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
- .debug_info    0x00002672      0x6be CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
- .debug_info    0x00002d30      0x58e CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_info    0x000032be     0x1c9e CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_info    0x00004f5c      0x1a4 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_info    0x00005100     0x20d5 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_info    0x000071d5     0x4068 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
- .debug_info    0x0000b23d     0x13f0 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_info    0x0000c62d     0x123b CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
- .debug_info    0x0000d868      0xdd2 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
- .debug_info    0x0000e63a      0xfcf CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_info    0x0000f609      0x51b CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_info    0x0000fb24      0x4ee CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_info    0x00010012      0x1d8 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_info    0x000101ea     0x1053 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_info    0x0001123d     0x1a5f CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_info    0x00012c9c       0x22 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_info    0x00012cbe      0x27c CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_info    0x00012f3a       0x22 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
- .debug_info    0x00012f5c       0x22 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .debug_info    0x00012f7e      0x2fb CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_info    0x00013279       0x26 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .debug_info    0x0001329f       0x26 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_info    0x000132c5       0x22 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
- .debug_info    0x000132e7      0x2d8 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_info    0x000135bf       0x22 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_info    0x000135e1       0x22 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
- .debug_info    0x00013603      0x2fb CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .debug_info    0x000138fe     0x1827 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_info    0x00015125     0x104f CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+.debug_info     0x00000000    0x16132
+ .debug_info    0x00000000      0xbcf CMakeFiles/DisplayFases.dir/display_fasesM.c.obj
+ .debug_info    0x00000bcf     0x187e CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_info    0x0000244d      0x1e3 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+ .debug_info    0x00002630      0x6be CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_info    0x00002cee      0x58e CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_info    0x0000327c     0x1c9e CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_info    0x00004f1a      0x1a4 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_info    0x000050be     0x20d5 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_info    0x00007193     0x4068 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_info    0x0000b1fb     0x13f0 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_info    0x0000c5eb     0x123b CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ .debug_info    0x0000d826      0xdd2 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+ .debug_info    0x0000e5f8      0xfcf CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_info    0x0000f5c7      0x51b CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_info    0x0000fae2      0x4ee CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_info    0x0000ffd0      0x1d8 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_info    0x000101a8     0x1053 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_info    0x000111fb     0x1a5f CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_info    0x00012c5a       0x22 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_info    0x00012c7c      0x27c CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_info    0x00012ef8       0x22 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+ .debug_info    0x00012f1a       0x22 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+ .debug_info    0x00012f3c      0x2fb CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_info    0x00013237       0x26 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+ .debug_info    0x0001325d       0x26 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_info    0x00013283       0x22 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+ .debug_info    0x000132a5      0x2d8 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_info    0x0001357d       0x22 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_info    0x0001359f       0x22 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+ .debug_info    0x000135c1      0x2fb CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .debug_info    0x000138bc     0x1827 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_info    0x000150e3     0x104f CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 
-.debug_abbrev   0x00000000     0x4374
- .debug_abbrev  0x00000000      0x2bf CMakeFiles/DisplayFases.dir/display_fasesM.c.obj
- .debug_abbrev  0x000002bf      0x379 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_abbrev  0x00000638       0xeb CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
- .debug_abbrev  0x00000723      0x2e9 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
- .debug_abbrev  0x00000a0c      0x21b CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_abbrev  0x00000c27      0x4e7 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_abbrev  0x0000110e      0x116 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_abbrev  0x00001224      0x397 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_abbrev  0x000015bb      0x571 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
- .debug_abbrev  0x00001b2c      0x3b8 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_abbrev  0x00001ee4      0x297 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
- .debug_abbrev  0x0000217b      0x31c CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
- .debug_abbrev  0x00002497      0x3c7 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_abbrev  0x0000285e      0x1ea CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_abbrev  0x00002a48      0x1a8 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_abbrev  0x00002bf0      0x109 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_abbrev  0x00002cf9      0x4cb CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_abbrev  0x000031c4      0x384 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_abbrev  0x00003548       0x12 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_abbrev  0x0000355a      0x13b CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_abbrev  0x00003695       0x12 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
- .debug_abbrev  0x000036a7       0x12 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .debug_abbrev  0x000036b9      0x196 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_abbrev  0x0000384f       0x14 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .debug_abbrev  0x00003863       0x14 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_abbrev  0x00003877       0x12 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
- .debug_abbrev  0x00003889      0x18d CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_abbrev  0x00003a16       0x12 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_abbrev  0x00003a28       0x12 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
- .debug_abbrev  0x00003a3a       0xad CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .debug_abbrev  0x00003ae7      0x4a5 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_abbrev  0x00003f8c      0x3e8 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+.debug_abbrev   0x00000000     0x4385
+ .debug_abbrev  0x00000000      0x2d0 CMakeFiles/DisplayFases.dir/display_fasesM.c.obj
+ .debug_abbrev  0x000002d0      0x379 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_abbrev  0x00000649       0xeb CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+ .debug_abbrev  0x00000734      0x2e9 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_abbrev  0x00000a1d      0x21b CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_abbrev  0x00000c38      0x4e7 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_abbrev  0x0000111f      0x116 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_abbrev  0x00001235      0x397 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_abbrev  0x000015cc      0x571 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_abbrev  0x00001b3d      0x3b8 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_abbrev  0x00001ef5      0x297 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ .debug_abbrev  0x0000218c      0x31c CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+ .debug_abbrev  0x000024a8      0x3c7 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_abbrev  0x0000286f      0x1ea CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_abbrev  0x00002a59      0x1a8 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_abbrev  0x00002c01      0x109 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_abbrev  0x00002d0a      0x4cb CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_abbrev  0x000031d5      0x384 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_abbrev  0x00003559       0x12 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_abbrev  0x0000356b      0x13b CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_abbrev  0x000036a6       0x12 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+ .debug_abbrev  0x000036b8       0x12 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+ .debug_abbrev  0x000036ca      0x196 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_abbrev  0x00003860       0x14 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+ .debug_abbrev  0x00003874       0x14 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_abbrev  0x00003888       0x12 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+ .debug_abbrev  0x0000389a      0x18d CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_abbrev  0x00003a27       0x12 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_abbrev  0x00003a39       0x12 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+ .debug_abbrev  0x00003a4b       0xad CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .debug_abbrev  0x00003af8      0x4a5 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_abbrev  0x00003f9d      0x3e8 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 
-.debug_loc      0x00000000     0xefcf
- .debug_loc     0x00000000      0x49b CMakeFiles/DisplayFases.dir/display_fasesM.c.obj
- .debug_loc     0x0000049b     0x1237 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_loc     0x000016d2       0xe9 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
- .debug_loc     0x000017bb      0x45f CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
- .debug_loc     0x00001c1a      0x233 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_loc     0x00001e4d     0x13f5 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_loc     0x00003242       0x60 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_loc     0x000032a2     0x152e CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_loc     0x000047d0     0x31e5 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
- .debug_loc     0x000079b5      0xacb CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_loc     0x00008480     0x1446 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
- .debug_loc     0x000098c6      0x83b CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
- .debug_loc     0x0000a101      0x832 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_loc     0x0000a933      0x310 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_loc     0x0000ac43      0x2ec CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_loc     0x0000af2f       0x71 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_loc     0x0000afa0      0x674 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_loc     0x0000b614     0x2095 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_loc     0x0000d6a9      0x1a1 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_loc     0x0000d84a       0x59 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_loc     0x0000d8a3       0x81 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_loc     0x0000d924      0xe23 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_loc     0x0000e747      0x888 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+.debug_loc      0x00000000     0xef70
+ .debug_loc     0x00000000      0x43c CMakeFiles/DisplayFases.dir/display_fasesM.c.obj
+ .debug_loc     0x0000043c     0x1237 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_loc     0x00001673       0xe9 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+ .debug_loc     0x0000175c      0x45f CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_loc     0x00001bbb      0x233 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_loc     0x00001dee     0x13f5 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_loc     0x000031e3       0x60 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_loc     0x00003243     0x152e CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_loc     0x00004771     0x31e5 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_loc     0x00007956      0xacb CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_loc     0x00008421     0x1446 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ .debug_loc     0x00009867      0x83b CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+ .debug_loc     0x0000a0a2      0x832 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_loc     0x0000a8d4      0x310 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_loc     0x0000abe4      0x2ec CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_loc     0x0000aed0       0x71 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_loc     0x0000af41      0x674 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_loc     0x0000b5b5     0x2095 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_loc     0x0000d64a      0x1a1 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_loc     0x0000d7eb       0x59 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_loc     0x0000d844       0x81 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_loc     0x0000d8c5      0xe23 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_loc     0x0000e6e8      0x888 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 
 .debug_aranges  0x00000000      0xdb0
  .debug_aranges
@@ -2587,39 +2588,39 @@ LOAD linker stubs
  .debug_ranges  0x00002d68      0x258 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .debug_ranges  0x00002fc0      0x2b0 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 
-.debug_line     0x00000000     0xfc36
- .debug_line    0x00000000      0x88c CMakeFiles/DisplayFases.dir/display_fasesM.c.obj
- .debug_line    0x0000088c      0xe13 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_line    0x0000169f      0x2fd CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
- .debug_line    0x0000199c      0x51e CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
- .debug_line    0x00001eba      0x51b CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_line    0x000023d5     0x11bd CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_line    0x00003592      0x2d2 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_line    0x00003864     0x11e8 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_line    0x00004a4c     0x1d71 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
- .debug_line    0x000067bd      0xda9 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_line    0x00007566      0x8fa CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
- .debug_line    0x00007e60      0xa67 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
- .debug_line    0x000088c7      0xbb5 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_line    0x0000947c      0x687 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_line    0x00009b03      0x48a CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_line    0x00009f8d      0x32e CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_line    0x0000a2bb      0xce7 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_line    0x0000afa2     0x1249 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_line    0x0000c1eb      0x178 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_line    0x0000c363      0x285 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_line    0x0000c5e8      0x301 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
- .debug_line    0x0000c8e9      0x451 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .debug_line    0x0000cd3a      0x408 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_line    0x0000d142       0xc2 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .debug_line    0x0000d204       0xc8 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_line    0x0000d2cc      0x400 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
- .debug_line    0x0000d6cc      0x3d0 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_line    0x0000da9c       0xf2 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_line    0x0000db8e      0x100 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
- .debug_line    0x0000dc8e      0x240 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .debug_line    0x0000dece     0x1099 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_line    0x0000ef67      0xccf CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+.debug_line     0x00000000     0xfc24
+ .debug_line    0x00000000      0x87a CMakeFiles/DisplayFases.dir/display_fasesM.c.obj
+ .debug_line    0x0000087a      0xe13 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_line    0x0000168d      0x2fd CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+ .debug_line    0x0000198a      0x51e CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_line    0x00001ea8      0x51b CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_line    0x000023c3     0x11bd CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_line    0x00003580      0x2d2 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_line    0x00003852     0x11e8 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_line    0x00004a3a     0x1d71 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_line    0x000067ab      0xda9 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_line    0x00007554      0x8fa CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ .debug_line    0x00007e4e      0xa67 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+ .debug_line    0x000088b5      0xbb5 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_line    0x0000946a      0x687 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_line    0x00009af1      0x48a CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_line    0x00009f7b      0x32e CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_line    0x0000a2a9      0xce7 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_line    0x0000af90     0x1249 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_line    0x0000c1d9      0x178 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_line    0x0000c351      0x285 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_line    0x0000c5d6      0x301 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+ .debug_line    0x0000c8d7      0x451 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+ .debug_line    0x0000cd28      0x408 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_line    0x0000d130       0xc2 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+ .debug_line    0x0000d1f2       0xc8 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_line    0x0000d2ba      0x400 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+ .debug_line    0x0000d6ba      0x3d0 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_line    0x0000da8a       0xf2 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_line    0x0000db7c      0x100 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+ .debug_line    0x0000dc7c      0x240 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .debug_line    0x0000debc     0x1099 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_line    0x0000ef55      0xccf CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 
 .debug_str      0x00000000     0x402d
  .debug_str     0x00000000      0x57b CMakeFiles/DisplayFases.dir/display_fasesM.c.obj
@@ -2687,28 +2688,28 @@ LOAD linker stubs
  .debug_str     0x00003cc5      0x368 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
                                 0x967 (size before relaxing)
 
-.debug_frame    0x00000000     0x1980
- .debug_frame   0x00000000       0x88 CMakeFiles/DisplayFases.dir/display_fasesM.c.obj
- .debug_frame   0x00000088      0x278 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_frame   0x00000300       0x38 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
- .debug_frame   0x00000338       0x9c CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
- .debug_frame   0x000003d4       0xc4 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_frame   0x00000498      0x20c CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_frame   0x000006a4       0x20 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_frame   0x000006c4      0x1b0 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_frame   0x00000874      0x2dc CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
- .debug_frame   0x00000b50      0x15c CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_frame   0x00000cac      0x164 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
- .debug_frame   0x00000e10       0xf8 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
- .debug_frame   0x00000f08      0x130 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_frame   0x00001038       0x44 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_frame   0x0000107c       0xa8 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_frame   0x00001124       0x40 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_frame   0x00001164      0x150 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_frame   0x000012b4      0x1f8 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_frame   0x000014ac       0x64 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_frame   0x00001510       0x44 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_frame   0x00001554       0x44 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_frame   0x00001598      0x2d8 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_frame   0x00001870       0xe8 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .debug_frame   0x00001958       0x28 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-strlen-stub.o)
+.debug_frame    0x00000000     0x1974
+ .debug_frame   0x00000000       0x7c CMakeFiles/DisplayFases.dir/display_fasesM.c.obj
+ .debug_frame   0x0000007c      0x278 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_frame   0x000002f4       0x38 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+ .debug_frame   0x0000032c       0x9c CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_frame   0x000003c8       0xc4 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_frame   0x0000048c      0x20c CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_frame   0x00000698       0x20 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_frame   0x000006b8      0x1b0 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_frame   0x00000868      0x2dc CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_frame   0x00000b44      0x15c CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_frame   0x00000ca0      0x164 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ .debug_frame   0x00000e04       0xf8 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+ .debug_frame   0x00000efc      0x130 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_frame   0x0000102c       0x44 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_frame   0x00001070       0xa8 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_frame   0x00001118       0x40 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_frame   0x00001158      0x150 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_frame   0x000012a8      0x1f8 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_frame   0x000014a0       0x64 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_frame   0x00001504       0x44 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_frame   0x00001548       0x44 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_frame   0x0000158c      0x2d8 CMakeFiles/DisplayFases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_frame   0x00001864       0xe8 CMakeFiles/DisplayFases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+ .debug_frame   0x0000194c       0x28 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-strlen-stub.o)
