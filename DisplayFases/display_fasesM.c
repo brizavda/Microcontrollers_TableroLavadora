@@ -48,12 +48,11 @@ int detectarBotonPresionado() {
 }
 //Función para cambiar la secuencia
 void cambiarSecuencia(int *boton_previo, int boton_actual, bool *ejecutando) {
-    if (boton_actual != *boton_previo) {
-        *boton_previo = boton_actual;
-        *ejecutando = false; // Detener la secuencia actual
-        // Esperar a que se suelte el botón antes de continuar
-        while (detectarBotonPresionado() == boton_actual) {}
-    }
+    if (boton_actual != boton_actual) {
+            *boton_previo = boton_actual;
+            *ejecutando = false; // Detener la secuencia actual
+            while (!gpio_get(boton_actual == 1 ? BOTON_GPIO1 : boton_actual == 2 ? BOTON_GPIO2 : BOTON_GPIO3)) {} // Esperar a que se suelte el botón
+        }
 }
 
 //Función para ejecutar la secuencia
