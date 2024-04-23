@@ -2,8 +2,8 @@
 #include "pico/stdlib.h"
 #include "hardware/gpio.h"
 
-#define PRIMER_GPIO 11 //Primer pin del display individual
-#define BOTON_GPIO 22 //Pin del botón de fases
+#define SECOND_GPIO 11 //Primer pin del display individual
+#define BOTON_FASES 22 //Pin del botón de fases
 
 //Arreglos para definir las diferentes secuencias para cada botón
 int secLavar[4] = {0x01, 0x22, 0x14, 0x08};                             // Secuencia como en cascada
@@ -14,32 +14,24 @@ int secCentrifugar[6] = {0x01, 0x02, 0x04, 0x08, 0x10, 0x20};            // Secu
 void configurarGPIOs() {
     printf("Control de secuencia en display de 7 segmentos\n");
 
-    for (int gpio = PRIMER_GPIO; gpio < PRIMER_GPIO + 7; gpio++) {
+    for (int gpio = SECOND_GPIO; gpio < SECOND_GPIO + 7; gpio++) {
         gpio_init(gpio);
         gpio_set_dir(gpio, GPIO_OUT);
         gpio_set_outover(gpio, GPIO_OVERRIDE_INVERT);
     }
 
-    gpio_init(BOTON_GPIO1);
-    gpio_set_dir(BOTON_GPIO1, GPIO_IN);
-    gpio_pull_up(BOTON_GPIO1); // Activar pull-up en el botón
-
-    gpio_init(BOTON_GPIO2);
-    gpio_set_dir(BOTON_GPIO2, GPIO_IN);
-    gpio_pull_up(BOTON_GPIO2); // Activar pull-up en el botón
-
-    gpio_init(BOTON_GPIO3);
-    gpio_set_dir(BOTON_GPIO3, GPIO_IN);
-    gpio_pull_up(BOTON_GPIO3); // Activar pull-up en el botón
+    gpio_init(BOTON_FASES);
+    gpio_set_dir(BOTON_FASES, GPIO_IN);
+    gpio_pull_up(BOTON_FASES); // Activar pull-up en el botón
 }
 
 //Función para detectar botones
 int detectarBotonPresionado() {
-    if (!gpio_get(BOTON_GPIO1)) {
+    if (!gpio_get(BOTON_FASES)) {
         return 1;
-    } else if (!gpio_get(BOTON_GPIO2)) {
+    } else if (!gpio_get(BOTON_FASES)) {
         return 2;
-    } else if (!gpio_get(BOTON_GPIO3)) {
+    } else if (!gpio_get(BOTON_FASES)) {
         return 3;
     }
     return 0;
@@ -49,7 +41,7 @@ void cambiarSecuencia(int *boton_previo, int boton_actual, bool *ejecutando) {
     if (boton_actual != boton_actual) {
             *boton_previo = boton_actual;
             *ejecutando = false; // Detener la secuencia actual
-            while (!gpio_get(boton_actual == 1 ? BOTON_GPIO1 : boton_actual == 2 ? BOTON_GPIO2 : BOTON_GPIO3)) {} // Esperar a que se suelte el botón
+            while (!gpio_get(boton_actual == 1 ? BOTON_FASES : boton_actual == 2 ? BOTON_FASES : BOTON_FASES)) {} // Esperar a que se suelte el botón
         }
 }
 
@@ -59,7 +51,7 @@ void ejecutarSecuencia(int boton_actual, bool *ejecutando) {
         switch (boton_actual) {
             case 1:
                 for (int i = 0; i < 4; i++) {
-                    int32_t mascara = secLavar[i] << PRIMER_GPIO;
+                    int32_t mascara = secLavar[i] << SECOND_GPIO;
                     gpio_set_mask(mascara);      // Activar segmentos según la máscara
                     gpio_clr_mask(mascara);      // Apagar segmentos
                 }
@@ -67,7 +59,7 @@ void ejecutarSecuencia(int boton_actual, bool *ejecutando) {
 
             case 2:
                 for (int i = 0; i < 8; i++) {
-                    int32_t mascara = secEnjuagar[i] << PRIMER_GPIO;
+                    int32_t mascara = secEnjuagar[i] << SECOND_GPIO;
                     gpio_set_mask(mascara);      // Activar segmentos según la máscara
                     gpio_clr_mask(mascara);      // Apagar segmentos
                 }
@@ -75,7 +67,7 @@ void ejecutarSecuencia(int boton_actual, bool *ejecutando) {
 
             case 3:
                 for (int i = 0; i < 6; i++) {
-                    int32_t mascara = secCentrifugar[i] << PRIMER_GPIO;
+                    int32_t mascara = secCentrifugar[i] << SECOND_GPIO;
                     gpio_set_mask(mascara);      // Activar segmentos según la máscara
                     gpio_clr_mask(mascara);      // Apagar segmentos
                 }
@@ -86,7 +78,7 @@ void ejecutarSecuencia(int boton_actual, bool *ejecutando) {
         }
     } else {
         // Si no se está ejecutando ninguna secuencia, mantener los segmentos apagados
-        gpio_clr_mask((1 << 7) - 1 << PRIMER_GPIO); // Apagar todos los segmentos
+        gpio_clr_mask((1 << 7) - 1 << SECOND_GPIO); // Apagar todos los segmentos
         *ejecutando = true; // Activar la secuencia para que se ejecute continuamente
     }
 }
