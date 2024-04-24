@@ -2,8 +2,8 @@
 #include "pico/stdlib.h"
 #include "hardware/gpio.h"
 
-#define LED_PIN 3
-#define BOTON_PRESS 4
+#define LED_PIN 21
+#define BOTON_PRESS 20
 
 int main()
 

@@ -172,3 +172,9 @@ C:/Users/Gamaliel Abad/Documents/Microcontroladores/Microcontrollers_TableroLava
 C:/Users/Gamaliel Abad/Documents/Microcontroladores/Microcontrollers_TableroLavadora/build/boton_nivel_agua/CMakeFiles/boton_nivel_agua.dir
 C:/Users/Gamaliel Abad/Documents/Microcontroladores/Microcontrollers_TableroLavadora/build/boton_nivel_agua/CMakeFiles/edit_cache.dir
 C:/Users/Gamaliel Abad/Documents/Microcontroladores/Microcontrollers_TableroLavadora/build/boton_nivel_agua/CMakeFiles/rebuild_cache.dir
+C:/Users/Gamaliel Abad/Documents/Microcontroladores/Microcontrollers_TableroLavadora/build/sistema_de_barrido/CMakeFiles/sistema_de_barrido.dir
+C:/Users/Gamaliel Abad/Documents/Microcontroladores/Microcontrollers_TableroLavadora/build/sistema_de_barrido/CMakeFiles/edit_cache.dir
+C:/Users/Gamaliel Abad/Documents/Microcontroladores/Microcontrollers_TableroLavadora/build/sistema_de_barrido/CMakeFiles/rebuild_cache.dir
+C:/Users/Gamaliel Abad/Documents/Microcontroladores/Microcontrollers_TableroLavadora/build/modu_boton_encendido/CMakeFiles/modu_boton_encendido.dir
+C:/Users/Gamaliel Abad/Documents/Microcontroladores/Microcontrollers_TableroLavadora/build/modu_boton_encendido/CMakeFiles/edit_cache.dir
+C:/Users/Gamaliel Abad/Documents/Microcontroladores/Microcontrollers_TableroLavadora/build/modu_boton_encendido/CMakeFiles/rebuild_cache.dir

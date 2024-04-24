@@ -16,10 +16,11 @@ private:
 
 public:
     boton_encendido();
-    void encender_o_apagar_lavadora(int);
+    int leer_boton();
+    void encender_o_apagar_lavadora();
     void actualizar_led();
     void inicializar();
-    void get_estado_lavadora();
+    bool get_estado_lavadora();
 };
 
 boton_encendido::boton_encendido()
@@ -28,17 +29,27 @@ boton_encendido::boton_encendido()
     this->valor = valor;
 }
 
-void boton_encendido::encender_o_apagar_lavadora(int _valor)
+int boton_encendido::leer_boton()
 {
-    valor = _valor;
+    return gpio_get(BOTON_PRESS);
+}
+
+void boton_encendido::encender_o_apagar_lavadora()
+{
+    valor = leer_boton();
     if (valor == 0)
     {
-        estado_lavadora == true;
+        if (estado_lavadora == false)
+        {
+            estado_lavadora = true;
+        }
+        else
+        {
+            estado_lavadora = false;
+        }
     }
-    else
-    {
-        estado_lavadora == true;
-    }
+
+    actualizar_led();
 }
 
 void boton_encendido::actualizar_led()
@@ -46,13 +57,12 @@ void boton_encendido::actualizar_led()
 
     if (estado_lavadora == false)
     {
-        gpio_put(LED_PIN, 1);
+        gpio_put(LED_PIN, 0);
     }
     else
     {
-        gpio_put(LED_PIN, 0);
+        gpio_put(LED_PIN, 1);
     }
-    sleep_ms(1);
 }
 
 void boton_encendido::inicializar()
@@ -67,6 +77,15 @@ void boton_encendido::inicializar()
     gpio_pull_up(BOTON_PRESS);
 }
 
-void boton_encendido::get_estado_lavadora(){
-    
+bool boton_encendido::get_estado_lavadora()
+{
+    if (estado_lavadora == false)
+    {
+        printf("Lavadora apagada\n");
+    }
+    else
+    {
+        printf("Lavadora encendida\n");
+    }
+    return estado_lavadora;
 }

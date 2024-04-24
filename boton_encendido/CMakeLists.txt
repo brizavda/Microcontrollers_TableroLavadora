@@ -1,7 +1,9 @@
 cmake_minimum_required(VERSION 3.13)
 
 add_executable(boton_encendido
-    boton_encendido.c
+    #boton_encendido.c
+    #boton_encendido.cc
+    main.cc
 )
 
 target_link_libraries(boton_encendido pico_stdlib)

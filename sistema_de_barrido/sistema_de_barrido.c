@@ -4,10 +4,10 @@
 
 #define FIRST_GPIO 0
 
-#define COMMUN_1 8
-#define COMMUN_2 9
-#define COMMUN_3 10
-#define COMMUN_4 11
+#define COMMUN_1 7
+#define COMMUN_2 8
+#define COMMUN_3 9
+#define COMMUN_4 10
 
 int primer_letra = 0x76;
 int seguna_letra = 0x3f;
@@ -15,9 +15,9 @@ int tercer_letra = 0x38;
 int cuarta_letra = 0x77;
 
 int palabra[4] = {
-    0x73,
-    0x77,
-    0x73,
+    0x76,
+    0x3f,
+    0x38,
     0x77,
 };
 
@@ -57,9 +57,10 @@ int main()
 
     {
 
-        if (sleep == 1)
+        if (sleep == 0)
         {
-            sleep = 2;
+            sleep = 1;
+            //sleep = 1;
         }
         for (int i = 0; i <= 3; i++)
         {
