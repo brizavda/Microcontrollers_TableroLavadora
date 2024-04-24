@@ -17,7 +17,6 @@ void configurarGPIOs() {
     for (int gpio = SECOND_GPIO; gpio < SECOND_GPIO + 7; gpio++) {
         gpio_init(gpio);
         gpio_set_dir(gpio, GPIO_OUT);
-        gpio_set_outover(gpio, GPIO_OVERRIDE_INVERT);
     }
 
     gpio_init(BOTON_FASES);
@@ -25,61 +24,77 @@ void configurarGPIOs() {
     gpio_pull_up(BOTON_FASES); // Activar pull-up en el botón
 }
 
-//Función para detectar botones
-int detectarBotonPresionado() {
-    if (!gpio_get(BOTON_FASES)) {
-        return 1;
-    } else if (!gpio_get(BOTON_FASES)) {
-        return 2;
-    } else if (!gpio_get(BOTON_FASES)) {
-        return 3;
+// Función para verificar el estado del botón
+bool botonFasesPresionado() {
+    static bool ultimoEstado = true;
+    bool estadoActual = !gpio_get(BOTON_FASES);
+
+    if (estadoActual != ultimoEstado) {
+        ultimoEstado = estadoActual;
+        return estadoActual;
     }
-    return 0;
-}
-//Función para cambiar la secuencia
-void cambiarSecuencia(int *boton_previo, int boton_actual, bool *ejecutando) {
-    if (boton_actual != boton_actual) {
-            *boton_previo = boton_actual;
-            *ejecutando = false; // Detener la secuencia actual
-            while (!gpio_get(boton_actual == 1 ? BOTON_FASES : boton_actual == 2 ? BOTON_FASES : BOTON_FASES)) {} // Esperar a que se suelte el botón
-        }
+
+    return false;
 }
 
-//Función para ejecutar la secuencia
-void ejecutarSecuencia(int boton_actual, bool *ejecutando) {
-    if (*ejecutando) {
-        switch (boton_actual) {
+// Función para cambiar el ciclo actual al presionar el botón
+int cambiarFase(int fase_actual) {
+    if (botonFasesPresionado()) {
+        // Cambiar al siguiente ciclo al presionar el botón
+        fase_actual = (fase_actual % 3) + 1;
+        return fase_actual;
+    }
+    return fase_actual;
+}
+
+// Función para mostrar el ciclo seleccionado por serial
+void mostrarFase(int fase_actual, int fase_anterior) {
+    if (fase_actual != fase_anterior) {
+        switch (fase_actual) {
             case 1:
-                for (int i = 0; i < 4; i++) {
-                    int32_t mascara = secLavar[i] << SECOND_GPIO;
-                    gpio_set_mask(mascara);      // Activar segmentos según la máscara
-                    gpio_clr_mask(mascara);      // Apagar segmentos
-                }
+                printf("Fase actual: %d - Lavado\n", fase_actual);
                 break;
-
             case 2:
-                for (int i = 0; i < 8; i++) {
-                    int32_t mascara = secEnjuagar[i] << SECOND_GPIO;
-                    gpio_set_mask(mascara);      // Activar segmentos según la máscara
-                    gpio_clr_mask(mascara);      // Apagar segmentos
-                }
+                printf("Fase actual: %d - Enjuague\n", fase_actual);
                 break;
-
             case 3:
-                for (int i = 0; i < 6; i++) {
-                    int32_t mascara = secCentrifugar[i] << SECOND_GPIO;
-                    gpio_set_mask(mascara);      // Activar segmentos según la máscara
-                    gpio_clr_mask(mascara);      // Apagar segmentos
-                }
+                printf("Fase actual: %d - Centrifugado\n", fase_actual);
                 break;
-
             default:
                 break;
         }
-    } else {
-        // Si no se está ejecutando ninguna secuencia, mantener los segmentos apagados
-        gpio_clr_mask((1 << 7) - 1 << SECOND_GPIO); // Apagar todos los segmentos
-        *ejecutando = true; // Activar la secuencia para que se ejecute continuamente
+    }
+}
+
+/// Función para ejecutar la secuencia de LED según el ciclo actual
+void ejecutarSecuencia(int fase_actual) {
+    switch (fase_actual) {
+        case 1:
+            for (int i = 0; i < 4; i++) {
+                int32_t mask = secLavar[i] << SECOND_GPIO;
+                gpio_set_mask(mask); // Activar los segmentos correspondientes
+                gpio_clr_mask(mask); // Apagar los segmentos del display
+            }
+            break;
+
+        case 2:
+            for (int i = 0; i < 8; i++) {
+                int32_t mask = secEnjuagar[i] << SECOND_GPIO;
+                gpio_set_mask(mask); // Activar los segmentos correspondientes
+                gpio_clr_mask(mask); // Apagar los segmentos del display
+            }
+            break;
+
+        case 3:
+            for (int i = 0; i < 6; i++) {
+                int32_t mask = secCentrifugar[i] << SECOND_GPIO;
+                gpio_set_mask(mask); // Activar los segmentos correspondientes
+                gpio_clr_mask(mask); // Apagar los segmentos del display
+            }
+            break;
+
+        default:
+            break;
     }
 }
 
@@ -88,17 +103,20 @@ int main(){
 
     configurarGPIOs();
 
-    int boton_previo = 0; // Variable para rastrear el último botón presionado
-    int boton_actual = 0;  // Variable para rastrear el botón actual activo
-    bool ejecutando = false;    // Estado del modo de secuencia
+    int fase_actual = 1;
+    int fase_anterior = 0;
 
-    while(true){
-        //Función para detectar botones
-        boton_actual = detectarBotonPresionado();
-        //Función para cambiar la secuencia
-        cambiarSecuencia(&boton_previo, boton_actual, &ejecutando);
-        //Función para ejecutar la secuencia
-        ejecutarSecuencia(boton_actual, &ejecutando);
+    while (true) {
+        // Cambiar ciclo si se presiona el botón
+        fase_actual = cambiarFase(fase_actual);
+
+        // Mostrar ciclo seleccionado por serial
+        mostrarFase(fase_actual, fase_actual);
+
+        // Ejecutar la secuencia de LED según el ciclo actual
+        ejecutarSecuencia(fase_actual);
+
+        fase_anterior = fase_actual; // Actualizar el ciclo anterio
         sleep_ms(100);
     }
 }
