@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.13)
 add_executable(boton_Fases
         boton_fases.cc
         test.cc
-        ../include/boton_fases.h
+        boton_fases.h
         ../include/pin_list.h
         )
 
