@@ -15,8 +15,9 @@ El siguiente apartado mostrará la prioridad de los botones dentro del proyecto 
 | Temporizador | Agrega tiempo al ciclo de lavado. | Medio: Determinara el tiempo que durara el ciclo de lavado | 
 
 ### Diagrama de actividades 
+![D actividades](https://github.com/brizavda/Microcontrollers_TableroLavadora/assets/125591740/35c5502b-76ba-49dc-812e-3436a9fb1966)
 
-![Se presentaa el diagrama de actividades del tablero de lavadora ](/imagenes/D.actividades.jpg)
+
 
 ### Pasos para el funcionamiento del tablero de lavadora
 
