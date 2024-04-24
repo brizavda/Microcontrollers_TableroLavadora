@@ -128,6 +128,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/boton_Fases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj.d"
   "CMakeFiles/boton_Fases.dir/boton_fases.cc.obj"
   "CMakeFiles/boton_Fases.dir/boton_fases.cc.obj.d"
+  "CMakeFiles/boton_Fases.dir/test.cc.obj"
+  "CMakeFiles/boton_Fases.dir/test.cc.obj.d"
   "boton_Fases.elf"
   "boton_Fases.elf.manifest"
   "boton_Fases.pdb"

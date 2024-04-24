@@ -2013,6 +2013,36 @@ boton_fases.cc.s:
 	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\boton_Fases
 .PHONY : boton_fases.cc.s
 
+test.obj: test.cc.obj
+.PHONY : test.obj
+
+# target to build an object file
+test.cc.obj:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f boton_Fases\CMakeFiles\boton_Fases.dir\build.make /nologo -$(MAKEFLAGS) boton_Fases\CMakeFiles\boton_Fases.dir\test.cc.obj
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\boton_Fases
+.PHONY : test.cc.obj
+
+test.i: test.cc.i
+.PHONY : test.i
+
+# target to preprocess a source file
+test.cc.i:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f boton_Fases\CMakeFiles\boton_Fases.dir\build.make /nologo -$(MAKEFLAGS) boton_Fases\CMakeFiles\boton_Fases.dir\test.cc.i
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\boton_Fases
+.PHONY : test.cc.i
+
+test.s: test.cc.s
+.PHONY : test.s
+
+# target to generate assembly for a file
+test.cc.s:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f boton_Fases\CMakeFiles\boton_Fases.dir\build.make /nologo -$(MAKEFLAGS) boton_Fases\CMakeFiles\boton_Fases.dir\test.cc.s
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\boton_Fases
+.PHONY : test.cc.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -2210,6 +2240,9 @@ help:
 	@echo ... boton_fases.obj
 	@echo ... boton_fases.i
 	@echo ... boton_fases.s
+	@echo ... test.obj
+	@echo ... test.i
+	@echo ... test.s
 .PHONY : help
 
 

@@ -179,6 +179,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/lib/tinyusb/src/tusb.c" "boton_Fases/CMakeFiles/boton_Fases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj" "gcc" "boton_Fases/CMakeFiles/boton_Fases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj.d"
   "C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp" "boton_Fases/CMakeFiles/boton_Fases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" "gcc" "boton_Fases/CMakeFiles/boton_Fases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d"
   "C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/Microcontrollers_TableroLavadora/boton_Fases/boton_fases.cc" "boton_Fases/CMakeFiles/boton_Fases.dir/boton_fases.cc.obj" "gcc" "boton_Fases/CMakeFiles/boton_Fases.dir/boton_fases.cc.obj.d"
+  "C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/Microcontrollers_TableroLavadora/boton_Fases/test.cc" "boton_Fases/CMakeFiles/boton_Fases.dir/test.cc.obj" "gcc" "boton_Fases/CMakeFiles/boton_Fases.dir/test.cc.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -1678,12 +1678,12 @@ DisplayFases\CMakeFiles\DisplayFases.dir\all: pico-sdk\src\rp2_common\boot_stage
 DisplayFases\CMakeFiles\DisplayFases.dir\all: DisplayFases\CMakeFiles\ELF2UF2Build.dir\all
 	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\depend
 	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\CMakeFiles --progress-num=31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60 "Built target DisplayFases"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\CMakeFiles --progress-num=30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59 "Built target DisplayFases"
 .PHONY : DisplayFases\CMakeFiles\DisplayFases.dir\all
 
 # Build rule for subdir invocation for target.
 DisplayFases\CMakeFiles\DisplayFases.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\CMakeFiles 35
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\CMakeFiles 36
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\CMakeFiles 0
 .PHONY : DisplayFases\CMakeFiles\DisplayFases.dir\rule
@@ -1704,12 +1704,12 @@ DisplayFases\CMakeFiles\DisplayFases.dir\clean:
 DisplayFases\CMakeFiles\ELF2UF2Build.dir\all:
 	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\ELF2UF2Build.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\ELF2UF2Build.dir\depend
 	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\ELF2UF2Build.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\ELF2UF2Build.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\CMakeFiles --progress-num=61,62,63 "Built target ELF2UF2Build"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\CMakeFiles --progress-num=60,61,62,63 "Built target ELF2UF2Build"
 .PHONY : DisplayFases\CMakeFiles\ELF2UF2Build.dir\all
 
 # Build rule for subdir invocation for target.
 DisplayFases\CMakeFiles\ELF2UF2Build.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\ELF2UF2Build.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\CMakeFiles 0
 .PHONY : DisplayFases\CMakeFiles\ELF2UF2Build.dir\rule
@@ -1731,7 +1731,7 @@ AnimCiclosLavado\CMakeFiles\AnimCiclosLavado.dir\all: pico-sdk\src\rp2_common\bo
 AnimCiclosLavado\CMakeFiles\AnimCiclosLavado.dir\all: DisplayFases\CMakeFiles\ELF2UF2Build.dir\all
 	$(MAKE) $(MAKESILENT) -f AnimCiclosLavado\CMakeFiles\AnimCiclosLavado.dir\build.make /nologo -$(MAKEFLAGS) AnimCiclosLavado\CMakeFiles\AnimCiclosLavado.dir\depend
 	$(MAKE) $(MAKESILENT) -f AnimCiclosLavado\CMakeFiles\AnimCiclosLavado.dir\build.make /nologo -$(MAKEFLAGS) AnimCiclosLavado\CMakeFiles\AnimCiclosLavado.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30 "Built target AnimCiclosLavado"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29 "Built target AnimCiclosLavado"
 .PHONY : AnimCiclosLavado\CMakeFiles\AnimCiclosLavado.dir\all
 
 # Build rule for subdir invocation for target.
@@ -1763,7 +1763,7 @@ boton_Fases\CMakeFiles\boton_Fases.dir\all: DisplayFases\CMakeFiles\ELF2UF2Build
 
 # Build rule for subdir invocation for target.
 boton_Fases\CMakeFiles\boton_Fases.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\CMakeFiles 36
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\CMakeFiles 37
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) boton_Fases\CMakeFiles\boton_Fases.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\CMakeFiles 0
 .PHONY : boton_Fases\CMakeFiles\boton_Fases.dir\rule
