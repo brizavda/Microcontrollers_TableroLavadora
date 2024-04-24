@@ -8,6 +8,20 @@
 // Arreglo para definir la secuencia base para todos los ciclos
 int secCiclos[5] = {0x01, 0x20, 0x40, 0x04, 0x08}; // Secuencia en forma de "S"
 
+void configurarGPIOs(){
+        printf("Ciclos de lavadora - Normal(1), Delicado(2), Rápido(3)\n");
+
+    // Configurar GPIOs para segmentos del display
+    for (int gpio = SECOND_GPIO; gpio < SECOND_GPIO + 7; gpio++) {
+        gpio_init(gpio);
+        gpio_set_dir(gpio, GPIO_OUT);
+    }
+
+    gpio_init(BOTON_CICLOS);
+    gpio_set_dir(BOTON_CICLOS, GPIO_IN);
+    gpio_pull_up(BOTON_CICLOS);
+}
+
 
 // Función para verificar el estado del botón
 bool botonPresionado() {
@@ -58,7 +72,9 @@ void ejecutarSecuencia(int ciclo_actual) {
             for (int i = 0; i < 5; i++) {
                 int32_t mask = secCiclos[i] << SECOND_GPIO;
                 gpio_set_mask(mask); // Activar los segmentos correspondientes
-                sleep_ms(100);      // Mantener la letra encendida por un tiempo adecuado
+                for (int j = 0; j < 1000000; j++) { // Simular 100 ms
+                    // Esperar
+                }
                 gpio_clr_mask(mask); // Apagar los segmentos del display
             }
             break;
@@ -67,7 +83,9 @@ void ejecutarSecuencia(int ciclo_actual) {
             for (int i = 0; i < 5; i++) {
                 int32_t mask = secCiclos[i] << SECOND_GPIO;
                 gpio_set_mask(mask); // Activar los segmentos correspondientes
-                sleep_ms(200);      // Mantener la letra encendida por un tiempo adecuado
+                for (int j = 0; j < 2000000; j++) { // Simular 250 ms
+                    // Esperar
+                }
                 gpio_clr_mask(mask); // Apagar los segmentos del display
             }
             break;
@@ -76,7 +94,9 @@ void ejecutarSecuencia(int ciclo_actual) {
             for (int i = 0; i < 5; i++) {
                 int32_t mask = secCiclos[i] << SECOND_GPIO;
                 gpio_set_mask(mask); // Activar los segmentos correspondientes
-                sleep_ms(50);      // Mantener la letra encendida por un tiempo adecuado
+                for (int j = 0; j < 500000; j++) { // Simular 250 ms
+                    // Esperar
+                }
                 gpio_clr_mask(mask); // Apagar los segmentos del display
             }
             break;
@@ -88,17 +108,8 @@ void ejecutarSecuencia(int ciclo_actual) {
 
 int main(){
     stdio_init_all();
-    printf("Ciclos de lavadora - Normal(1), Delicado(2), Rápido(3)\n");
 
-    gpio_init(BOTON_CICLOS);
-    gpio_set_dir(BOTON_CICLOS, GPIO_IN);
-    gpio_pull_up(BOTON_CICLOS);
-
-    // Configurar GPIOs para segmentos del display
-    for (int gpio = SECOND_GPIO; gpio < SECOND_GPIO + 7; gpio++) {
-        gpio_init(gpio);
-        gpio_set_dir(gpio, GPIO_OUT);
-    }
+    configurarGPIOs();
 
     int ciclo_actual = 1;
     int ciclo_anterior = 0;
@@ -113,6 +124,6 @@ int main(){
         // Ejecutar la secuencia de LED según el ciclo actual
         ejecutarSecuencia(ciclo_actual);
 
-        ciclo_anterior = ciclo_actual; // Actualizar el ciclo anterio
+        ciclo_anterior = ciclo_actual; // Actualizar el ciclo anterior
     }
 }
