@@ -151,6 +151,126 @@ ELF2UF2Build\fast:
 	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
 .PHONY : ELF2UF2Build\fast
 
+1c584ed01d4de997e63537b95d509e7a\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.obj: 1c584ed01d4de997e63537b95d509e7a\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.obj
+.PHONY : 1c584ed01d4de997e63537b95d509e7a\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.obj
+
+# target to build an object file
+1c584ed01d4de997e63537b95d509e7a\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.obj:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\1c584ed01d4de997e63537b95d509e7a\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.obj
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
+.PHONY : 1c584ed01d4de997e63537b95d509e7a\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.obj
+
+1c584ed01d4de997e63537b95d509e7a\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.i: 1c584ed01d4de997e63537b95d509e7a\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.i
+.PHONY : 1c584ed01d4de997e63537b95d509e7a\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.i
+
+# target to preprocess a source file
+1c584ed01d4de997e63537b95d509e7a\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.i:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\1c584ed01d4de997e63537b95d509e7a\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.i
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
+.PHONY : 1c584ed01d4de997e63537b95d509e7a\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.i
+
+1c584ed01d4de997e63537b95d509e7a\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.s: 1c584ed01d4de997e63537b95d509e7a\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.s
+.PHONY : 1c584ed01d4de997e63537b95d509e7a\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.s
+
+# target to generate assembly for a file
+1c584ed01d4de997e63537b95d509e7a\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.s:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\1c584ed01d4de997e63537b95d509e7a\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.s
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
+.PHONY : 1c584ed01d4de997e63537b95d509e7a\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.s
+
+1c584ed01d4de997e63537b95d509e7a\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.obj: 1c584ed01d4de997e63537b95d509e7a\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.obj
+.PHONY : 1c584ed01d4de997e63537b95d509e7a\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.obj
+
+# target to build an object file
+1c584ed01d4de997e63537b95d509e7a\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.obj:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\1c584ed01d4de997e63537b95d509e7a\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.obj
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
+.PHONY : 1c584ed01d4de997e63537b95d509e7a\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.obj
+
+1c584ed01d4de997e63537b95d509e7a\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.i: 1c584ed01d4de997e63537b95d509e7a\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.i
+.PHONY : 1c584ed01d4de997e63537b95d509e7a\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.i
+
+# target to preprocess a source file
+1c584ed01d4de997e63537b95d509e7a\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.i:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\1c584ed01d4de997e63537b95d509e7a\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.i
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
+.PHONY : 1c584ed01d4de997e63537b95d509e7a\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.i
+
+1c584ed01d4de997e63537b95d509e7a\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.s: 1c584ed01d4de997e63537b95d509e7a\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.s
+.PHONY : 1c584ed01d4de997e63537b95d509e7a\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.s
+
+# target to generate assembly for a file
+1c584ed01d4de997e63537b95d509e7a\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.s:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\1c584ed01d4de997e63537b95d509e7a\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.s
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
+.PHONY : 1c584ed01d4de997e63537b95d509e7a\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.s
+
+1c584ed01d4de997e63537b95d509e7a\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.obj: 1c584ed01d4de997e63537b95d509e7a\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.obj
+.PHONY : 1c584ed01d4de997e63537b95d509e7a\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.obj
+
+# target to build an object file
+1c584ed01d4de997e63537b95d509e7a\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.obj:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\1c584ed01d4de997e63537b95d509e7a\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.obj
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
+.PHONY : 1c584ed01d4de997e63537b95d509e7a\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.obj
+
+1c584ed01d4de997e63537b95d509e7a\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.i: 1c584ed01d4de997e63537b95d509e7a\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.i
+.PHONY : 1c584ed01d4de997e63537b95d509e7a\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.i
+
+# target to preprocess a source file
+1c584ed01d4de997e63537b95d509e7a\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.i:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\1c584ed01d4de997e63537b95d509e7a\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.i
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
+.PHONY : 1c584ed01d4de997e63537b95d509e7a\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.i
+
+1c584ed01d4de997e63537b95d509e7a\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.s: 1c584ed01d4de997e63537b95d509e7a\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.s
+.PHONY : 1c584ed01d4de997e63537b95d509e7a\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.s
+
+# target to generate assembly for a file
+1c584ed01d4de997e63537b95d509e7a\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.s:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\1c584ed01d4de997e63537b95d509e7a\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.s
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
+.PHONY : 1c584ed01d4de997e63537b95d509e7a\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.s
+
+4145340374906f2701120b7e08072c6c\Microcontroladores\Pico\pico-sdk\lib\tinyusb\src\device\usbd.obj: 4145340374906f2701120b7e08072c6c\Microcontroladores\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c.obj
+.PHONY : 4145340374906f2701120b7e08072c6c\Microcontroladores\Pico\pico-sdk\lib\tinyusb\src\device\usbd.obj
+
+# target to build an object file
+4145340374906f2701120b7e08072c6c\Microcontroladores\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c.obj:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\4145340374906f2701120b7e08072c6c\Microcontroladores\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c.obj
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
+.PHONY : 4145340374906f2701120b7e08072c6c\Microcontroladores\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c.obj
+
+4145340374906f2701120b7e08072c6c\Microcontroladores\Pico\pico-sdk\lib\tinyusb\src\device\usbd.i: 4145340374906f2701120b7e08072c6c\Microcontroladores\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c.i
+.PHONY : 4145340374906f2701120b7e08072c6c\Microcontroladores\Pico\pico-sdk\lib\tinyusb\src\device\usbd.i
+
+# target to preprocess a source file
+4145340374906f2701120b7e08072c6c\Microcontroladores\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c.i:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\4145340374906f2701120b7e08072c6c\Microcontroladores\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c.i
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
+.PHONY : 4145340374906f2701120b7e08072c6c\Microcontroladores\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c.i
+
+4145340374906f2701120b7e08072c6c\Microcontroladores\Pico\pico-sdk\lib\tinyusb\src\device\usbd.s: 4145340374906f2701120b7e08072c6c\Microcontroladores\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c.s
+.PHONY : 4145340374906f2701120b7e08072c6c\Microcontroladores\Pico\pico-sdk\lib\tinyusb\src\device\usbd.s
+
+# target to generate assembly for a file
+4145340374906f2701120b7e08072c6c\Microcontroladores\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c.s:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\4145340374906f2701120b7e08072c6c\Microcontroladores\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c.s
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
+.PHONY : 4145340374906f2701120b7e08072c6c\Microcontroladores\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c.s
+
 4145340374906f2701120b7e08072c6c\Microcontroladores\Pico\pico-sdk\src\common\pico_sync\lock_core.obj: 4145340374906f2701120b7e08072c6c\Microcontroladores\Pico\pico-sdk\src\common\pico_sync\lock_core.c.obj
 .PHONY : 4145340374906f2701120b7e08072c6c\Microcontroladores\Pico\pico-sdk\src\common\pico_sync\lock_core.obj
 
@@ -451,6 +571,426 @@ ELF2UF2Build\fast:
 	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
 .PHONY : 4145340374906f2701120b7e08072c6c\Microcontroladores\Pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c.s
 
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.obj: 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.obj
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.obj
+
+# target to build an object file
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.obj:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.obj
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.obj
+
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.i: 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.i
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.i
+
+# target to preprocess a source file
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.i:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.i
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.i
+
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.s: 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.s
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.s
+
+# target to generate assembly for a file
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.s:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.s
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.s
+
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.obj: 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.obj
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.obj
+
+# target to build an object file
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.obj:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.obj
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.obj
+
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.i: 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.i
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.i
+
+# target to preprocess a source file
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.i:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.i
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.i
+
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.s: 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.s
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.s
+
+# target to generate assembly for a file
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.s:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.s
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.s
+
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.obj: 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c.obj
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.obj
+
+# target to build an object file
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c.obj:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c.obj
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c.obj
+
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.i: 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c.i
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.i
+
+# target to preprocess a source file
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c.i:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c.i
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c.i
+
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.s: 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c.s
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.s
+
+# target to generate assembly for a file
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c.s:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c.s
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c.s
+
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.obj: 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.obj
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.obj
+
+# target to build an object file
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.obj:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.obj
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.obj
+
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.i: 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.i
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.i
+
+# target to preprocess a source file
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.i:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.i
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.i
+
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.s: 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.s
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.s
+
+# target to generate assembly for a file
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.s:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.s
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.s
+
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.obj: 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.obj
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.obj
+
+# target to build an object file
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.obj:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.obj
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.obj
+
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.i: 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.i
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.i
+
+# target to preprocess a source file
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.i:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.i
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.i
+
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.s: 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.s
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.s
+
+# target to generate assembly for a file
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.s:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.s
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.s
+
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.obj: 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.obj
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.obj
+
+# target to build an object file
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.obj:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.obj
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.obj
+
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.i: 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.i
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.i
+
+# target to preprocess a source file
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.i:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.i
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.i
+
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.s: 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.s
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.s
+
+# target to generate assembly for a file
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.s:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.s
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.s
+
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.obj: 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.obj
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.obj
+
+# target to build an object file
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.obj:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.obj
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.obj
+
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.i: 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.i
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.i
+
+# target to preprocess a source file
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.i:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.i
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.i
+
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.s: 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.s
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.s
+
+# target to generate assembly for a file
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.s:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.s
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.s
+
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.obj: 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c.obj
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.obj
+
+# target to build an object file
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c.obj:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c.obj
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c.obj
+
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.i: 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c.i
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.i
+
+# target to preprocess a source file
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c.i:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c.i
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c.i
+
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.s: 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c.s
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.s
+
+# target to generate assembly for a file
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c.s:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c.s
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c.s
+
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\net\ncm_device.obj: 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c.obj
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\net\ncm_device.obj
+
+# target to build an object file
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c.obj:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c.obj
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c.obj
+
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\net\ncm_device.i: 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c.i
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\net\ncm_device.i
+
+# target to preprocess a source file
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c.i:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c.i
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c.i
+
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\net\ncm_device.s: 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c.s
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\net\ncm_device.s
+
+# target to generate assembly for a file
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c.s:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c.s
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c.s
+
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.obj: 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.obj
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.obj
+
+# target to build an object file
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.obj:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.obj
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.obj
+
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.i: 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.i
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.i
+
+# target to preprocess a source file
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.i:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.i
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.i
+
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.s: 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.s
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.s
+
+# target to generate assembly for a file
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.s:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.s
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.s
+
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.obj: 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.obj
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.obj
+
+# target to build an object file
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.obj:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.obj
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.obj
+
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.i: 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.i
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.i
+
+# target to preprocess a source file
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.i:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.i
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.i
+
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.s: 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.s
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.s
+
+# target to generate assembly for a file
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.s:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.s
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.s
+
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\video\video_device.obj: 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\video\video_device.c.obj
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\video\video_device.obj
+
+# target to build an object file
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\video\video_device.c.obj:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\video\video_device.c.obj
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\video\video_device.c.obj
+
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\video\video_device.i: 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\video\video_device.c.i
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\video\video_device.i
+
+# target to preprocess a source file
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\video\video_device.c.i:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\video\video_device.c.i
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\video\video_device.c.i
+
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\video\video_device.s: 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\video\video_device.c.s
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\video\video_device.s
+
+# target to generate assembly for a file
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\video\video_device.c.s:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\video\video_device.c.s
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\class\video\video_device.c.s
+
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.obj: 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.obj
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.obj
+
+# target to build an object file
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.obj:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.obj
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.obj
+
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.i: 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.i
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.i
+
+# target to preprocess a source file
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.i:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.i
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.i
+
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.s: 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.s
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.s
+
+# target to generate assembly for a file
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.s:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.s
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.s
+
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.obj: 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c.obj
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.obj
+
+# target to build an object file
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c.obj:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c.obj
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c.obj
+
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.i: 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c.i
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.i
+
+# target to preprocess a source file
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c.i:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c.i
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c.i
+
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.s: 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c.s
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.s
+
+# target to generate assembly for a file
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c.s:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c.s
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c.s
+
 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\common\pico_sync\critical_section.obj: 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\common\pico_sync\critical_section.c.obj
 .PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\common\pico_sync\critical_section.obj
 
@@ -580,6 +1120,36 @@ ELF2UF2Build\fast:
 	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\hardware_divider\divider.S.obj
 	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
 .PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\hardware_divider\divider.S.obj
+
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\hardware_flash\flash.obj: 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\hardware_flash\flash.c.obj
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\hardware_flash\flash.obj
+
+# target to build an object file
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\hardware_flash\flash.c.obj:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\hardware_flash\flash.c.obj
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\hardware_flash\flash.c.obj
+
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\hardware_flash\flash.i: 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\hardware_flash\flash.c.i
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\hardware_flash\flash.i
+
+# target to preprocess a source file
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\hardware_flash\flash.c.i:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\hardware_flash\flash.c.i
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\hardware_flash\flash.c.i
+
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\hardware_flash\flash.s: 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\hardware_flash\flash.c.s
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\hardware_flash\flash.s
+
+# target to generate assembly for a file
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\hardware_flash\flash.c.s:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\hardware_flash\flash.c.s
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\hardware_flash\flash.c.s
 
 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\hardware_gpio\gpio.obj: 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.obj
 .PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\hardware_gpio\gpio.obj
@@ -1221,35 +1791,65 @@ ELF2UF2Build\fast:
 	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
 .PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.s
 
-5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.obj: 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.obj
-.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.obj
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.obj: 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.obj
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.obj
 
 # target to build an object file
-5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.obj:
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.obj:
 	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
-	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.obj
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.obj
 	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
-.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.obj
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.obj
 
-5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.i: 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.i
-.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.i
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.i: 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.i
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.i
 
 # target to preprocess a source file
-5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.i:
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.i:
 	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
-	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.i
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.i
 	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
-.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.i
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.i
 
-5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.s: 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.s
-.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.s
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.s: 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.s
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.s
 
 # target to generate assembly for a file
-5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.s:
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.s:
 	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
-	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.s
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.s
 	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
-.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.s
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.s
+
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.obj: 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.obj
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.obj
+
+# target to build an object file
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.obj:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.obj
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.obj
+
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.i: 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.i
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.i
+
+# target to preprocess a source file
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.i:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.i
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.i
+
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.s: 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.s
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.s
+
+# target to generate assembly for a file
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.s:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.s
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.s
 
 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.obj: 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj
 .PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.obj
@@ -1280,6 +1880,96 @@ ELF2UF2Build\fast:
 	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.s
 	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
 .PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.s
+
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_unique_id\unique_id.obj: 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c.obj
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_unique_id\unique_id.obj
+
+# target to build an object file
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c.obj:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c.obj
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c.obj
+
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_unique_id\unique_id.i: 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c.i
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_unique_id\unique_id.i
+
+# target to preprocess a source file
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c.i:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c.i
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c.i
+
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_unique_id\unique_id.s: 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c.s
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_unique_id\unique_id.s
+
+# target to generate assembly for a file
+5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c.s:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c.s
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
+.PHONY : 5d64f9d4ca8bf32a7e3e5214f2144dff\Pico\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c.s
+
+87e3edc7c641fefdf16472b69d20a538\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.obj: 87e3edc7c641fefdf16472b69d20a538\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.obj
+.PHONY : 87e3edc7c641fefdf16472b69d20a538\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.obj
+
+# target to build an object file
+87e3edc7c641fefdf16472b69d20a538\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.obj:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\87e3edc7c641fefdf16472b69d20a538\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.obj
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
+.PHONY : 87e3edc7c641fefdf16472b69d20a538\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.obj
+
+87e3edc7c641fefdf16472b69d20a538\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.i: 87e3edc7c641fefdf16472b69d20a538\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.i
+.PHONY : 87e3edc7c641fefdf16472b69d20a538\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.i
+
+# target to preprocess a source file
+87e3edc7c641fefdf16472b69d20a538\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.i:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\87e3edc7c641fefdf16472b69d20a538\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.i
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
+.PHONY : 87e3edc7c641fefdf16472b69d20a538\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.i
+
+87e3edc7c641fefdf16472b69d20a538\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.s: 87e3edc7c641fefdf16472b69d20a538\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.s
+.PHONY : 87e3edc7c641fefdf16472b69d20a538\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.s
+
+# target to generate assembly for a file
+87e3edc7c641fefdf16472b69d20a538\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.s:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\87e3edc7c641fefdf16472b69d20a538\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.s
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
+.PHONY : 87e3edc7c641fefdf16472b69d20a538\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.s
+
+C_\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\lib\tinyusb\src\tusb.obj: C_\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\lib\tinyusb\src\tusb.c.obj
+.PHONY : C_\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\lib\tinyusb\src\tusb.obj
+
+# target to build an object file
+C_\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\lib\tinyusb\src\tusb.c.obj:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\C_\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\lib\tinyusb\src\tusb.c.obj
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
+.PHONY : C_\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\lib\tinyusb\src\tusb.c.obj
+
+C_\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\lib\tinyusb\src\tusb.i: C_\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\lib\tinyusb\src\tusb.c.i
+.PHONY : C_\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\lib\tinyusb\src\tusb.i
+
+# target to preprocess a source file
+C_\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\lib\tinyusb\src\tusb.c.i:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\C_\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\lib\tinyusb\src\tusb.c.i
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
+.PHONY : C_\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\lib\tinyusb\src\tusb.c.i
+
+C_\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\lib\tinyusb\src\tusb.s: C_\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\lib\tinyusb\src\tusb.c.s
+.PHONY : C_\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\lib\tinyusb\src\tusb.s
+
+# target to generate assembly for a file
+C_\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\lib\tinyusb\src\tusb.c.s:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\C_\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\lib\tinyusb\src\tusb.c.s
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\DisplayFases
+.PHONY : C_\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\lib\tinyusb\src\tusb.c.s
 
 display_fasesM.obj: display_fasesM.c.obj
 .PHONY : display_fasesM.obj
@@ -1321,6 +2011,18 @@ help:
 	@echo ... rebuild_cache
 	@echo ... ELF2UF2Build
 	@echo ... DisplayFases
+	@echo ... 1c584ed01d4de997e63537b95d509e7a/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.obj
+	@echo ... 1c584ed01d4de997e63537b95d509e7a/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i
+	@echo ... 1c584ed01d4de997e63537b95d509e7a/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s
+	@echo ... 1c584ed01d4de997e63537b95d509e7a/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.obj
+	@echo ... 1c584ed01d4de997e63537b95d509e7a/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i
+	@echo ... 1c584ed01d4de997e63537b95d509e7a/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s
+	@echo ... 1c584ed01d4de997e63537b95d509e7a/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.obj
+	@echo ... 1c584ed01d4de997e63537b95d509e7a/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i
+	@echo ... 1c584ed01d4de997e63537b95d509e7a/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s
+	@echo ... 4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/lib/tinyusb/src/device/usbd.obj
+	@echo ... 4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/lib/tinyusb/src/device/usbd.i
+	@echo ... 4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/lib/tinyusb/src/device/usbd.s
 	@echo ... 4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_sync/lock_core.obj
 	@echo ... 4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_sync/lock_core.i
 	@echo ... 4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_sync/lock_core.s
@@ -1351,6 +2053,48 @@ help:
 	@echo ... 4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj
 	@echo ... 4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i
 	@echo ... 4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s
+	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj
+	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i
+	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s
+	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.obj
+	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i
+	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s
+	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.obj
+	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i
+	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s
+	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.obj
+	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i
+	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s
+	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.obj
+	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i
+	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s
+	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.obj
+	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i
+	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s
+	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.obj
+	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i
+	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s
+	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.obj
+	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i
+	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s
+	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.obj
+	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i
+	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s
+	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.obj
+	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i
+	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s
+	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.obj
+	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i
+	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s
+	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.obj
+	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.i
+	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.s
+	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.obj
+	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i
+	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s
+	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.obj
+	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.i
+	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.s
 	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/common/pico_sync/critical_section.obj
 	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/common/pico_sync/critical_section.i
 	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/common/pico_sync/critical_section.s
@@ -1364,6 +2108,9 @@ help:
 	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i
 	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s
 	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.obj
+	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.obj
+	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.i
+	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.s
 	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj
 	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i
 	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s
@@ -1428,12 +2175,24 @@ help:
 	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj
 	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i
 	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s
-	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj
-	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i
-	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s
+	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.obj
+	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i
+	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s
+	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.obj
+	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i
+	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s
 	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj
 	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i
 	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s
+	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj
+	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i
+	@echo ... 5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s
+	@echo ... 87e3edc7c641fefdf16472b69d20a538/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj
+	@echo ... 87e3edc7c641fefdf16472b69d20a538/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i
+	@echo ... 87e3edc7c641fefdf16472b69d20a538/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s
+	@echo ... C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/lib/tinyusb/src/tusb.obj
+	@echo ... C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/lib/tinyusb/src/tusb.i
+	@echo ... C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/lib/tinyusb/src/tusb.s
 	@echo ... display_fasesM.obj
 	@echo ... display_fasesM.i
 	@echo ... display_fasesM.s

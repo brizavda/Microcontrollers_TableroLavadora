@@ -1547,7 +1547,7 @@ pico-sdk\tools\clean:
 pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\all:
 	$(MAKE) $(MAKESILENT) -f pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\build.make /nologo -$(MAKEFLAGS) pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\depend
 	$(MAKE) $(MAKESILENT) -f pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\build.make /nologo -$(MAKEFLAGS) pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\CMakeFiles --progress-num=97 "Built target bs2_default"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\CMakeFiles --progress-num=98 "Built target bs2_default"
 .PHONY : pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\all
 
 # Build rule for subdir invocation for target.
@@ -1573,12 +1573,12 @@ pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\clean:
 pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_bin.dir\all: pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default.dir\all
 	$(MAKE) $(MAKESILENT) -f pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_bin.dir\build.make /nologo -$(MAKEFLAGS) pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_bin.dir\depend
 	$(MAKE) $(MAKESILENT) -f pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_bin.dir\build.make /nologo -$(MAKEFLAGS) pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_bin.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\CMakeFiles --progress-num=98 "Built target bs2_default_bin"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\CMakeFiles --progress-num= "Built target bs2_default_bin"
 .PHONY : pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_bin.dir\all
 
 # Build rule for subdir invocation for target.
 pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_bin.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_bin.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\CMakeFiles 0
 .PHONY : pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_bin.dir\rule
@@ -1625,7 +1625,7 @@ pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_as
 pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\PioasmBuild.dir\all:
 	$(MAKE) $(MAKESILENT) -f pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\PioasmBuild.dir\build.make /nologo -$(MAKEFLAGS) pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\PioasmBuild.dir\depend
 	$(MAKE) $(MAKESILENT) -f pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\PioasmBuild.dir\build.make /nologo -$(MAKEFLAGS) pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\PioasmBuild.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\CMakeFiles --progress-num=68,69,70,71 "Built target PioasmBuild"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\CMakeFiles --progress-num=71,72,73,74 "Built target PioasmBuild"
 .PHONY : pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\PioasmBuild.dir\all
 
 # Build rule for subdir invocation for target.
@@ -1678,12 +1678,12 @@ DisplayFases\CMakeFiles\DisplayFases.dir\all: pico-sdk\src\rp2_common\boot_stage
 DisplayFases\CMakeFiles\DisplayFases.dir\all: DisplayFases\CMakeFiles\ELF2UF2Build.dir\all
 	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\depend
 	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\CMakeFiles --progress-num=38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62 "Built target DisplayFases"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\CMakeFiles --progress-num=34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66 "Built target DisplayFases"
 .PHONY : DisplayFases\CMakeFiles\DisplayFases.dir\all
 
 # Build rule for subdir invocation for target.
 DisplayFases\CMakeFiles\DisplayFases.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\CMakeFiles 32
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\CMakeFiles 39
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\CMakeFiles 0
 .PHONY : DisplayFases\CMakeFiles\DisplayFases.dir\rule
@@ -1704,12 +1704,12 @@ DisplayFases\CMakeFiles\DisplayFases.dir\clean:
 DisplayFases\CMakeFiles\ELF2UF2Build.dir\all:
 	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\ELF2UF2Build.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\ELF2UF2Build.dir\depend
 	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\ELF2UF2Build.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\ELF2UF2Build.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\CMakeFiles --progress-num=63,64,65,66,67 "Built target ELF2UF2Build"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\CMakeFiles --progress-num=67,68,69,70 "Built target ELF2UF2Build"
 .PHONY : DisplayFases\CMakeFiles\ELF2UF2Build.dir\all
 
 # Build rule for subdir invocation for target.
 DisplayFases\CMakeFiles\ELF2UF2Build.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\ELF2UF2Build.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\CMakeFiles 0
 .PHONY : DisplayFases\CMakeFiles\ELF2UF2Build.dir\rule
@@ -1731,12 +1731,12 @@ PruebaAnimBarrido\CMakeFiles\PruebaAnimBarrido.dir\all: pico-sdk\src\rp2_common\
 PruebaAnimBarrido\CMakeFiles\PruebaAnimBarrido.dir\all: DisplayFases\CMakeFiles\ELF2UF2Build.dir\all
 	$(MAKE) $(MAKESILENT) -f PruebaAnimBarrido\CMakeFiles\PruebaAnimBarrido.dir\build.make /nologo -$(MAKEFLAGS) PruebaAnimBarrido\CMakeFiles\PruebaAnimBarrido.dir\depend
 	$(MAKE) $(MAKESILENT) -f PruebaAnimBarrido\CMakeFiles\PruebaAnimBarrido.dir\build.make /nologo -$(MAKEFLAGS) PruebaAnimBarrido\CMakeFiles\PruebaAnimBarrido.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\CMakeFiles --progress-num=72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96 "Built target PruebaAnimBarrido"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\CMakeFiles --progress-num=75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97 "Built target PruebaAnimBarrido"
 .PHONY : PruebaAnimBarrido\CMakeFiles\PruebaAnimBarrido.dir\all
 
 # Build rule for subdir invocation for target.
 PruebaAnimBarrido\CMakeFiles\PruebaAnimBarrido.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\CMakeFiles 32
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\CMakeFiles 29
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) PruebaAnimBarrido\CMakeFiles\PruebaAnimBarrido.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\CMakeFiles 0
 .PHONY : PruebaAnimBarrido\CMakeFiles\PruebaAnimBarrido.dir\rule
@@ -1758,12 +1758,12 @@ AnimCiclosLavado\CMakeFiles\AnimCiclosLavado.dir\all: pico-sdk\src\rp2_common\bo
 AnimCiclosLavado\CMakeFiles\AnimCiclosLavado.dir\all: DisplayFases\CMakeFiles\ELF2UF2Build.dir\all
 	$(MAKE) $(MAKESILENT) -f AnimCiclosLavado\CMakeFiles\AnimCiclosLavado.dir\build.make /nologo -$(MAKEFLAGS) AnimCiclosLavado\CMakeFiles\AnimCiclosLavado.dir\depend
 	$(MAKE) $(MAKESILENT) -f AnimCiclosLavado\CMakeFiles\AnimCiclosLavado.dir\build.make /nologo -$(MAKEFLAGS) AnimCiclosLavado\CMakeFiles\AnimCiclosLavado.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37 "Built target AnimCiclosLavado"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33 "Built target AnimCiclosLavado"
 .PHONY : AnimCiclosLavado\CMakeFiles\AnimCiclosLavado.dir\all
 
 # Build rule for subdir invocation for target.
 AnimCiclosLavado\CMakeFiles\AnimCiclosLavado.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\CMakeFiles 44
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\CMakeFiles 39
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) AnimCiclosLavado\CMakeFiles\AnimCiclosLavado.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\CMakeFiles 0
 .PHONY : AnimCiclosLavado\CMakeFiles\AnimCiclosLavado.dir\rule
