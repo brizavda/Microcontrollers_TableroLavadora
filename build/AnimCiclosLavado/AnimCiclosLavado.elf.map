@@ -1332,9 +1332,9 @@ Discarded input sections
  .debug_frame   0x00000000       0x20 CMakeFiles/AnimCiclosLavado.dir/8a4385a8edd7681f45eada5866de5e88/rp2040_usb_device_enumeration.c.obj
  .ARM.attributes
                 0x00000000       0x2c CMakeFiles/AnimCiclosLavado.dir/8a4385a8edd7681f45eada5866de5e88/rp2040_usb_device_enumeration.c.obj
- .text          0x00000000        0x0 C:\Users\royza\AppData\Local\Temp\cc1nbQoD.o
- .data          0x00000000        0x0 C:\Users\royza\AppData\Local\Temp\cc1nbQoD.o
- .bss           0x00000000        0x0 C:\Users\royza\AppData\Local\Temp\cc1nbQoD.o
+ .text          0x00000000        0x0 C:\Users\royza\AppData\Local\Temp\ccrehNd5.o
+ .data          0x00000000        0x0 C:\Users\royza\AppData\Local\Temp\ccrehNd5.o
+ .bss           0x00000000        0x0 C:\Users\royza\AppData\Local\Temp\ccrehNd5.o
  .data          0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .text          0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-calloc.o)
@@ -1550,7 +1550,7 @@ LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../
 .boot2          0x10000000      0x100
                 0x10000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 C:\Users\royza\AppData\Local\Temp\cc1nbQoD.o
+ .boot2         0x10000000      0x100 C:\Users\royza\AppData\Local\Temp\ccrehNd5.o
                 0x10000100                __boot2_end__ = .
                 0x00000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -3011,7 +3011,7 @@ LOAD CMakeFiles/AnimCiclosLavado.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-
 LOAD CMakeFiles/AnimCiclosLavado.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
 LOAD CMakeFiles/AnimCiclosLavado.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 LOAD CMakeFiles/AnimCiclosLavado.dir/8a4385a8edd7681f45eada5866de5e88/rp2040_usb_device_enumeration.c.obj
-LOAD C:\Users\royza\AppData\Local\Temp\cc1nbQoD.o
+LOAD C:\Users\royza\AppData\Local\Temp\ccrehNd5.o
 LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a
 LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libm.a
 START GROUP
@@ -3124,7 +3124,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x00000754       0x2c CMakeFiles/AnimCiclosLavado.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
  .ARM.attributes
-                0x00000780       0x22 C:\Users\royza\AppData\Local\Temp\cc1nbQoD.o
+                0x00000780       0x22 C:\Users\royza\AppData\Local\Temp\ccrehNd5.o
  .ARM.attributes
                 0x000007a2       0x1e c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .ARM.attributes
@@ -3258,41 +3258,41 @@ LOAD linker stubs
  .debug_abbrev  0x000060bd      0x41c CMakeFiles/AnimCiclosLavado.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
  .debug_abbrev  0x000064d9      0x437 CMakeFiles/AnimCiclosLavado.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 
-.debug_loc      0x00000000    0x18633
- .debug_loc     0x00000000      0x432 CMakeFiles/AnimCiclosLavado.dir/ciclos_anim.c.obj
- .debug_loc     0x00000432     0x1237 CMakeFiles/AnimCiclosLavado.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_loc     0x00001669       0xe9 CMakeFiles/AnimCiclosLavado.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
- .debug_loc     0x00001752      0x45f CMakeFiles/AnimCiclosLavado.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
- .debug_loc     0x00001bb1      0x233 CMakeFiles/AnimCiclosLavado.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_loc     0x00001de4     0x13f5 CMakeFiles/AnimCiclosLavado.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_loc     0x000031d9       0x60 CMakeFiles/AnimCiclosLavado.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_loc     0x00003239     0x152e CMakeFiles/AnimCiclosLavado.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_loc     0x00004767       0xf5 CMakeFiles/AnimCiclosLavado.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
- .debug_loc     0x0000485c     0x31e5 CMakeFiles/AnimCiclosLavado.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/common/pico_time/time.c.obj
- .debug_loc     0x00007a41      0xacb CMakeFiles/AnimCiclosLavado.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_loc     0x0000850c     0x1446 CMakeFiles/AnimCiclosLavado.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
- .debug_loc     0x00009952      0x832 CMakeFiles/AnimCiclosLavado.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_loc     0x0000a184      0x310 CMakeFiles/AnimCiclosLavado.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_loc     0x0000a494      0x2ec CMakeFiles/AnimCiclosLavado.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_loc     0x0000a780       0x71 CMakeFiles/AnimCiclosLavado.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_loc     0x0000a7f1      0x674 CMakeFiles/AnimCiclosLavado.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_loc     0x0000ae65     0x2095 CMakeFiles/AnimCiclosLavado.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_loc     0x0000cefa      0x1a1 CMakeFiles/AnimCiclosLavado.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_loc     0x0000d09b       0x59 CMakeFiles/AnimCiclosLavado.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_loc     0x0000d0f4       0x81 CMakeFiles/AnimCiclosLavado.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_loc     0x0000d175      0xe22 CMakeFiles/AnimCiclosLavado.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_loc     0x0000df97      0x38e CMakeFiles/AnimCiclosLavado.dir/1c584ed01d4de997e63537b95d509e7a/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
- .debug_loc     0x0000e325      0xd2a CMakeFiles/AnimCiclosLavado.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
- .debug_loc     0x0000f04f      0x109 CMakeFiles/AnimCiclosLavado.dir/86f4133ac00bd8808707bb08384bcc3e/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
- .debug_loc     0x0000f158       0xff CMakeFiles/AnimCiclosLavado.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
- .debug_loc     0x0000f257      0x909 CMakeFiles/AnimCiclosLavado.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
- .debug_loc     0x0000fb60      0xebe CMakeFiles/AnimCiclosLavado.dir/86f4133ac00bd8808707bb08384bcc3e/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- .debug_loc     0x00010a1e      0x7a9 CMakeFiles/AnimCiclosLavado.dir/86f4133ac00bd8808707bb08384bcc3e/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- .debug_loc     0x000111c7     0x2449 CMakeFiles/AnimCiclosLavado.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
- .debug_loc     0x00013610      0x4de CMakeFiles/AnimCiclosLavado.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
- .debug_loc     0x00013aee     0x1188 CMakeFiles/AnimCiclosLavado.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
- .debug_loc     0x00014c76      0xe2f CMakeFiles/AnimCiclosLavado.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
- .debug_loc     0x00015aa5     0x2b8e CMakeFiles/AnimCiclosLavado.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+.debug_loc      0x00000000    0x18637
+ .debug_loc     0x00000000      0x436 CMakeFiles/AnimCiclosLavado.dir/ciclos_anim.c.obj
+ .debug_loc     0x00000436     0x1237 CMakeFiles/AnimCiclosLavado.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_loc     0x0000166d       0xe9 CMakeFiles/AnimCiclosLavado.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+ .debug_loc     0x00001756      0x45f CMakeFiles/AnimCiclosLavado.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_loc     0x00001bb5      0x233 CMakeFiles/AnimCiclosLavado.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_loc     0x00001de8     0x13f5 CMakeFiles/AnimCiclosLavado.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_loc     0x000031dd       0x60 CMakeFiles/AnimCiclosLavado.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_loc     0x0000323d     0x152e CMakeFiles/AnimCiclosLavado.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_loc     0x0000476b       0xf5 CMakeFiles/AnimCiclosLavado.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+ .debug_loc     0x00004860     0x31e5 CMakeFiles/AnimCiclosLavado.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_loc     0x00007a45      0xacb CMakeFiles/AnimCiclosLavado.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_loc     0x00008510     0x1446 CMakeFiles/AnimCiclosLavado.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/common/pico_util/pheap.c.obj
+ .debug_loc     0x00009956      0x832 CMakeFiles/AnimCiclosLavado.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_loc     0x0000a188      0x310 CMakeFiles/AnimCiclosLavado.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_loc     0x0000a498      0x2ec CMakeFiles/AnimCiclosLavado.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_loc     0x0000a784       0x71 CMakeFiles/AnimCiclosLavado.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_loc     0x0000a7f5      0x674 CMakeFiles/AnimCiclosLavado.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_loc     0x0000ae69     0x2095 CMakeFiles/AnimCiclosLavado.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_loc     0x0000cefe      0x1a1 CMakeFiles/AnimCiclosLavado.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_loc     0x0000d09f       0x59 CMakeFiles/AnimCiclosLavado.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_loc     0x0000d0f8       0x81 CMakeFiles/AnimCiclosLavado.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_loc     0x0000d179      0xe22 CMakeFiles/AnimCiclosLavado.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_loc     0x0000df9b      0x38e CMakeFiles/AnimCiclosLavado.dir/1c584ed01d4de997e63537b95d509e7a/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+ .debug_loc     0x0000e329      0xd2a CMakeFiles/AnimCiclosLavado.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+ .debug_loc     0x0000f053      0x109 CMakeFiles/AnimCiclosLavado.dir/86f4133ac00bd8808707bb08384bcc3e/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+ .debug_loc     0x0000f15c       0xff CMakeFiles/AnimCiclosLavado.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+ .debug_loc     0x0000f25b      0x909 CMakeFiles/AnimCiclosLavado.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+ .debug_loc     0x0000fb64      0xebe CMakeFiles/AnimCiclosLavado.dir/86f4133ac00bd8808707bb08384bcc3e/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ .debug_loc     0x00010a22      0x7a9 CMakeFiles/AnimCiclosLavado.dir/86f4133ac00bd8808707bb08384bcc3e/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ .debug_loc     0x000111cb     0x2449 CMakeFiles/AnimCiclosLavado.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+ .debug_loc     0x00013614      0x4de CMakeFiles/AnimCiclosLavado.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+ .debug_loc     0x00013af2     0x1188 CMakeFiles/AnimCiclosLavado.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+ .debug_loc     0x00014c7a      0xe2f CMakeFiles/AnimCiclosLavado.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+ .debug_loc     0x00015aa9     0x2b8e CMakeFiles/AnimCiclosLavado.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 
 .debug_aranges  0x00000000     0x1388
  .debug_aranges
