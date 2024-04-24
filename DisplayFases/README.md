@@ -11,10 +11,10 @@ Son 3 secuencias diferentes.
 - **Fase de centrifugado**: Secuencia en círculo.
 
 ## Materiales que se necesitaron para implementar el prototipo:
-1. Display de 7 segmentos ánodo común x1
-2. Botones DIL Push x3
+1. Display de 7 segmentos cátodo común x1
+2. Botones DIL Push x1
 3. Resistencias de 220 Ohms (recomendado) x7
-4. Cables Jumper Tipo Macho-Macho x15
+4. Cables Jumper Tipo Macho-Macho x11
 5. Raspberry Pi Pico W
 6. Protoboard x1
 
@@ -30,7 +30,7 @@ Display de 7 segmentos:
 
 ## Funcionalidades
 
-1. El primer botón controla la secuencia para la fase de lavado. Realiza una secuencia como en cascáda.
+1. La primer secuencia es para la fase de lavado. Realiza una secuencia como en cascáda.
 ```
   --A--    -- --    -- --    -- --
            F   B
@@ -38,7 +38,7 @@ Display de 7 segmentos:
                     E   C
   -- --    -- --    -- --    --D--
 ```
-2. El segundo botón controla la secuencia para la fase de enjuague. Realiza una secuencia en "8" o infinito.
+2. La segunda secuencia es para la fase de enjuague. Realiza una secuencia en "8" o infinito.
 ```
   --A--    -- --    -- --    -- --    -- --    -- --    -- --    -- --
                B                                                 F
@@ -46,7 +46,7 @@ Display de 7 segmentos:
                              E                     C
   -- --    -- --    -- --    -- --    --D--    -- --    -- --    -- --
 ```
-3. El tercer botón controla la secuencia para la fase de centrifugado. Realiza una secuencia en círculo.
+3. La tercer secuencia es para la fase de centrifugado. Realiza una secuencia en círculo.
 ```
   --A--    -- --    -- --    -- --    -- --    -- --
                B                               F
