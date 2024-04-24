@@ -14,7 +14,7 @@ Son 3 secuencias diferentes.
 1. Display de 7 segmentos cátodo común x1
 2. Botones DIL Push x1
 3. Resistencias de 220 Ohms (recomendado) x7
-4. Cables Jumper Tipo Macho-Macho x11
+4. Cables Jumper Tipo Macho-Macho x12
 5. Raspberry Pi Pico W
 6. Protoboard x1
 
