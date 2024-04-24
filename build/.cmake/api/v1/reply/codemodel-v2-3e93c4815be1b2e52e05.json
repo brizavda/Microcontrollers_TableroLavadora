@@ -8,8 +8,7 @@
 					"build" : ".",
 					"childIndexes" : 
 					[
-						1,
-						81
+						1
 					],
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -580,9 +579,9 @@
 					"source" : "C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/pico-sdk/src/rp2_common/boot_stage2",
 					"targetIndexes" : 
 					[
+						0,
 						1,
-						2,
-						3
+						2
 					]
 				},
 				{
@@ -784,8 +783,8 @@
 					"source" : "C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/pico-sdk/src/rp2_common/tinyusb",
 					"targetIndexes" : 
 					[
-						5,
-						6
+						4,
+						5
 					]
 				},
 				{
@@ -848,7 +847,7 @@
 					"source" : "C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/pico-sdk/src/rp2_common/pico_cyw43_driver",
 					"targetIndexes" : 
 					[
-						4
+						3
 					]
 				},
 				{
@@ -1013,21 +1012,6 @@
 					"parentIndex" : 1,
 					"projectIndex" : 1,
 					"source" : "C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/pico-sdk/docs"
-				},
-				{
-					"build" : "boton_PlayPause",
-					"jsonFile" : "directory-boton_PlayPause-Debug-283ef5c5fcc9cffc1520.json",
-					"minimumCMakeVersion" : 
-					{
-						"string" : "3.12"
-					},
-					"parentIndex" : 0,
-					"projectIndex" : 0,
-					"source" : "boton_PlayPause",
-					"targetIndexes" : 
-					[
-						0
-					]
 				}
 			],
 			"name" : "Debug",
@@ -1040,14 +1024,9 @@
 					],
 					"directoryIndexes" : 
 					[
-						0,
-						81
-					],
-					"name" : "pico-fibonacci",
-					"targetIndexes" : 
-					[
 						0
-					]
+					],
+					"name" : "pico-fibonacci"
 				},
 				{
 					"directoryIndexes" : 
@@ -1137,24 +1116,17 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
+						0,
 						1,
 						2,
 						3,
 						4,
-						5,
-						6
+						5
 					]
 				}
 			],
 			"targets" : 
 			[
-				{
-					"directoryIndex" : 81,
-					"id" : "boton_PlayPause::@8ae2df147ff4474c9964",
-					"jsonFile" : "target-boton_PlayPause-Debug-077c7989f5261a679fd4.json",
-					"name" : "boton_PlayPause",
-					"projectIndex" : 0
-				},
 				{
 					"directoryIndex" : 43,
 					"id" : "bs2_default::@bc554eaed616d198a22d",

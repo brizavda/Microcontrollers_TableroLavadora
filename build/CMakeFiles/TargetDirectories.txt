@@ -166,6 +166,3 @@ C:/Users/brizi/Documents/Pico-v1.5.1/pico-trad/Microcontrollers_TableroLavadora/
 C:/Users/brizi/Documents/Pico-v1.5.1/pico-trad/Microcontrollers_TableroLavadora/build/pico-sdk/src/rp2040/hardware_structs/CMakeFiles/rebuild_cache.dir
 C:/Users/brizi/Documents/Pico-v1.5.1/pico-trad/Microcontrollers_TableroLavadora/build/pico-sdk/docs/CMakeFiles/edit_cache.dir
 C:/Users/brizi/Documents/Pico-v1.5.1/pico-trad/Microcontrollers_TableroLavadora/build/pico-sdk/docs/CMakeFiles/rebuild_cache.dir
-C:/Users/brizi/Documents/Pico-v1.5.1/pico-trad/Microcontrollers_TableroLavadora/build/boton_PlayPause/CMakeFiles/boton_PlayPause.dir
-C:/Users/brizi/Documents/Pico-v1.5.1/pico-trad/Microcontrollers_TableroLavadora/build/boton_PlayPause/CMakeFiles/edit_cache.dir
-C:/Users/brizi/Documents/Pico-v1.5.1/pico-trad/Microcontrollers_TableroLavadora/build/boton_PlayPause/CMakeFiles/rebuild_cache.dir
