@@ -69,7 +69,8 @@ El siguiente apartado mostrará la prioridad de los botones dentro del proyecto 
 9. Fin
 
 ## :electric_plug: Prototipo de alambrado del circuito
-![Se presentaa el diagrama de conexiones del prototipo provisional en su primera versión ](/imagenes/prototipo1.2.jpg)
+
+![prototipo1 2](https://github.com/brizavda/Microcontrollers_TableroLavadora/assets/125591740/f0c731e2-5a11-4ade-a4c5-5adcd86035bf)
 
 En esta imagen se presenta un prototiwpo de alambrado en su primera versión , esto significa que a lo largo de mas sprints o de mejora de funcionalidades, este prototipo evolucionara. 
 
@@ -77,13 +78,14 @@ En esta imagen se presenta un prototiwpo de alambrado en su primera versión , e
 
 Esta distribución de pines se planeo para que cada componente pudiera ser usado de una manera eficiente. Para una mayor referencia, mirar la imagen del apartado del prototipo de alambrado.  
 
-1. *GP 0 - GP 10* 
+1. **GP 0 - GP 10**
 
 Estos 11 pines quedarón reservados para el componente "7 segmentos x 4"
 el cual servira para poder mostrar mensajes ademas del temporizador principal de la lavadora.
 Cada uno de los pines del display fueron escogidos con un color para uns mejor organización del prototipo. 
 
-![Se presentaa el diagrama de pines del 7x4 segmentos ](/imagenes/74segmen.jpg) 
+![7x4segmen](https://github.com/brizavda/Microcontrollers_TableroLavadora/assets/125591740/d088041f-9c67-4739-b01e-3fadf97841c4)
+
 
 Como se puede observar en la imagen se tienen 7 pines para las letras de los 7 segmentos, a las cuales se les asignaron los siguientes GPIOS y los siguientes colores: 
 
@@ -101,11 +103,13 @@ D2| <font color='black'>negro</font>| 8
 D3| <font color='black'>negro</font>| 9
 D4| <font color='black'>negro</font>| 10
 
-2.  *GP 11 - GP 17*
+2.  **GP 11 - GP 17**
 
 Estos 7 pines seran ocupados por un display de 7 segmentos normal, el cual cumplira la función de mostrar las animaciones de los ciclos de lavado. 
 
-![Se presentaa el diagrama de pines del 7x4 segmentos ](/imagenes/7segmentos.png)  
+
+![7segmentos](https://github.com/brizavda/Microcontrollers_TableroLavadora/assets/125591740/df780a6c-686a-444f-8f24-cb81d5b7c57d)
+
 Al igual que el display de 7x4 segmentos, este display de animaciones tiene un color asignado por pin al igual que un GPIO. 
 
 |pin| color asignado | GPIO asignado |
@@ -118,7 +122,7 @@ e|<font color='blue'>azul</font>| 15
 f|<font color='purple'>morado</font>| 16
 g|<font color='gray'>gris</font>| 17
 
-3.  *GP 18 - GP 19*
+3.  **GP 18 - GP 19**
 
 Estos 2 pines quedaron reservados para la funcionalidad de On/Off, esto debido a que se usara un botón y un led indicador. 
 
@@ -129,7 +133,7 @@ La aignacion de colores y de pines es la siguiente:
 LED| <font color='turquoise'>turquesa</font> | 18
 Botón|<font color='orange'>naranja</font>| 19
 
-4.  *GP 20 - GP 21*
+4.  **GP 20 - GP 21**
 
 Al igual que los pines anteriores, estos quedaron reservados para la funcionalidad de Star/Pause, igualmente hara usode un botón y un led indicador. 
 
@@ -139,7 +143,7 @@ La aignacion de colores y de pines es la siguiente:
 |--- |---------------|---------------|
 LED| <font color='turquoise'>turquesa</font> | 20
 Botón|<font color='orange'>naranja</font>| 21
-5.  *GP 22*
+5.  **GP 22**
  Este pin se reservo para poder colocar el botón de selección de fases ciclos, solo hara uso de un solo botón. 
 
  La aignacion de colores y de pines es la siguiente: 
@@ -147,7 +151,7 @@ Botón|<font color='orange'>naranja</font>| 21
 |Componente| color asignado | GPIO asignado |
 |--- |---------------|---------------|
 Botón|<font color='orange'>naranja</font>| 22
-6. *GP 26*
+6. **GP 26**
 
 Al igual que el pin anterior solo se hara uso de un botón el cual se usará para poder hacer la selección de ciclo de lavado.
 
@@ -157,7 +161,7 @@ Al igual que el pin anterior solo se hara uso de un botón el cual se usará par
 |--- |---------------|---------------|
 Botón|<font color='orange'>naranja</font>| 26
 
-7. *GP 27*
+7. **GP 27**
 
 Este pin sera usado por un boton el cual servirá para poder seleccionar el nivel de aguaa de la lavadora.
 
@@ -167,7 +171,7 @@ Este pin sera usado por un boton el cual servirá para poder seleccionar el nive
 |--- |---------------|---------------|
 Botón|<font color='orange'>naranja</font>| 27
 
-8. *GP 28*
+8. **GP 28**
 
 Este pin se reservo para ser ocupado por el botón del aumento de temporizador. 
 
