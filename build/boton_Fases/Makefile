@@ -463,6 +463,36 @@ boton_Fases\fast:
 	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\boton_Fases
 .PHONY : 4145340374906f2701120b7e08072c6c\Microcontroladores\Pico\pico-sdk\src\common\pico_util\queue.c.s
 
+4145340374906f2701120b7e08072c6c\Microcontroladores\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.obj: 4145340374906f2701120b7e08072c6c\Microcontroladores\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.obj
+.PHONY : 4145340374906f2701120b7e08072c6c\Microcontroladores\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.obj
+
+# target to build an object file
+4145340374906f2701120b7e08072c6c\Microcontroladores\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.obj:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f boton_Fases\CMakeFiles\boton_Fases.dir\build.make /nologo -$(MAKEFLAGS) boton_Fases\CMakeFiles\boton_Fases.dir\4145340374906f2701120b7e08072c6c\Microcontroladores\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.obj
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\boton_Fases
+.PHONY : 4145340374906f2701120b7e08072c6c\Microcontroladores\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.obj
+
+4145340374906f2701120b7e08072c6c\Microcontroladores\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.i: 4145340374906f2701120b7e08072c6c\Microcontroladores\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.i
+.PHONY : 4145340374906f2701120b7e08072c6c\Microcontroladores\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.i
+
+# target to preprocess a source file
+4145340374906f2701120b7e08072c6c\Microcontroladores\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.i:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f boton_Fases\CMakeFiles\boton_Fases.dir\build.make /nologo -$(MAKEFLAGS) boton_Fases\CMakeFiles\boton_Fases.dir\4145340374906f2701120b7e08072c6c\Microcontroladores\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.i
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\boton_Fases
+.PHONY : 4145340374906f2701120b7e08072c6c\Microcontroladores\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.i
+
+4145340374906f2701120b7e08072c6c\Microcontroladores\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.s: 4145340374906f2701120b7e08072c6c\Microcontroladores\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.s
+.PHONY : 4145340374906f2701120b7e08072c6c\Microcontroladores\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.s
+
+# target to generate assembly for a file
+4145340374906f2701120b7e08072c6c\Microcontroladores\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.s:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f boton_Fases\CMakeFiles\boton_Fases.dir\build.make /nologo -$(MAKEFLAGS) boton_Fases\CMakeFiles\boton_Fases.dir\4145340374906f2701120b7e08072c6c\Microcontroladores\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.s
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\boton_Fases
+.PHONY : 4145340374906f2701120b7e08072c6c\Microcontroladores\Pico\pico-sdk\src\rp2_common\hardware_adc\adc.c.s
+
 4145340374906f2701120b7e08072c6c\Microcontroladores\Pico\pico-sdk\src\rp2_common\hardware_gpio\gpio.obj: 4145340374906f2701120b7e08072c6c\Microcontroladores\Pico\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.obj
 .PHONY : 4145340374906f2701120b7e08072c6c\Microcontroladores\Pico\pico-sdk\src\rp2_common\hardware_gpio\gpio.obj
 
@@ -2025,6 +2055,9 @@ help:
 	@echo ... 4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_util/queue.obj
 	@echo ... 4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_util/queue.i
 	@echo ... 4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_util/queue.s
+	@echo ... 4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.obj
+	@echo ... 4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.i
+	@echo ... 4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.s
 	@echo ... 4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj
 	@echo ... 4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i
 	@echo ... 4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s

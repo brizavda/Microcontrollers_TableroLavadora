@@ -68,7 +68,7 @@
 			{
 				"command" : 6,
 				"file" : 0,
-				"line" : 13,
+				"line" : 17,
 				"parent" : 0
 			},
 			{
@@ -486,6 +486,10 @@
 				{
 					"backtrace" : 2,
 					"path" : "C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_adc/include"
 				}
 			],
 			"language" : "CXX",
@@ -870,6 +874,10 @@
 				{
 					"backtrace" : 2,
 					"path" : "C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_adc/include"
 				}
 			],
 			"language" : "C",
@@ -938,7 +946,8 @@
 				65,
 				66,
 				67,
-				68
+				68,
+				69
 			]
 		},
 		{
@@ -1308,6 +1317,10 @@
 				{
 					"backtrace" : 2,
 					"path" : "C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_adc/include"
 				}
 			],
 			"language" : "ASM",
@@ -2244,7 +2257,8 @@
 				65,
 				66,
 				67,
-				68
+				68,
+				69
 			]
 		},
 		{
@@ -2679,6 +2693,12 @@
 			"backtrace" : 2,
 			"compileGroupIndex" : 1,
 			"path" : "C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"path" : "C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c",
 			"sourceGroupIndex" : 0
 		}
 	],

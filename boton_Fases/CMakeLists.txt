@@ -5,7 +5,11 @@ add_executable(boton_Fases
         )
 
 # pull in common dependencies
-target_link_libraries(boton_Fases pico_stdlib)
+target_link_libraries(boton_Fases 
+        pico_stdlib
+        hardware_gpio
+        hardware_adc
+        )
 
 pico_enable_stdio_usb(boton_Fases 1)
 pico_enable_stdio_uart(boton_Fases 0)
