@@ -1,9 +1,9 @@
 # Microcontrollers_TableroLavadora
 El objetivo de este proyecto es crear un tablero de lavadora
 
-## Prioridad de los botones
+##	:chart_with_upwards_trend: Prioridad de los botones
 
-El siguiente apartado mostrara la prioridad de los botones dentro del proyecto de desarrollo de un tablero de lavadora.
+El siguiente apartado mostrará la prioridad de los botones dentro del proyecto de desarrollo de un tablero de lavadora.
 
 | Botón | Funcionalidad | Prioridad |
 |-------|---------------|-----------|
@@ -16,7 +16,7 @@ El siguiente apartado mostrara la prioridad de los botones dentro del proyecto d
 
 ### Diagrama de actividades 
 
-[](D. actividades tablero de lavadora-Página-1.drawio.png)
+![Se presentaa el diagrama de actividades del tablero de lavadora ](/imagenes/D.actividades.jpg)
 
 ### Pasos para el funcionamiento del tablero de lavadora
 
@@ -67,11 +67,111 @@ El siguiente apartado mostrara la prioridad de los botones dentro del proyecto d
         - Mostrar mensaje "Lavadora apagada"
 9. Fin
 
-### Uso de pines de la raspberry pi pico w
+## :electric_plug: Prototipo de alambrado del circuito
+![Se presentaa el diagrama de conexiones del prototipo provisional en su primera versión ](/imagenes/prototipo1.2.jpg)
 
-- Pines de botones: 6
-- Pines de leds : 2
-- Piens del 4 x 7segmentos : 11
+En esta imagen se presenta un prototiwpo de alambrado en su primera versión , esto significa que a lo largo de mas sprints o de mejora de funcionalidades, este prototipo evolucionara. 
 
-**Total  19**
+## :round_pushpin: Uso de pines de la raspberry pi pico w 
 
+Esta distribución de pines se planeo para que cada componente pudiera ser usado de una manera eficiente. Para una mayor referencia, mirar la imagen del apartado del prototipo de alambrado.  
+
+1. *GP 0 - GP 10* 
+
+Estos 11 pines quedarón reservados para el componente "7 segmentos x 4"
+el cual servira para poder mostrar mensajes ademas del temporizador principal de la lavadora.
+Cada uno de los pines del display fueron escogidos con un color para uns mejor organización del prototipo. 
+
+![Se presentaa el diagrama de pines del 7x4 segmentos ](/imagenes/74segmen.jpg) 
+
+Como se puede observar en la imagen se tienen 7 pines para las letras de los 7 segmentos, a las cuales se les asignaron los siguientes GPIOS y los siguientes colores: 
+
+|pin| color asignado | GPIO asignado |
+|--- |---------------|---------------|
+a| <font color='red'>rojo</font> | 0
+b|<font color='orange'>naranja</font>| 1
+c|<font color='yellow'>amarillo</font>| 2 
+d|<font color='green '>verde</font>| 3 
+e|<font color='blue'>azul</font>| 4 
+f|<font color='purple'>morado</font>| 5
+g|<font color='gray'>gris</font>| 6
+D1| <font color='black'>negro</font>| 7
+D2| <font color='black'>negro</font>| 8
+D3| <font color='black'>negro</font>| 9
+D4| <font color='black'>negro</font>| 10
+
+2.  *GP 11 - GP 17*
+
+Estos 7 pines seran ocupados por un display de 7 segmentos normal, el cual cumplira la función de mostrar las animaciones de los ciclos de lavado. 
+
+![Se presentaa el diagrama de pines del 7x4 segmentos ](/imagenes/7segmentos.png)  
+Al igual que el display de 7x4 segmentos, este display de animaciones tiene un color asignado por pin al igual que un GPIO. 
+
+|pin| color asignado | GPIO asignado |
+|--- |---------------|---------------|
+a| <font color='red'>rojo</font> | 11
+b|<font color='orange'>naranja</font>| 12
+c|<font color='yellow'>amarillo</font>| 13
+d|<font color='green '>verde</font>| 14
+e|<font color='blue'>azul</font>| 15
+f|<font color='purple'>morado</font>| 16
+g|<font color='gray'>gris</font>| 17
+
+3.  *GP 18 - GP 19*
+
+Estos 2 pines quedaron reservados para la funcionalidad de On/Off, esto debido a que se usara un botón y un led indicador. 
+
+La aignacion de colores y de pines es la siguiente: 
+
+|Componente| color asignado | GPIO asignado |
+|--- |---------------|---------------|
+LED| <font color='turquoise'>turquesa</font> | 18
+Botón|<font color='orange'>naranja</font>| 19
+
+4.  *GP 20 - GP 21*
+
+Al igual que los pines anteriores, estos quedaron reservados para la funcionalidad de Star/Pause, igualmente hara usode un botón y un led indicador. 
+
+La aignacion de colores y de pines es la siguiente: 
+
+|Componente| color asignado | GPIO asignado |
+|--- |---------------|---------------|
+LED| <font color='turquoise'>turquesa</font> | 20
+Botón|<font color='orange'>naranja</font>| 21
+5.  *GP 22*
+ Este pin se reservo para poder colocar el botón de selección de fases ciclos, solo hara uso de un solo botón. 
+
+ La aignacion de colores y de pines es la siguiente: 
+
+|Componente| color asignado | GPIO asignado |
+|--- |---------------|---------------|
+Botón|<font color='orange'>naranja</font>| 22
+6. *GP 26*
+
+Al igual que el pin anterior solo se hara uso de un botón el cual se usará para poder hacer la selección de ciclo de lavado.
+
+ La aignacion de colores y de pines es la siguiente: 
+
+|Componente| color asignado | GPIO asignado |
+|--- |---------------|---------------|
+Botón|<font color='orange'>naranja</font>| 26
+
+7. *GP 27*
+
+Este pin sera usado por un boton el cual servirá para poder seleccionar el nivel de aguaa de la lavadora.
+
+ La aignacion de colores y de pines es la siguiente: 
+
+|Componente| color asignado | GPIO asignado |
+|--- |---------------|---------------|
+Botón|<font color='orange'>naranja</font>| 27
+
+8. *GP 28*
+
+Este pin se reservo para ser ocupado por el botón del aumento de temporizador. 
+
+ La aignacion de colores y de pines es la siguiente: 
+
+|Componente| color asignado | GPIO asignado |
+|--- |---------------|---------------|
+Botón|<font color='orange'>naranja</font>| 28
