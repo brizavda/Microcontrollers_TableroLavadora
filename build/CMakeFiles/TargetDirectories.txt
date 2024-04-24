@@ -169,9 +169,6 @@ C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/Microcontroll
 C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/Microcontrollers_TableroLavadora/build/DisplayFases/CMakeFiles/ELF2UF2Build.dir
 C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/Microcontrollers_TableroLavadora/build/DisplayFases/CMakeFiles/edit_cache.dir
 C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/Microcontrollers_TableroLavadora/build/DisplayFases/CMakeFiles/rebuild_cache.dir
-C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/Microcontrollers_TableroLavadora/build/PruebaAnimBarrido/CMakeFiles/PruebaAnimBarrido.dir
-C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/Microcontrollers_TableroLavadora/build/PruebaAnimBarrido/CMakeFiles/edit_cache.dir
-C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/Microcontrollers_TableroLavadora/build/PruebaAnimBarrido/CMakeFiles/rebuild_cache.dir
 C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/Microcontrollers_TableroLavadora/build/AnimCiclosLavado/CMakeFiles/AnimCiclosLavado.dir
 C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/Microcontrollers_TableroLavadora/build/AnimCiclosLavado/CMakeFiles/edit_cache.dir
 C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/Microcontrollers_TableroLavadora/build/AnimCiclosLavado/CMakeFiles/rebuild_cache.dir

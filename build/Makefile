@@ -197,19 +197,6 @@ ELF2UF2Build\fast:
 .PHONY : ELF2UF2Build\fast
 
 #=============================================================================
-# Target rules for targets named PruebaAnimBarrido
-
-# Build rule for target.
-PruebaAnimBarrido: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) PruebaAnimBarrido
-.PHONY : PruebaAnimBarrido
-
-# fast build rule for target.
-PruebaAnimBarrido\fast:
-	$(MAKE) $(MAKESILENT) -f PruebaAnimBarrido\CMakeFiles\PruebaAnimBarrido.dir\build.make /nologo -$(MAKEFLAGS) PruebaAnimBarrido\CMakeFiles\PruebaAnimBarrido.dir\build
-.PHONY : PruebaAnimBarrido\fast
-
-#=============================================================================
 # Target rules for targets named AnimCiclosLavado
 
 # Build rule for target.
@@ -237,7 +224,6 @@ help:
 	@echo ... cyw43_driver_picow_cyw43_bus_pio_spi_pio_h
 	@echo ... AnimCiclosLavado
 	@echo ... DisplayFases
-	@echo ... PruebaAnimBarrido
 	@echo ... bs2_default
 .PHONY : help
 
