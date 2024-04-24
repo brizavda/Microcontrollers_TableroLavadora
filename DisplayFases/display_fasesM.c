@@ -73,7 +73,7 @@ void ejecutarSecuencia(int fase_actual) {
             for (int i = 0; i < 4; i++) {
                 int32_t mask = secLavar[i] << SECOND_GPIO;
                 gpio_set_mask(mask); // Activar los segmentos correspondientes
-                 for (int j = 0; j < 250000; j++) { // Simular 250 ms
+                 for (int j = 0; j < 2500000; j++) { // Simular 250 ms
                     // Esperar
                 }
                 gpio_clr_mask(mask); // Apagar los segmentos del display
@@ -84,7 +84,7 @@ void ejecutarSecuencia(int fase_actual) {
             for (int i = 0; i < 8; i++) {
                 int32_t mask = secEnjuagar[i] << SECOND_GPIO;
                 gpio_set_mask(mask); // Activar los segmentos correspondientes
-                 for (int j = 0; j < 250000; j++) { // Simular 250 ms
+                 for (int j = 0; j < 2500000; j++) { // Simular 250 ms
                     // Esperar
                 }
                 gpio_clr_mask(mask); // Apagar los segmentos del display
@@ -95,7 +95,7 @@ void ejecutarSecuencia(int fase_actual) {
             for (int i = 0; i < 6; i++) {
                 int32_t mask = secCentrifugar[i] << SECOND_GPIO;
                 gpio_set_mask(mask); // Activar los segmentos correspondientes
-                 for (int j = 0; j < 250000; j++) { // Simular 250 ms
+                 for (int j = 0; j < 2500000; j++) { // Simular 250 ms
                     // Esperar
                 }
                 gpio_clr_mask(mask); // Apagar los segmentos del display
@@ -120,11 +120,12 @@ int main(){
         fase_actual = cambiarFase(fase_actual);
 
         // Mostrar fase seleccionado por serial
-        mostrarFase(fase_actual, fase_actual);
+        mostrarFase(fase_actual, fase_anterior);
 
         // Ejecutar la secuencia de LED según la fase actual
         ejecutarSecuencia(fase_actual);
 
         fase_anterior = fase_actual; // Actualizar la fase anterior
+        sleep_ms(50);
     }
 }
