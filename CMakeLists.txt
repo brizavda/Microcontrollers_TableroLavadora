@@ -13,5 +13,4 @@ set(PICO_BOARD pico_w)
 #4. initialize the pico sdk 
 pico_sdk_init()
 
-add_subdirectory(Fibonacci)
-add_subdirectory(hello_7segment)
+add_subdirectory(boton_PlayPause)
