@@ -172,3 +172,6 @@ C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/Microcontroll
 C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/Microcontrollers_TableroLavadora/build/AnimCiclosLavado/CMakeFiles/AnimCiclosLavado.dir
 C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/Microcontrollers_TableroLavadora/build/AnimCiclosLavado/CMakeFiles/edit_cache.dir
 C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/Microcontrollers_TableroLavadora/build/AnimCiclosLavado/CMakeFiles/rebuild_cache.dir
+C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/Microcontrollers_TableroLavadora/build/boton_Fases/CMakeFiles/boton_Fases.dir
+C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/Microcontrollers_TableroLavadora/build/boton_Fases/CMakeFiles/edit_cache.dir
+C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/Microcontrollers_TableroLavadora/build/boton_Fases/CMakeFiles/rebuild_cache.dir

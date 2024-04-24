@@ -209,6 +209,19 @@ AnimCiclosLavado\fast:
 	$(MAKE) $(MAKESILENT) -f AnimCiclosLavado\CMakeFiles\AnimCiclosLavado.dir\build.make /nologo -$(MAKEFLAGS) AnimCiclosLavado\CMakeFiles\AnimCiclosLavado.dir\build
 .PHONY : AnimCiclosLavado\fast
 
+#=============================================================================
+# Target rules for targets named boton_Fases
+
+# Build rule for target.
+boton_Fases: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) boton_Fases
+.PHONY : boton_Fases
+
+# fast build rule for target.
+boton_Fases\fast:
+	$(MAKE) $(MAKESILENT) -f boton_Fases\CMakeFiles\boton_Fases.dir\build.make /nologo -$(MAKEFLAGS) boton_Fases\CMakeFiles\boton_Fases.dir\build
+.PHONY : boton_Fases\fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -224,6 +237,7 @@ help:
 	@echo ... cyw43_driver_picow_cyw43_bus_pio_spi_pio_h
 	@echo ... AnimCiclosLavado
 	@echo ... DisplayFases
+	@echo ... boton_Fases
 	@echo ... bs2_default
 .PHONY : help
 

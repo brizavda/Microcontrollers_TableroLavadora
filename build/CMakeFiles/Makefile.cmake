@@ -36,6 +36,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/Microcontrollers_TableroLavadora/AnimCiclosLavado/CMakeLists.txt"
   "C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/Microcontrollers_TableroLavadora/CMakeLists.txt"
   "C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/Microcontrollers_TableroLavadora/DisplayFases/CMakeLists.txt"
+  "C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/Microcontrollers_TableroLavadora/boton_Fases/CMakeLists.txt"
   "CMakeFiles/3.29.0-rc4/CMakeASMCompiler.cmake"
   "CMakeFiles/3.29.0-rc4/CMakeCCompiler.cmake"
   "CMakeFiles/3.29.0-rc4/CMakeCXXCompiler.cmake"
@@ -253,6 +254,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "DisplayFases/elf2uf2/tmp/ELF2UF2Build-cfgcmd.txt"
   "DisplayFases/CMakeFiles/CMakeDirectoryInformation.cmake"
   "AnimCiclosLavado/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "boton_Fases/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -265,4 +267,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "DisplayFases/CMakeFiles/DisplayFases.dir/DependInfo.cmake"
   "DisplayFases/CMakeFiles/ELF2UF2Build.dir/DependInfo.cmake"
   "AnimCiclosLavado/CMakeFiles/AnimCiclosLavado.dir/DependInfo.cmake"
+  "boton_Fases/CMakeFiles/boton_Fases.dir/DependInfo.cmake"
   )
