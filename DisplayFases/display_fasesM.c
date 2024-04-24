@@ -73,7 +73,9 @@ void ejecutarSecuencia(int fase_actual) {
             for (int i = 0; i < 4; i++) {
                 int32_t mask = secLavar[i] << SECOND_GPIO;
                 gpio_set_mask(mask); // Activar los segmentos correspondientes
-                sleep_ms(250);               // Esperar un tiempo
+                 for (int j = 0; j < 250000; j++) { // Simular 250 ms
+                    // Esperar
+                }
                 gpio_clr_mask(mask); // Apagar los segmentos del display
             }
             break;
@@ -82,7 +84,9 @@ void ejecutarSecuencia(int fase_actual) {
             for (int i = 0; i < 8; i++) {
                 int32_t mask = secEnjuagar[i] << SECOND_GPIO;
                 gpio_set_mask(mask); // Activar los segmentos correspondientes
-                sleep_ms(250);               // Esperar un tiem
+                 for (int j = 0; j < 250000; j++) { // Simular 250 ms
+                    // Esperar
+                }
                 gpio_clr_mask(mask); // Apagar los segmentos del display
             }
             break;
@@ -91,7 +95,9 @@ void ejecutarSecuencia(int fase_actual) {
             for (int i = 0; i < 6; i++) {
                 int32_t mask = secCentrifugar[i] << SECOND_GPIO;
                 gpio_set_mask(mask); // Activar los segmentos correspondientes
-                sleep_ms(250);               // Esperar un tiem
+                 for (int j = 0; j < 250000; j++) { // Simular 250 ms
+                    // Esperar
+                }
                 gpio_clr_mask(mask); // Apagar los segmentos del display
             }
             break;
