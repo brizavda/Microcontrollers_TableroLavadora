@@ -1,9 +1,8 @@
-class Boton_nivel_agua {
+class BotonNivelAgua {
 private:
-    uint BUTTON_GPIO;
+    uint BOTON_GPIO;
 public:
-    Boton_nivel_agua(uint gpio);
+    BotonNivelAgua(uint gpio);
     bool is_pressed();
-    void water_level_control();
+    void control_nivel_agua();
 };
-
