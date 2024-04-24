@@ -40,6 +40,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("C:/Users/brizi/Documents/Pico-v1.5.1/pico-trad/Microcontrollers_TableroLavadora/build/pico-sdk/cmake_install.cmake")
+  include("C:/Users/brizi/Documents/Pico-v1.5.1/pico-trad/Microcontrollers_TableroLavadora/build/boton_TipoCiclos/cmake_install.cmake")
 
 endif()
 
