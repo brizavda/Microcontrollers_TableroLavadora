@@ -10,6 +10,8 @@ set(PICO_BOARD pico_w)
 pico_sdk_init()
 
 add_subdirectory(boton_temporizador)
+add_subdirectory(boton_temp)
+add_subdirectory(boton_Nivel_agua)
 
 
 
