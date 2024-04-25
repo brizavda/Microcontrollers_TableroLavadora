@@ -4,10 +4,13 @@
 // Inicializar la variable estática delay
 uint32_t BotonFases::delay = 250000; // Tiempo inicial: 250 ms
 
-BotonFases::BotonFases() {
-    fase_actual = 1;
-    fase_anterior = 0;
-}
+BotonFases::BotonFases() 
+    : secLavar{0x01, 0x22, 0x14, 0x08},
+      secEnjuagar{0x01, 0x02, 0x40, 0x10, 0x08, 0x04, 0x40, 0x20},
+      secCentrifugar{0x01, 0x02, 0x04, 0x08, 0x10, 0x20},
+      fase_actual(1),
+      fase_anterior(0)
+{}
 
 void BotonFases::configurarGPIOs() {
     printf("Control de secuencia en display de 7 segmentos\n");

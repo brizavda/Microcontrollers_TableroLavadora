@@ -4,6 +4,9 @@
 
 class BotonFases{
     private:
+        int secLavar[4];
+        int secEnjuagar[8];
+        int secCentrifugar[6];
         int fase_actual;    /**@brief Fase actual del ciclo de lavado. */
         int fase_anterior;  /**< @brief Fase anterior del ciclo de lavado. */
         static uint32_t delay; /**< @brief Tiempo de espera en microsegundos para la ejecución de la secuencia. */
