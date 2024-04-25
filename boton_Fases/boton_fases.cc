@@ -80,3 +80,15 @@ void BotonFases::ejecutarSecuencia() {
             break;
     }
 }
+
+bool BotonFases::botonFasesPresionado() {
+    static bool ultimoEstado = true;
+    bool estadoActual = !gpio_get(BOTON_FASES);
+
+    if (estadoActual != ultimoEstado) {
+        ultimoEstado = estadoActual;
+        return estadoActual;
+    }
+
+    return false;
+}
