@@ -21,3 +21,28 @@ void BotonFases::configurarGPIOs() {
     gpio_set_dir(BOTON_FASES, GPIO_IN);
     gpio_pull_up(BOTON_FASES); // Activar pull-up en el botón
 }
+
+void BotonFases::cambiarFase() {
+    if (botonFasesPresionado()) {
+        fase_actual = (fase_actual % 3) + 1;
+    }
+}
+
+void BotonFases::mostrarFase() {
+    if (fase_actual != fase_anterior) {
+        switch (fase_actual) {
+            case 1:
+                printf("Fase actual: %d - Lavado\n", fase_actual);
+                break;
+            case 2:
+                printf("Fase actual: %d - Enjuague\n", fase_actual);
+                break;
+            case 3:
+                printf("Fase actual: %d - Centrifugado\n", fase_actual);
+                break;
+            default:
+                break;
+        }
+        fase_anterior = fase_actual;
+    }
+}
