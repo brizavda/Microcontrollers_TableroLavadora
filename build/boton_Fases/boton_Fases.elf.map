@@ -1335,9 +1335,9 @@ Discarded input sections
  .debug_frame   0x00000000       0x20 CMakeFiles/boton_Fases.dir/87e3edc7c641fefdf16472b69d20a538/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
  .ARM.attributes
                 0x00000000       0x2c CMakeFiles/boton_Fases.dir/87e3edc7c641fefdf16472b69d20a538/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
- .text          0x00000000        0x0 C:\Users\royza\AppData\Local\Temp\cc5OT2GT.o
- .data          0x00000000        0x0 C:\Users\royza\AppData\Local\Temp\cc5OT2GT.o
- .bss           0x00000000        0x0 C:\Users\royza\AppData\Local\Temp\cc5OT2GT.o
+ .text          0x00000000        0x0 C:\Users\royza\AppData\Local\Temp\ccHPJgN1.o
+ .data          0x00000000        0x0 C:\Users\royza\AppData\Local\Temp\ccHPJgN1.o
+ .bss           0x00000000        0x0 C:\Users\royza\AppData\Local\Temp\ccHPJgN1.o
  .data          0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .text          0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-calloc.o)
@@ -1553,7 +1553,7 @@ LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../
 .boot2          0x10000000      0x100
                 0x10000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 C:\Users\royza\AppData\Local\Temp\cc5OT2GT.o
+ .boot2         0x10000000      0x100 C:\Users\royza\AppData\Local\Temp\ccHPJgN1.o
                 0x10000100                __boot2_end__ = .
                 0x00000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -3024,7 +3024,7 @@ LOAD CMakeFiles/boton_Fases.dir/5d64f9d4ca8bf32a7e3e5214f2144dff/Pico/pico-sdk/l
 LOAD CMakeFiles/boton_Fases.dir/C_/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
 LOAD CMakeFiles/boton_Fases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 LOAD CMakeFiles/boton_Fases.dir/87e3edc7c641fefdf16472b69d20a538/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
-LOAD C:\Users\royza\AppData\Local\Temp\cc5OT2GT.o
+LOAD C:\Users\royza\AppData\Local\Temp\ccHPJgN1.o
 LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a
 LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libm.a
 START GROUP
@@ -3139,7 +3139,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x00000780       0x2c CMakeFiles/boton_Fases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
  .ARM.attributes
-                0x000007ac       0x22 C:\Users\royza\AppData\Local\Temp\cc5OT2GT.o
+                0x000007ac       0x22 C:\Users\royza\AppData\Local\Temp\ccHPJgN1.o
  .ARM.attributes
                 0x000007ce       0x1e c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .ARM.attributes
