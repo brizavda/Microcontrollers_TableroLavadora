@@ -46,3 +46,37 @@ void BotonFases::mostrarFase() {
         fase_anterior = fase_actual;
     }
 }
+
+void BotonFases::ejecutarSecuencia() {
+    switch (fase_actual) {
+        case 1:
+            for (int i = 0; i < 4; i++) {
+                int32_t mask = secLavar[i] << SECOND_GPIO;
+                gpio_set_mask(mask); // Activar los segmentos correspondientes
+                for (uint32_t j = 0; j < delay; j++) {} // Esperar utilizando un bucle
+                gpio_clr_mask(mask); // Apagar los segmentos del display
+            }
+            break;
+
+        case 2:
+            for (int i = 0; i < 8; i++) {
+                int32_t mask = secEnjuagar[i] << SECOND_GPIO;
+                gpio_set_mask(mask); // Activar los segmentos correspondientes
+                for (uint32_t j = 0; j < delay; j++) {} // Esperar utilizando un bucle
+                gpio_clr_mask(mask); // Apagar los segmentos del display
+            }
+            break;
+
+        case 3:
+            for (int i = 0; i < 6; i++) {
+                int32_t mask = secCentrifugar[i] << SECOND_GPIO;
+                gpio_set_mask(mask); // Activar los segmentos correspondientes
+                for (uint32_t j = 0; j < delay; j++) {} // Esperar utilizando un bucle
+                gpio_clr_mask(mask); // Apagar los segmentos del display
+            }
+            break;
+
+        default:
+            break;
+    }
+}
