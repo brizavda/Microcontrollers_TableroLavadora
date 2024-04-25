@@ -2,7 +2,7 @@
 #include "../include/pin_list.h"
 
 // Inicializar la variable estática delay
-uint32_t BotonFases::delay = 250000; // Tiempo inicial: 250 ms
+uint32_t BotonFases::delay = 2500000; // Tiempo inicial: 250 ms
 
 BotonFases::BotonFases() 
     : secLavar{0x01, 0x22, 0x14, 0x08},
