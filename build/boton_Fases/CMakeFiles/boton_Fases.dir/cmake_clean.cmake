@@ -21,8 +21,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/boton_Fases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_util/pheap.c.obj.d"
   "CMakeFiles/boton_Fases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_util/queue.c.obj"
   "CMakeFiles/boton_Fases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/common/pico_util/queue.c.obj.d"
-  "CMakeFiles/boton_Fases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj"
-  "CMakeFiles/boton_Fases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj.d"
   "CMakeFiles/boton_Fases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
   "CMakeFiles/boton_Fases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj.d"
   "CMakeFiles/boton_Fases.dir/4145340374906f2701120b7e08072c6c/Microcontroladores/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
