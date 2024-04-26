@@ -10,9 +10,15 @@ int main(){
     BotonCiclos botonCiclos;
     botonCiclos.inicializar(); // Configurar GPIOs necesarios
 
-    while (/* condition */)
+    while (true)
     {
-        /* code */
+        botonciclos.cambiarDisplay();
+
+        botonciclos.mostrarDisplay();
+
+        botonciclos.seleccionCiclo();
+
+        sleep_ms(50);
     }
     
 }
