@@ -4,5 +4,15 @@
 #include "boton_fases.h"
 
 int main(){
+
+    stdio_init_all();
+
+    BotonCiclos botonCiclos;
+    botonCiclos.inicializar(); // Configurar GPIOs necesarios
+
+    while (/* condition */)
+    {
+        /* code */
+    }
     
 }
