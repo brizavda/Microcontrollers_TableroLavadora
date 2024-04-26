@@ -1,5 +1,7 @@
 #include <iostream>
 #include <stdio.h>
+#include "pico/stdlib.h"
+#include "hardware/gpio.h"
 #include "boton_TipoCiclos.h"
 #include "../include/pin_list.h"
 
@@ -64,8 +66,47 @@ void botonCiclos::mostrarDisplay(int cicloActual, int cicloAnterior)
     }
 }
 
-void botonCiclos::seleccionCiclo()
+void botonCiclos::seleccionCiclo(int cicloActual)
 {
+    switch (cicloActual)
+    {
+    case 1:
+        for (int i = 0; i < 5; i++) {
+                int32_t mask = secCiclos[i] << SECOND_GPIO;
+                gpio_set_mask(mask); // Activar los segmentos correspondientes
+                for (int j = 0; j < 1500000; j++) { // Simular 100 ms
+                    // Esperar
+                }
+                gpio_clr_mask(mask); // Apagar los segmentos del display
+            }
+        break;
 
+    case 2:
+        for (int i = 0; i < 5; i++) {
+                int32_t mask = secCiclos[i] << SECOND_GPIO;
+                gpio_set_mask(mask); // Activar los segmentos correspondientes
+                for (int j = 0; j < 2750000; j++) { // Simular 200 ms
+                    // Esperar
+                }
+                gpio_clr_mask(mask); // Apagar los segmentos del display
+            }
+            break;
+        break;
+
+    case 3:
+        for (int i = 0; i < 5; i++) {
+                int32_t mask = secCiclos[i] << SECOND_GPIO;
+                gpio_set_mask(mask); // Activar los segmentos correspondientes
+                for (int j = 0; j < 575000; j++) { // Simular 50 ms
+                    // Esperar
+                }
+                gpio_clr_mask(mask); // Apagar los segmentos del display
+            }
+            break;
+        break;
+    
+    default:
+        break;
+    }
 }
 
