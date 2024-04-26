@@ -23,9 +23,10 @@ void botonCiclos::inicializar()
     gpio_pull_up(BOTON_CICLOS); // Activar pull-up en el botón
 }
 
-int botonCiclos::leer_boton()
+int botonCiclos::btnTipoCiclosPress()
 {
-    return gpio_get(BOTON_PRESS);
+    static bool ultimoEstado = true;
+    bool estadoActual = !gpio_get(BOTON_CICLOS);
 }
 
 void botonCiclos::seleccionCiclo()
