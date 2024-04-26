@@ -1,21 +1,9 @@
 #include <iostream>
 #include <stdio.h>
-#include "pico/stdlib.h"
+#include "boton_TipoCiclos.h"
 #include "../include/pin_list.h"
 
 #define BOTON_PRESS 26
-
-class botonCiclos{
-    private:
-        bool btn_press = false;
-        int ciclos = 0;
-
-    public:
-        botonCiclos()
-        void inicializar()
-        int leer_boton()
-        void seleccionCiclo()
-}
 
 botonCiclos::botonCiclos()
 {
