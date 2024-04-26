@@ -1,33 +1,17 @@
-#include <iostream>
+#include "boton_pausa.h"
+#include <cstdio>
 #include "../include/pin_list.h"
-#include <stdio.h>
+#include "hardware/gpio.h"
 
-bool cicloIniciado = false;
-
-void botonCallback() {
+// Implementación de la función de devolución de llamada
+void botonCallback(uint gpio, uint32_t events) {
     if (!cicloIniciado) {
-        std::cout << "Ciclo iniciado" << std::endl;
-        digitalWrite(LED_PIN_1, HIGH); // Encender el LED rojo
+        printf("Ciclo iniciado\n");
+        gpio_put(LED_PIN_1, 1); // Encender el LED rojo
         cicloIniciado = true;
     } else {
-        std::cout << "Ciclo pausado" << std::endl;
-        digitalWrite(LED_PIN_1, LOW); // Apagar el LED rojo
+        printf("Ciclo pausado\n");
+        gpio_put(LED_PIN_1, 0); // Apagar el LED rojo
         cicloIniciado = false;
     }
-}
-
-int main() {
-    wiringPiSetup();
-    pinMode(BOTON_START, INPUT);
-    pinMode(LED_PIN_1, OUTPUT);
-
-    std::cout << "Presiona para iniciar tu ciclo de lavado" << std::endl;
-
-    wiringPiISR(BOTON_START, INT_EDGE_FALLING, &botonCallback);
-
-    while (true) {
-        // El programa permanece en este bucle infinito
-    }
-
-    return 0;
 }
