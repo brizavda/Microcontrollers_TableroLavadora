@@ -1,7 +1,7 @@
 #include <iostream>
 #include <stdio.h>
 #include "pico/stdlib.h"
-#include "hardware/gpio.h"
+#include "../include/pin_list.h"
 
 #define BOTON_PRESS 26
 
@@ -15,6 +15,12 @@ class botonCiclos{
         void inicializar()
         int leer_boton()
         void seleccionCiclo()
+}
+
+botonCiclos::botonCiclos()
+{
+    this->btn_press = btn_press;
+    this->ciclos = ciclos;
 }
 
 void botonCiclos::inicializar()
