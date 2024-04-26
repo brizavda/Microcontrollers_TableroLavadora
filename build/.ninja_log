@@ -254,3 +254,5 @@
 273	1210	7358114099635844	boton_TipoCiclos/CMakeFiles/boton_TipoCiclos.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj	9f1ef9186df8f7be
 58	1266	7358240964262737	boton_TipoCiclos/CMakeFiles/boton_TipoCiclos.dir/boton_TipoCiclos.cc.obj	734da7b41af9b243
 92	1241	7358241591534806	boton_TipoCiclos/CMakeFiles/boton_TipoCiclos.dir/boton_TipoCiclos.cc.obj	734da7b41af9b243
+66	477	7358245755997602	boton_TipoCiclos/CMakeFiles/boton_TipoCiclos.dir/main.cc.obj	964a00cd8ada4810
+480	2238	7358245764153424	boton_TipoCiclos/boton_TipoCiclos.elf	27a867e6df8da0c3

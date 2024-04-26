@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "pico/stdlib.h"
 #include "hardware/gpio.h"
-#include "boton_fases.h"
+#include "boton_TipoCiclo.h"
 
 int main(){
 
@@ -12,11 +12,11 @@ int main(){
 
     while (true)
     {
-        botonciclos.cambiarDisplay();
+        botonCiclos.cambiarDisplay();
 
-        botonciclos.mostrarDisplay();
+        botonCiclos.mostrarDisplay();
 
-        botonciclos.seleccionCiclo();
+        botonCiclos.seleccionCiclo();
 
         sleep_ms(50);
     }
