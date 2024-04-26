@@ -13,7 +13,14 @@ botonCiclos::botonCiclos():
 
 void botonCiclos::inicializar()
 {
-    
+    for (int gpio = SECOND_GPIO; gpio < SECOND_GPIO + 7; gpio++) {
+        gpio_init(gpio);
+        gpio_set_dir(gpio, GPIO_OUT);
+    }
+
+    gpio_init(BOTON_CICLOS);
+    gpio_set_dir(BOTON_CICLOS, GPIO_IN);
+    gpio_pull_up(BOTON_CICLOS); // Activar pull-up en el botón
 }
 
 int botonCiclos::leer_boton()
