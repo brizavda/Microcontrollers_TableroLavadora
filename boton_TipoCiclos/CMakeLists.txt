@@ -2,14 +2,13 @@ cmake_minimum_required(VERSION 3.12)
 
 #5. add executable
 add_executable(boton_TipoCiclos
-    #boton_TipoCiclos.cc
+    boton_TipoCiclos.cc
     main.cc
 )
 
 #7. add target libraries 
 target_link_libraries(boton_TipoCiclos 
     pico_stdlib
-    pico_cyw43_arch_none
 )
 
 # enable usb output, disable uart output
