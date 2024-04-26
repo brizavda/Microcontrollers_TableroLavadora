@@ -25,8 +25,24 @@ void botonCiclos::inicializar()
 
 int botonCiclos::btnTipoCiclosPress()
 {
-    static bool ultimoEstado = true;
-    bool estadoActual = !gpio_get(BOTON_CICLOS);
+    static bool ultimoCiclo = true;
+    bool cicloActual = !gpio_get(BOTON_CICLOS);
+
+    if (cicloActual != ultimoCiclo) {
+        ultimoCiclo = cicloActual;
+        return cicloActual;
+    }
+
+    return false;
+}
+
+void botonCiclos::cambiarDisplay()
+{
+    if (botonFasesPresionado()) {
+        cicloActual = (cicloActual % 3) + 1;
+        return cicloActual;
+    }
+    return cicloActual;
 }
 
 void botonCiclos::seleccionCiclo()
