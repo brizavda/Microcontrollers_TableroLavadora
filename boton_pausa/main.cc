@@ -4,6 +4,9 @@
 #include "hardware/gpio.h"
 #include "boton_pausa.h"
 
+// Definición de la variable cicloIniciado
+bool cicloIniciado = false;
+
 int main() {
     stdio_init_all();
 

@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.13)
 
 add_executable(boton_pausa
-    #boton_pausa.cc
+    boton_pausa.cc
     main.cc
 )
 
