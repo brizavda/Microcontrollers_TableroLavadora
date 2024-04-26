@@ -5,7 +5,7 @@
 class botonCiclos{
     private:
         // Arreglo para definir la secuencia base para todos los ciclos
-        int tipoCiclos[5] = {0x01, 0x20, 0x40, 0x04, 0x08}; /**@brief Arreglo que contiene la secuencia en forma de "S". */
+        int tipoCiclos[5]; /**@brief Arreglo que contiene la secuencia en forma de "S". */
         int cicloActual; /**@brief Tipo actual del ciclo de lavado. */
         int cicloAnterior; /**< @brief Tipo anterior del ciclo de lavado. */
         static uint32_t delay; /**@brief Tiempo de espera en microsegundos para la ejecución de la secuencia. */

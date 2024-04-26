@@ -3,22 +3,17 @@
 #include "boton_TipoCiclos.h"
 #include "../include/pin_list.h"
 
-#define BOTON_PRESS 26
+uint32_t botonCiclos::delay = 2500000; // Tiempo inicial: 250 ms
 
-botonCiclos::botonCiclos()
-{
-    this->btn_press = btn_press;
-    this->ciclos = ciclos;
-}
+botonCiclos::botonCiclos():
+    tipoCiclos{0x01, 0x20, 0x40, 0x04, 0x08},
+    cicloActual(1),
+    cicloAnterior(0)
+{}
 
 void botonCiclos::inicializar()
 {
-    stdio_init_all();
-
-    gpio_init(BOTON_PRESS);
-    gpio_set_dir(BOTON_PRESS, GPIO_IN);
-
-    gpio_pull_up(BOTON_PRESS);
+    
 }
 
 int botonCiclos::leer_boton()
