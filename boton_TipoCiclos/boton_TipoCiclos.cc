@@ -8,7 +8,7 @@
 uint32_t BotonCiclos::delay = 2500000; // Tiempo inicial: 250 ms
 
 BotonCiclos::BotonCiclos()
-  : tipoCiclos{0x01, 0x20, 0x40, 0x04, 0x08},
+  : tipoCiclos{0x01, 0x20, 0x40, 0x04, 0x10},
     cicloActual(1),
     cicloAnterior(0)
 {}
@@ -67,11 +67,13 @@ void BotonCiclos::mostrarDisplay()
 
 void BotonCiclos::seleccionCiclo()
 {
+    int32_t mask;
     switch (cicloActual)
     {
     case 1:
         for (int i = 0; i < 5; i++) {
-                int32_t mask = tipoCiclos[i] << SECOND_GPIO;
+                gpio_clr_mask(mask); // Apagar los segmentos del display
+                mask = tipoCiclos[i] << SECOND_GPIO;
                 gpio_set_mask(mask); // Activar los segmentos correspondientes
                 for (int j = 0; j < 1500000; j++) { // Simular 100 ms
                     // Esperar
@@ -82,26 +84,24 @@ void BotonCiclos::seleccionCiclo()
 
     case 2:
         for (int i = 0; i < 5; i++) {
-                int32_t mask = tipoCiclos[i] << SECOND_GPIO;
+                mask = tipoCiclos[i] << SECOND_GPIO;
                 gpio_set_mask(mask); // Activar los segmentos correspondientes
                 for (int j = 0; j < 2750000; j++) { // Simular 200 ms
                     // Esperar
                 }
                 gpio_clr_mask(mask); // Apagar los segmentos del display
             }
-            break;
         break;
 
     case 3:
         for (int i = 0; i < 5; i++) {
-                int32_t mask = tipoCiclos[i] << SECOND_GPIO;
+                mask = tipoCiclos[i] << SECOND_GPIO;
                 gpio_set_mask(mask); // Activar los segmentos correspondientes
                 for (int j = 0; j < 575000; j++) { // Simular 50 ms
                     // Esperar
                 }
                 gpio_clr_mask(mask); // Apagar los segmentos del display
             }
-            break;
         break;
     
     default:
