@@ -36,13 +36,32 @@ int botonCiclos::btnTipoCiclosPress()
     return false;
 }
 
-void botonCiclos::cambiarDisplay()
+void botonCiclos::cambiarDisplay(int cicloActual)
 {
     if (botonFasesPresionado()) {
         cicloActual = (cicloActual % 3) + 1;
         return cicloActual;
     }
     return cicloActual;
+}
+
+void botonCiclos::mostrarDisplay(int cicloActual, int cicloAnterior)
+{
+    if (cicloActual != cicloAnterior) {
+        switch (cicloActual) {
+            case 1:
+                printf("Ciclo seleccionado: %d - Ciclo Normal\n", cicloActual);
+                break;
+            case 2:
+                printf("Ciclo seleccionado: %d - Ciclo Delicado\n", cicloActual);
+                break;
+            case 3:
+                printf("Ciclo seleccionado: %d - Ciclo Rápido\n", cicloActual);
+                break;
+            default:
+                break;
+        }
+    }
 }
 
 void botonCiclos::seleccionCiclo()

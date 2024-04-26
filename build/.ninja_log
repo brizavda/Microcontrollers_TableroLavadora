@@ -5,7 +5,7 @@
 5821	6396	7356917942502182	boton_TipoCiclos/CMakeFiles/boton_TipoCiclos.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj	fdfee3a431019748
 93	392	7356903446230237	pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h	a26fc08d33302b06
 2498	3075	7356903472365803	boton_PlayPause/CMakeFiles/boton_PlayPause.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj	1c8232ef924f2ff
-36	2127	7356918426289817	build.ninja	6cc08430b98179c9
+36	2127	7358070777103396	build.ninja	6cc08430b98179c9
 4439	5105	7356917928486769	boton_TipoCiclos/CMakeFiles/boton_TipoCiclos.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj	71831b48c60fed1e
 7102	7755	7356917956435889	boton_TipoCiclos/CMakeFiles/boton_TipoCiclos.dir/734ab788d52071b7ec936fd1cf9a593e/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj	69abe6ff448f34f
 2245	2814	7356903470123287	boton_PlayPause/CMakeFiles/boton_PlayPause.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/datetime.c.obj	d8f197b9addfe1ed
