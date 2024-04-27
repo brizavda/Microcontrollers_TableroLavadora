@@ -8,7 +8,9 @@ class BotonCiclos{
         int tipoCiclos[5]; /**@brief Arreglo que contiene la secuencia en forma de "S". */
         int cicloActual; /**@brief Tipo actual del ciclo de lavado. */
         int cicloAnterior; /**< @brief Tipo anterior del ciclo de lavado. */
-        static uint32_t delay; /**@brief Tiempo de espera en microsegundos para la ejecución de la secuencia. */
+        static uint32_t delayDelicado; /**@brief Tiempo de espera en microsegundos para la ejecución de la secuencia del ciclo Delicado. */
+        static uint32_t delayRapido; /**@brief Tiempo de espera en microsegundos para la ejecución de la secuencia del ciclo Rápido. */
+        static uint32_t delayNormal; /**@brief Tiempo de espera en microsegundos para la ejecución de la secuencia del ciclo Normal. */
         /**
          * @brief Verifica si el botónde tipo de ciclo está presionado.
          * @return true el botón está presionado, false en caso contrario.

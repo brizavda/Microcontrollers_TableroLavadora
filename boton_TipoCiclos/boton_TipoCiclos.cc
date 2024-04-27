@@ -5,7 +5,9 @@
 #include "boton_TipoCiclo.h"
 #include "../include/pin_list.h"
 
-uint32_t BotonCiclos::delay = 2500000; // Tiempo inicial: 250 ms
+uint32_t BotonCiclos::delayDelicado = 2750000; // Tiempo inicial: 250 ms
+uint32_t BotonCiclos::delayRapido = 575000; // Tiempo inicial: 50 ms
+uint32_t BotonCiclos::delayNormal = 1500000; // Tiempo inicial: 50 ms
 
 BotonCiclos::BotonCiclos()
   : tipoCiclos{0x01, 0x20, 0x40, 0x04, 0x10},
@@ -68,14 +70,14 @@ void BotonCiclos::mostrarDisplay()
 void BotonCiclos::seleccionCiclo()
 {
     int32_t mask;
+
     switch (cicloActual)
     {
     case 1:
         for (int i = 0; i < 5; i++) {
-                gpio_clr_mask(mask); // Apagar los segmentos del display
                 mask = tipoCiclos[i] << SECOND_GPIO;
                 gpio_set_mask(mask); // Activar los segmentos correspondientes
-                for (int j = 0; j < 1500000; j++) { // Simular 100 ms
+                for (uint32_t j = 0; j < delayNormal; j++) { // Simular 100 ms
                     // Esperar
                 }
                 gpio_clr_mask(mask); // Apagar los segmentos del display
@@ -86,7 +88,7 @@ void BotonCiclos::seleccionCiclo()
         for (int i = 0; i < 5; i++) {
                 mask = tipoCiclos[i] << SECOND_GPIO;
                 gpio_set_mask(mask); // Activar los segmentos correspondientes
-                for (int j = 0; j < 2750000; j++) { // Simular 200 ms
+                for (uint32_t j = 0; j < delayDelicado; j++) { // Simular 200 ms
                     // Esperar
                 }
                 gpio_clr_mask(mask); // Apagar los segmentos del display
@@ -97,7 +99,7 @@ void BotonCiclos::seleccionCiclo()
         for (int i = 0; i < 5; i++) {
                 mask = tipoCiclos[i] << SECOND_GPIO;
                 gpio_set_mask(mask); // Activar los segmentos correspondientes
-                for (int j = 0; j < 575000; j++) { // Simular 50 ms
+                for (uint32_t j = 0; j < delayRapido; j++) { // Simular 50 ms
                     // Esperar
                 }
                 gpio_clr_mask(mask); // Apagar los segmentos del display
