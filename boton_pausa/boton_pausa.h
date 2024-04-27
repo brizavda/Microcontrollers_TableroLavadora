@@ -1,13 +1,27 @@
-#ifndef BOTON_PAUSA_H
-#define BOTON_PAUSA_H
+#ifndef BOTON_PAUSA_INICIO_H
+#define BOTON_PAUSA_INICIO_H
 
-#include "../include/pin_list.h"
+#include <iostream>
+#include <vector>
+#include <stdio.h>
+#include "pico/stdlib.h"
 #include "hardware/gpio.h"
+#include "../include/pin_list.h"
 
-// Declaración de la variable cicloIniciado como externa
-extern bool cicloIniciado;
+using namespace std;
 
-// Prototipo de la función de devolución de llamada
-void botonCallback(uint gpio, uint32_t events);
+class BotonPausaInicio {
+private:
+    bool ciclo_iniciado = false;
+    int valor = 1;
 
-#endif
+public:
+    BotonPausaInicio();
+    int leer_boton();
+    void iniciar_o_pausar_ciclo();
+    void actualizar_led();
+    void inicializar();
+    bool get_estado_ciclo();
+};
+
+#endif /* BOTON_PAUSA_INICIO_H */

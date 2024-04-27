@@ -1,28 +1,20 @@
-#include <cstdio>
-#include "../include/pin_list.h"
+#include <iostream>
+#include <vector>
+#include <stdio.h>
 #include "pico/stdlib.h"
 #include "hardware/gpio.h"
 #include "boton_pausa.h"
 
-// Definición de la variable cicloIniciado
-bool cicloIniciado = false;
+using namespace std;
 
 int main() {
-    stdio_init_all();
+    BotonPausaInicio boton = BotonPausaInicio();
+    boton.inicializar();
 
-    gpio_init(BOTON_START);
-    gpio_set_dir(BOTON_START, GPIO_IN);
-    gpio_pull_up(BOTON_START);
-
-    gpio_init(LED_PIN_1);
-    gpio_set_dir(LED_PIN_1, GPIO_OUT);
-
-    printf("Presiona para iniciar tu ciclo de lavado\n");
-
-    gpio_set_irq_enabled_with_callback(BOTON_START, GPIO_IRQ_EDGE_FALL, true, &botonCallback);
-
-    while (true) {
-        tight_loop_contents();
+    while(true) {
+        boton.get_estado_ciclo();
+        boton.iniciar_o_pausar_ciclo();
+        sleep_ms(500);
     }
 
     return 0;
