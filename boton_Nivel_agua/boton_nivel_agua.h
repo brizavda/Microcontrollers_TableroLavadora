@@ -1,8 +1,14 @@
+#include "pico/stdlib.h"
+#include "hardware/gpio.h"
+
 class BotonNivelAgua {
 private:
     uint BOTON_GPIO;
+    int nivelAgua;
+
 public:
     BotonNivelAgua(uint gpio);
+    void inicializar();
     bool is_pressed();
-    void control_nivel_agua();
+    int get_nivel();
 };
