@@ -1,4 +1,4 @@
-#include "botontemporizador.h"
+#include "boton_temporizador.h"
 
 BotonTemporizador::BotonTemporizador(uint gpio) : BOTON_GPIO(gpio) {}
 
