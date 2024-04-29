@@ -3,9 +3,10 @@
 #include <stdio.h>
 #include "pico/stdlib.h"
 #include "hardware/gpio.h"
-#include "..\include\lista_pin.h"
-
 using namespace std;
+
+#define LED_PIN 21
+#define BOTON_PRESS 20
 
 class boton_encendido
 {
@@ -30,7 +31,7 @@ boton_encendido::boton_encendido()
 
 int boton_encendido::leer_boton()
 {
-    return gpio_get(BOTON_START);
+    return gpio_get(BOTON_PRESS);
 }
 
 void boton_encendido::encender_o_apagar_lavadora()
@@ -56,11 +57,11 @@ void boton_encendido::actualizar_led()
 
     if (estado_lavadora == false)
     {
-        gpio_put(LED_PIN_1, 0);
+        gpio_put(LED_PIN, 0);
     }
     else
     {
-        gpio_put(LED_PIN_1, 1);
+        gpio_put(LED_PIN, 1);
     }
 }
 
@@ -68,12 +69,12 @@ void boton_encendido::inicializar()
 {
     stdio_init_all();
 
-    gpio_init(LED_PIN_1);
-    gpio_init(BOTON_START);
-    gpio_set_dir(LED_PIN_1, GPIO_OUT);
-    gpio_set_dir(BOTON_START, GPIO_IN);
+    gpio_init(LED_PIN);
+    gpio_init(BOTON_PRESS);
+    gpio_set_dir(LED_PIN, GPIO_OUT);
+    gpio_set_dir(BOTON_PRESS, GPIO_IN);
 
-    gpio_pull_up(BOTON_START);
+    gpio_pull_up(BOTON_PRESS);
 }
 
 bool boton_encendido::get_estado_lavadora()
