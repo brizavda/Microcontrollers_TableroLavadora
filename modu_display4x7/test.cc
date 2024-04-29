@@ -11,6 +11,18 @@ int main() {
     display.inicializar();
     while (true) {
         display.encenderDisplay4x7();
+
+        
+            display.restablecerDisplay4x7(0x00, 0x7f, 0x6e, 0x79, 1000);
+            display.encenderDisplay4x7();
+            while (true){
+                return 0; 
+            }
+            
+
+                
+
+        
     }
     return 0;
 }

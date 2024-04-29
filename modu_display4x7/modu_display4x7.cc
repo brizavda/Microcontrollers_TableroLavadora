@@ -20,6 +20,7 @@ public:
     void leerPalabra(int, int, int, int);
     void ajustarTiempo(int);
     void encenderDisplay4x7();
+    void restablecerDisplay4x7(int, int, int, int, int);
     void apagarDisplay4x7();
 };
 
@@ -55,10 +56,10 @@ void modu_display4x7::inicializar()
 
 void modu_display4x7::leerPalabra(int a, int b, int c, int d)
 {
-    palabra[0] = d;
-    palabra[1] = a;
-    palabra[2] = b;
-    palabra[3] = c;
+    palabra[0] = a;
+    palabra[1] = b;
+    palabra[2] = c;
+    palabra[3] = d;
 }
 
 void modu_display4x7::ajustarTiempo(int a)
@@ -68,8 +69,7 @@ void modu_display4x7::ajustarTiempo(int a)
 
 void modu_display4x7::encenderDisplay4x7()
 {
-
-    for (int i = 0; i <= temp * 3; i++)
+    for (int i = 0; i <= temp * 4; i++)
     {
 
         if (val == 4)
@@ -118,10 +118,18 @@ void modu_display4x7::encenderDisplay4x7()
     apagarDisplay4x7();
 }
 
+void modu_display4x7::restablecerDisplay4x7(int a, int b, int c, int d, int temp)
+{
+        leerPalabra(a, b, c, d);
+        ajustarTiempo(temp);
+        val = 0;
+}
+
 void modu_display4x7::apagarDisplay4x7()
 
 {
     leerPalabra(0x00, 0x00, 0x00, 0x00);
+    temp = 0;
 }
 
 /**
