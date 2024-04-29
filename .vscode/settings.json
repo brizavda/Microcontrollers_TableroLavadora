@@ -4,5 +4,8 @@
     },
     "cmake.preferredGenerators": [
         "NMake Makefiles"
-    ]
+    ],
+    "files.associations": {
+        "iostream": "cpp"
+    }
 }

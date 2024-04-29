@@ -1,5 +1,7 @@
 #include "boton_fases.h"
 #include "../include/pin_list.h"
+#include <iostream>
+
 
 // Inicializar la variable estática delay
 uint32_t BotonFases::delay = 2500000; // Tiempo inicial: 250 ms
@@ -35,13 +37,13 @@ void BotonFases::mostrarFase() {
     if (fase_actual != fase_anterior) {
         switch (fase_actual) {
             case 1:
-                printf("Fase actual: %d - Lavado\n", fase_actual);
+                std::cout << "Fase actual: " << fase_actual << " - Lavado\n";
                 break;
             case 2:
-                printf("Fase actual: %d - Enjuague\n", fase_actual);
+                std::cout << "Fase actual: " << fase_actual << " - Enjuague\n";
                 break;
             case 3:
-                printf("Fase actual: %d - Centrifugado\n", fase_actual);
+                std::cout << "Fase actual: " << fase_actual << " - Centrifugado\n";
                 break;
             default:
                 break;
