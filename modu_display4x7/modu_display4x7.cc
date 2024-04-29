@@ -10,33 +10,29 @@ using namespace std;
 class modu_display4x7
 {
 private:
-    int palabra[4];
-    int val = 0;
-    int sleep = 0;
+    int palabra[4]; 
+    int val;
+    int sleep;
 
 public:
-    modu_display4x7(int[4]);
-    void inializar();
+    modu_display4x7(int, int, int, int);
+    void inicializar(); 
     void encenderDisplay4x7();
-    void apagarPermanentemente();
-    // void leerPalabra();
-    /**void prenderDisplay(int);
-    void limpiarMascara(int);
-    void set_sleep();**/
 };
 
-modu_display4x7::modu_display4x7(int *palabra)
+modu_display4x7::modu_display4x7(int a, int b, int c, int d)
 {
-    for (int i = 0; i < 4; i++) {
-        this->palabra[i] = palabra[i];
-    }
-    this->val = val;
-    this->sleep = sleep;
+    palabra[0] = a;
+    palabra[1] = b;
+    palabra[2] = c;
+    palabra[3] = d;
+
+    val = 0; 
+    sleep = 0; 
 }
 
-void modu_display4x7::inializar()
+void modu_display4x7::inicializar() 
 {
-
     stdio_init_all();
 
     for (int gpio = FIRST_GPIO; gpio < FIRST_GPIO + 7; gpio++)
@@ -54,61 +50,48 @@ void modu_display4x7::inializar()
 
 void modu_display4x7::encenderDisplay4x7()
 {
-    for (int i = 0; i <= 3; i++)
+    if (val == 0)
     {
-        if (i == 0)
-        {
-            gpio_put(COMMUN_1, 0);
-            gpio_put(COMMUN_2, 1);
-            gpio_put(COMMUN_3, 1);
-            gpio_put(COMMUN_4, 1);
-        }
-        else if (i == 1)
-        {
-            gpio_put(COMMUN_1, 1);
-            gpio_put(COMMUN_2, 0);
-            gpio_put(COMMUN_3, 1);
-            gpio_put(COMMUN_4, 1);
-        }
-        else if (i == 2)
-        {
-            gpio_put(COMMUN_1, 1);
-            gpio_put(COMMUN_2, 1);
-            gpio_put(COMMUN_3, 0);
-            gpio_put(COMMUN_4, 1);
-        }
-        else if (i == 3)
-        {
-            gpio_put(COMMUN_1, 1);
-            gpio_put(COMMUN_2, 1);
-            gpio_put(COMMUN_3, 1);
-            gpio_put(COMMUN_4, 0);
-        }
-
-        if (val == 4)
-        {
-            val = 0;
-        }
-        
-        int32_t mask = palabra[val] << FIRST_GPIO;
-
-            gpio_set_mask(mask);
-            sleep_ms(sleep);
-            gpio_clr_mask(mask);
-
-            val++;
+        gpio_put(COMMUN_1, 0);
+        gpio_put(COMMUN_2, 1);
+        gpio_put(COMMUN_3, 1);
+        gpio_put(COMMUN_4, 1);
     }
-}
+    else if (val == 1)
+    {
+        gpio_put(COMMUN_1, 1);
+        gpio_put(COMMUN_2, 0);
+        gpio_put(COMMUN_3, 1);
+        gpio_put(COMMUN_4, 1);
+    }
+    else if (val == 2)
+    {
+        gpio_put(COMMUN_1, 1);
+        gpio_put(COMMUN_2, 1);
+        gpio_put(COMMUN_3, 0);
+        gpio_put(COMMUN_4, 1);
+    }
+    else if (val == 3)
+    {
+        gpio_put(COMMUN_1, 1);
+        gpio_put(COMMUN_2, 1);
+        gpio_put(COMMUN_3, 1);
+        gpio_put(COMMUN_4, 0);
+    }
 
-/**
-void modu_display4x7::prenderDisplay(int val)
-{
+    if (val == 3)
+    {
+        val = 0;
+    }
+    else
+    {
+        val++; 
+    }
+
     int32_t mask = palabra[val] << FIRST_GPIO;
+
     gpio_set_mask(mask);
+    sleep_ms(1);
+    gpio_clr_mask(mask);
 }
 
-void modu_display4x7::limpiarMascara(int val){
-int32_t mask = palabra[val] << FIRST_GPIO;
-    gpio_clr_mask(mask);
-
-}**/
