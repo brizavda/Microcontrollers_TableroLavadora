@@ -10,6 +10,4 @@ set(PICO_BOARD pico_w)
 
 pico_sdk_init()
 
-add_subdirectory(DisplayFases)
-add_subdirectory(AnimCiclosLavado)
 add_subdirectory(boton_Fases)

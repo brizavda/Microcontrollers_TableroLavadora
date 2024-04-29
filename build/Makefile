@@ -171,45 +171,6 @@ cyw43_driver_picow_cyw43_bus_pio_spi_pio_h\fast:
 .PHONY : cyw43_driver_picow_cyw43_bus_pio_spi_pio_h\fast
 
 #=============================================================================
-# Target rules for targets named DisplayFases
-
-# Build rule for target.
-DisplayFases: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) DisplayFases
-.PHONY : DisplayFases
-
-# fast build rule for target.
-DisplayFases\fast:
-	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\DisplayFases.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\DisplayFases.dir\build
-.PHONY : DisplayFases\fast
-
-#=============================================================================
-# Target rules for targets named ELF2UF2Build
-
-# Build rule for target.
-ELF2UF2Build: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) ELF2UF2Build
-.PHONY : ELF2UF2Build
-
-# fast build rule for target.
-ELF2UF2Build\fast:
-	$(MAKE) $(MAKESILENT) -f DisplayFases\CMakeFiles\ELF2UF2Build.dir\build.make /nologo -$(MAKEFLAGS) DisplayFases\CMakeFiles\ELF2UF2Build.dir\build
-.PHONY : ELF2UF2Build\fast
-
-#=============================================================================
-# Target rules for targets named AnimCiclosLavado
-
-# Build rule for target.
-AnimCiclosLavado: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) AnimCiclosLavado
-.PHONY : AnimCiclosLavado
-
-# fast build rule for target.
-AnimCiclosLavado\fast:
-	$(MAKE) $(MAKESILENT) -f AnimCiclosLavado\CMakeFiles\AnimCiclosLavado.dir\build.make /nologo -$(MAKEFLAGS) AnimCiclosLavado\CMakeFiles\AnimCiclosLavado.dir\build
-.PHONY : AnimCiclosLavado\fast
-
-#=============================================================================
 # Target rules for targets named boton_Fases
 
 # Build rule for target.
@@ -221,6 +182,19 @@ boton_Fases: cmake_check_build_system
 boton_Fases\fast:
 	$(MAKE) $(MAKESILENT) -f boton_Fases\CMakeFiles\boton_Fases.dir\build.make /nologo -$(MAKEFLAGS) boton_Fases\CMakeFiles\boton_Fases.dir\build
 .PHONY : boton_Fases\fast
+
+#=============================================================================
+# Target rules for targets named ELF2UF2Build
+
+# Build rule for target.
+ELF2UF2Build: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) ELF2UF2Build
+.PHONY : ELF2UF2Build
+
+# fast build rule for target.
+ELF2UF2Build\fast:
+	$(MAKE) $(MAKESILENT) -f boton_Fases\CMakeFiles\ELF2UF2Build.dir\build.make /nologo -$(MAKEFLAGS) boton_Fases\CMakeFiles\ELF2UF2Build.dir\build
+.PHONY : ELF2UF2Build\fast
 
 # Help Target
 help:
@@ -235,8 +209,6 @@ help:
 	@echo ... bs2_default_bin
 	@echo ... bs2_default_padded_checksummed_asm
 	@echo ... cyw43_driver_picow_cyw43_bus_pio_spi_pio_h
-	@echo ... AnimCiclosLavado
-	@echo ... DisplayFases
 	@echo ... boton_Fases
 	@echo ... bs2_default
 .PHONY : help

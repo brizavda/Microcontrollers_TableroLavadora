@@ -9,9 +9,7 @@
 					"childIndexes" : 
 					[
 						1,
-						81,
-						82,
-						83
+						81
 					],
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -582,9 +580,9 @@
 					"source" : "C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/boot_stage2",
 					"targetIndexes" : 
 					[
-						5,
-						6,
-						7
+						3,
+						4,
+						5
 					]
 				},
 				{
@@ -845,8 +843,8 @@
 					"source" : "C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common/pico_cyw43_driver",
 					"targetIndexes" : 
 					[
-						3,
-						8
+						1,
+						6
 					]
 				},
 				{
@@ -1013,37 +1011,6 @@
 					"source" : "C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/docs"
 				},
 				{
-					"build" : "DisplayFases",
-					"jsonFile" : "directory-DisplayFases-Debug-2aae97e4123ea48e840c.json",
-					"minimumCMakeVersion" : 
-					{
-						"string" : "3.13"
-					},
-					"parentIndex" : 0,
-					"projectIndex" : 0,
-					"source" : "DisplayFases",
-					"targetIndexes" : 
-					[
-						1,
-						2
-					]
-				},
-				{
-					"build" : "AnimCiclosLavado",
-					"jsonFile" : "directory-AnimCiclosLavado-Debug-abc002d22e19eed1edd3.json",
-					"minimumCMakeVersion" : 
-					{
-						"string" : "3.13"
-					},
-					"parentIndex" : 0,
-					"projectIndex" : 0,
-					"source" : "AnimCiclosLavado",
-					"targetIndexes" : 
-					[
-						0
-					]
-				},
-				{
 					"build" : "boton_Fases",
 					"jsonFile" : "directory-boton_Fases-Debug-a9cd3fe66bdc5faa9a2b.json",
 					"minimumCMakeVersion" : 
@@ -1055,7 +1022,8 @@
 					"source" : "boton_Fases",
 					"targetIndexes" : 
 					[
-						4
+						0,
+						2
 					]
 				}
 			],
@@ -1070,17 +1038,13 @@
 					"directoryIndexes" : 
 					[
 						0,
-						81,
-						82,
-						83
+						81
 					],
 					"name" : "PanelLavadora",
 					"targetIndexes" : 
 					[
 						0,
-						1,
-						2,
-						4
+						2
 					]
 				},
 				{
@@ -1171,34 +1135,20 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
+						1,
 						3,
+						4,
 						5,
-						6,
-						7,
-						8
+						6
 					]
 				}
 			],
 			"targets" : 
 			[
 				{
-					"directoryIndex" : 82,
-					"id" : "AnimCiclosLavado::@f2685759419802c5c391",
-					"jsonFile" : "target-AnimCiclosLavado-Debug-6e5f79d034d7253b6698.json",
-					"name" : "AnimCiclosLavado",
-					"projectIndex" : 0
-				},
-				{
 					"directoryIndex" : 81,
-					"id" : "DisplayFases::@2f172160c0af39e426ab",
-					"jsonFile" : "target-DisplayFases-Debug-dfb5410c64bd418ee4e4.json",
-					"name" : "DisplayFases",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 81,
-					"id" : "ELF2UF2Build::@2f172160c0af39e426ab",
-					"jsonFile" : "target-ELF2UF2Build-Debug-1aa5650afc14bde47b19.json",
+					"id" : "ELF2UF2Build::@f9ff0c1a6c8ad435d0f0",
+					"jsonFile" : "target-ELF2UF2Build-Debug-1c658a791a7a977d4e9c.json",
 					"name" : "ELF2UF2Build",
 					"projectIndex" : 0
 				},
@@ -1210,9 +1160,9 @@
 					"projectIndex" : 1
 				},
 				{
-					"directoryIndex" : 83,
+					"directoryIndex" : 81,
 					"id" : "boton_Fases::@f9ff0c1a6c8ad435d0f0",
-					"jsonFile" : "target-boton_Fases-Debug-941b0bae0e90f94f8f2b.json",
+					"jsonFile" : "target-boton_Fases-Debug-dd5c557ce2b54ce5305d.json",
 					"name" : "boton_Fases",
 					"projectIndex" : 0
 				},

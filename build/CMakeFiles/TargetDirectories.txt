@@ -165,13 +165,7 @@ C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/Microcontroll
 C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/Microcontrollers_TableroLavadora/build/pico-sdk/src/rp2040/hardware_structs/CMakeFiles/rebuild_cache.dir
 C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/Microcontrollers_TableroLavadora/build/pico-sdk/docs/CMakeFiles/edit_cache.dir
 C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/Microcontrollers_TableroLavadora/build/pico-sdk/docs/CMakeFiles/rebuild_cache.dir
-C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/Microcontrollers_TableroLavadora/build/DisplayFases/CMakeFiles/DisplayFases.dir
-C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/Microcontrollers_TableroLavadora/build/DisplayFases/CMakeFiles/ELF2UF2Build.dir
-C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/Microcontrollers_TableroLavadora/build/DisplayFases/CMakeFiles/edit_cache.dir
-C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/Microcontrollers_TableroLavadora/build/DisplayFases/CMakeFiles/rebuild_cache.dir
-C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/Microcontrollers_TableroLavadora/build/AnimCiclosLavado/CMakeFiles/AnimCiclosLavado.dir
-C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/Microcontrollers_TableroLavadora/build/AnimCiclosLavado/CMakeFiles/edit_cache.dir
-C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/Microcontrollers_TableroLavadora/build/AnimCiclosLavado/CMakeFiles/rebuild_cache.dir
 C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/Microcontrollers_TableroLavadora/build/boton_Fases/CMakeFiles/boton_Fases.dir
+C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/Microcontrollers_TableroLavadora/build/boton_Fases/CMakeFiles/ELF2UF2Build.dir
 C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/Microcontrollers_TableroLavadora/build/boton_Fases/CMakeFiles/edit_cache.dir
 C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/Microcontrollers_TableroLavadora/build/boton_Fases/CMakeFiles/rebuild_cache.dir

@@ -646,7 +646,7 @@
 			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake"
 		},
 		{
-			"path" : "DisplayFases/CMakeLists.txt"
+			"path" : "boton_Fases/CMakeLists.txt"
 		},
 		{
 			"isExternal" : true,
@@ -664,7 +664,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "build/DisplayFases/elf2uf2/tmp/ELF2UF2Build-mkdirs.cmake"
+			"path" : "build/boton_Fases/elf2uf2/tmp/ELF2UF2Build-mkdirs.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -685,30 +685,6 @@
 			"isCMake" : true,
 			"isExternal" : true,
 			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/ExternalProject/cfgcmd.txt.in"
-		},
-		{
-			"path" : "AnimCiclosLavado/CMakeLists.txt"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/tools/FindELF2UF2.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/ExternalProject.cmake"
-		},
-		{
-			"path" : "boton_Fases/CMakeLists.txt"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/tools/FindELF2UF2.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Program Files/CMake/share/cmake-3.29/Modules/ExternalProject.cmake"
 		}
 	],
 	"kind" : "cmakeFiles",

@@ -16,7 +16,7 @@
 			"C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/tools/FindELF2UF2.cmake",
 			"C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/tools/CMakeLists.txt",
 			"C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/src/rp2_common.cmake",
-			"DisplayFases/CMakeLists.txt"
+			"boton_Fases/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -26,7 +26,7 @@
 			{
 				"command" : 4,
 				"file" : 4,
-				"line" : 13,
+				"line" : 14,
 				"parent" : 0
 			},
 			{
@@ -63,12 +63,12 @@
 	{
 		"name" : "ExternalProjectTargets/ELF2UF2Build"
 	},
-	"id" : "ELF2UF2Build::@2f172160c0af39e426ab",
+	"id" : "ELF2UF2Build::@f9ff0c1a6c8ad435d0f0",
 	"name" : "ELF2UF2Build",
 	"paths" : 
 	{
-		"build" : "DisplayFases",
-		"source" : "DisplayFases"
+		"build" : "boton_Fases",
+		"source" : "boton_Fases"
 	},
 	"sourceGroups" : 
 	[
@@ -100,61 +100,61 @@
 		{
 			"backtrace" : 6,
 			"isGenerated" : true,
-			"path" : "build/DisplayFases/CMakeFiles/ELF2UF2Build",
+			"path" : "build/boton_Fases/CMakeFiles/ELF2UF2Build",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/DisplayFases/CMakeFiles/ELF2UF2Build.rule",
+			"path" : "build/boton_Fases/CMakeFiles/ELF2UF2Build.rule",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/DisplayFases/CMakeFiles/ELF2UF2Build-complete.rule",
+			"path" : "build/boton_Fases/CMakeFiles/ELF2UF2Build-complete.rule",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/DisplayFases/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build.rule",
+			"path" : "build/boton_Fases/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build.rule",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/DisplayFases/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure.rule",
+			"path" : "build/boton_Fases/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure.rule",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/DisplayFases/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download.rule",
+			"path" : "build/boton_Fases/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download.rule",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/DisplayFases/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install.rule",
+			"path" : "build/boton_Fases/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install.rule",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/DisplayFases/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir.rule",
+			"path" : "build/boton_Fases/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir.rule",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/DisplayFases/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch.rule",
+			"path" : "build/boton_Fases/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch.rule",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/DisplayFases/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update.rule",
+			"path" : "build/boton_Fases/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update.rule",
 			"sourceGroupIndex" : 1
 		}
 	],

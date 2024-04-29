@@ -133,6 +133,24 @@ boton_Fases\fast:
 	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\boton_Fases
 .PHONY : boton_Fases\fast
 
+# Convenience name for target.
+boton_Fases\CMakeFiles\ELF2UF2Build.dir\rule:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) boton_Fases\CMakeFiles\ELF2UF2Build.dir\rule
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\boton_Fases
+.PHONY : boton_Fases\CMakeFiles\ELF2UF2Build.dir\rule
+
+# Convenience name for target.
+ELF2UF2Build: boton_Fases\CMakeFiles\ELF2UF2Build.dir\rule
+.PHONY : ELF2UF2Build
+
+# fast build rule for target.
+ELF2UF2Build\fast:
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build
+	$(MAKE) $(MAKESILENT) -f boton_Fases\CMakeFiles\ELF2UF2Build.dir\build.make /nologo -$(MAKEFLAGS) boton_Fases\CMakeFiles\ELF2UF2Build.dir\build
+	cd C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\build\boton_Fases
+.PHONY : ELF2UF2Build\fast
+
 1c584ed01d4de997e63537b95d509e7a\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.obj: 1c584ed01d4de997e63537b95d509e7a\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.obj
 .PHONY : 1c584ed01d4de997e63537b95d509e7a\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.obj
 
@@ -2021,6 +2039,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... ELF2UF2Build
 	@echo ... boton_Fases
 	@echo ... 1c584ed01d4de997e63537b95d509e7a/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.obj
 	@echo ... 1c584ed01d4de997e63537b95d509e7a/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i
