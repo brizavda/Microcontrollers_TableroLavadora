@@ -30,7 +30,7 @@ boton_encendido::boton_encendido()
 
 int boton_encendido::leer_boton()
 {
-    return gpio_get(BOTON_START);
+    return gpio_get(BOTON_ON_OFF);
 }
 
 void boton_encendido::encender_o_apagar_lavadora()
@@ -69,11 +69,11 @@ void boton_encendido::inicializar()
     stdio_init_all();
 
     gpio_init(LED_PIN_1);
-    gpio_init(BOTON_START);
+    gpio_init(BOTON_ON_OFF);
     gpio_set_dir(LED_PIN_1, GPIO_OUT);
-    gpio_set_dir(BOTON_START, GPIO_IN);
+    gpio_set_dir(BOTON_ON_OFF, GPIO_IN);
 
-    gpio_pull_up(BOTON_START);
+    gpio_pull_up(BOTON_ON_OFF);
 }
 
 bool boton_encendido::get_estado_lavadora()

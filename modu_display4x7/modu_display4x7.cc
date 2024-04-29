@@ -26,10 +26,10 @@ public:
 
 modu_display4x7::modu_display4x7(int a, int b, int c, int d, int temp)
 {
-    palabra[0] = d;
-    palabra[1] = a;
-    palabra[2] = b;
-    palabra[3] = c;
+    palabra[0] = a;
+    palabra[1] = b;
+    palabra[2] = c;
+    palabra[3] = d;
 
     this->val = val;
     this->temp = temp;

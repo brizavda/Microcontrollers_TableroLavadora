@@ -44,6 +44,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("C:/Users/Gamaliel Abad/Documents/Microcontroladores/Microcontrollers_TableroLavadora/build/boton_nivel_agua/cmake_install.cmake")
   include("C:/Users/Gamaliel Abad/Documents/Microcontroladores/Microcontrollers_TableroLavadora/build/sistema_de_barrido/cmake_install.cmake")
   include("C:/Users/Gamaliel Abad/Documents/Microcontroladores/Microcontrollers_TableroLavadora/build/modu_boton_encendido/cmake_install.cmake")
+  include("C:/Users/Gamaliel Abad/Documents/Microcontroladores/Microcontrollers_TableroLavadora/build/modu_display4x7/cmake_install.cmake")
 
 endif()
 

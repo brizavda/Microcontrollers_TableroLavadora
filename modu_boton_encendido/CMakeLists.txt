@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.13)
 
 add_executable(modu_boton_encendido
-    modu_boton_encendido.cc
+    # modu_boton_encendido.h
     test.cc
 )
 

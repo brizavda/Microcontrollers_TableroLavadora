@@ -1344,9 +1344,9 @@ Discarded input sections
  .debug_frame   0x00000000       0x20 boton_nivel_agua/CMakeFiles/boton_nivel_agua.dir/226ce844c917154b4591a68ffd645516/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
  .ARM.attributes
                 0x00000000       0x2c boton_nivel_agua/CMakeFiles/boton_nivel_agua.dir/226ce844c917154b4591a68ffd645516/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
- .text          0x00000000        0x0 C:\Users\GAMALI~1\AppData\Local\Temp\ccItLAUL.o
- .data          0x00000000        0x0 C:\Users\GAMALI~1\AppData\Local\Temp\ccItLAUL.o
- .bss           0x00000000        0x0 C:\Users\GAMALI~1\AppData\Local\Temp\ccItLAUL.o
+ .text          0x00000000        0x0 C:\Users\GAMALI~1\AppData\Local\Temp\cceORSMz.o
+ .data          0x00000000        0x0 C:\Users\GAMALI~1\AppData\Local\Temp\cceORSMz.o
+ .bss           0x00000000        0x0 C:\Users\GAMALI~1\AppData\Local\Temp\cceORSMz.o
  .data          0x00000000        0x0 c:/progra~1/raspbe~1/picosd~1.1/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 c:/progra~1/raspbe~1/picosd~1.1/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .text          0x00000000        0x0 c:/progra~1/raspbe~1/picosd~1.1/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-calloc.o)
@@ -1562,7 +1562,7 @@ LOAD c:/progra~1/raspbe~1/picosd~1.1/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.
 .boot2          0x10000000      0x100
                 0x10000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 C:\Users\GAMALI~1\AppData\Local\Temp\ccItLAUL.o
+ .boot2         0x10000000      0x100 C:\Users\GAMALI~1\AppData\Local\Temp\cceORSMz.o
                 0x10000100                __boot2_end__ = .
                 0x00000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -3008,7 +3008,7 @@ LOAD boton_nivel_agua/CMakeFiles/boton_nivel_agua.dir/ae783cfadb10a0055c655bcf0b
 LOAD boton_nivel_agua/CMakeFiles/boton_nivel_agua.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/tusb.c.obj
 LOAD boton_nivel_agua/CMakeFiles/boton_nivel_agua.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 LOAD boton_nivel_agua/CMakeFiles/boton_nivel_agua.dir/226ce844c917154b4591a68ffd645516/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
-LOAD C:\Users\GAMALI~1\AppData\Local\Temp\ccItLAUL.o
+LOAD C:\Users\GAMALI~1\AppData\Local\Temp\cceORSMz.o
 LOAD c:/progra~1/raspbe~1/picosd~1.1/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a
 LOAD c:/progra~1/raspbe~1/picosd~1.1/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libm.a
 START GROUP
@@ -3121,7 +3121,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x00000754       0x2c boton_nivel_agua/CMakeFiles/boton_nivel_agua.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
  .ARM.attributes
-                0x00000780       0x22 C:\Users\GAMALI~1\AppData\Local\Temp\ccItLAUL.o
+                0x00000780       0x22 C:\Users\GAMALI~1\AppData\Local\Temp\cceORSMz.o
  .ARM.attributes
                 0x000007a2       0x1e c:/progra~1/raspbe~1/picosd~1.1/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .ARM.attributes

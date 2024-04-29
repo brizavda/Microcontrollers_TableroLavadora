@@ -178,3 +178,6 @@ C:/Users/Gamaliel Abad/Documents/Microcontroladores/Microcontrollers_TableroLava
 C:/Users/Gamaliel Abad/Documents/Microcontroladores/Microcontrollers_TableroLavadora/build/modu_boton_encendido/CMakeFiles/modu_boton_encendido.dir
 C:/Users/Gamaliel Abad/Documents/Microcontroladores/Microcontrollers_TableroLavadora/build/modu_boton_encendido/CMakeFiles/edit_cache.dir
 C:/Users/Gamaliel Abad/Documents/Microcontroladores/Microcontrollers_TableroLavadora/build/modu_boton_encendido/CMakeFiles/rebuild_cache.dir
+C:/Users/Gamaliel Abad/Documents/Microcontroladores/Microcontrollers_TableroLavadora/build/modu_display4x7/CMakeFiles/modu_display4x7.dir
+C:/Users/Gamaliel Abad/Documents/Microcontroladores/Microcontrollers_TableroLavadora/build/modu_display4x7/CMakeFiles/edit_cache.dir
+C:/Users/Gamaliel Abad/Documents/Microcontroladores/Microcontrollers_TableroLavadora/build/modu_display4x7/CMakeFiles/rebuild_cache.dir

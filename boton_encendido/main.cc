@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include "pico/stdlib.h"
 #include "hardware/gpio.h"
-#include "boton_encendido.cc"
+#include "boton_encendido.h"
 using namespace std;
 
 int main(){

@@ -1355,9 +1355,9 @@ Discarded input sections
  .debug_frame   0x00000000       0x20 sistema_de_barrido/CMakeFiles/sistema_de_barrido.dir/e881f417a38008fd057b1e5cbc1952cb/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
  .ARM.attributes
                 0x00000000       0x2c sistema_de_barrido/CMakeFiles/sistema_de_barrido.dir/e881f417a38008fd057b1e5cbc1952cb/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
- .text          0x00000000        0x0 C:\Users\GAMALI~1\AppData\Local\Temp\ccS9MqFw.o
- .data          0x00000000        0x0 C:\Users\GAMALI~1\AppData\Local\Temp\ccS9MqFw.o
- .bss           0x00000000        0x0 C:\Users\GAMALI~1\AppData\Local\Temp\ccS9MqFw.o
+ .text          0x00000000        0x0 C:\Users\GAMALI~1\AppData\Local\Temp\ccG4YpzI.o
+ .data          0x00000000        0x0 C:\Users\GAMALI~1\AppData\Local\Temp\ccG4YpzI.o
+ .bss           0x00000000        0x0 C:\Users\GAMALI~1\AppData\Local\Temp\ccG4YpzI.o
  .data          0x00000000        0x0 c:/progra~1/raspbe~1/picosd~1.1/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 c:/progra~1/raspbe~1/picosd~1.1/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .text          0x00000000        0x0 c:/progra~1/raspbe~1/picosd~1.1/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-calloc.o)
@@ -1573,7 +1573,7 @@ LOAD c:/progra~1/raspbe~1/picosd~1.1/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.
 .boot2          0x10000000      0x100
                 0x10000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 C:\Users\GAMALI~1\AppData\Local\Temp\ccS9MqFw.o
+ .boot2         0x10000000      0x100 C:\Users\GAMALI~1\AppData\Local\Temp\ccG4YpzI.o
                 0x10000100                __boot2_end__ = .
                 0x00000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -3013,7 +3013,7 @@ LOAD sistema_de_barrido/CMakeFiles/sistema_de_barrido.dir/ae783cfadb10a0055c655b
 LOAD sistema_de_barrido/CMakeFiles/sistema_de_barrido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/tusb.c.obj
 LOAD sistema_de_barrido/CMakeFiles/sistema_de_barrido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 LOAD sistema_de_barrido/CMakeFiles/sistema_de_barrido.dir/e881f417a38008fd057b1e5cbc1952cb/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
-LOAD C:\Users\GAMALI~1\AppData\Local\Temp\ccS9MqFw.o
+LOAD C:\Users\GAMALI~1\AppData\Local\Temp\ccG4YpzI.o
 LOAD c:/progra~1/raspbe~1/picosd~1.1/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a
 LOAD c:/progra~1/raspbe~1/picosd~1.1/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libm.a
 START GROUP
@@ -3126,7 +3126,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x00000754       0x2c sistema_de_barrido/CMakeFiles/sistema_de_barrido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
  .ARM.attributes
-                0x00000780       0x22 C:\Users\GAMALI~1\AppData\Local\Temp\ccS9MqFw.o
+                0x00000780       0x22 C:\Users\GAMALI~1\AppData\Local\Temp\ccG4YpzI.o
  .ARM.attributes
                 0x000007a2       0x1e c:/progra~1/raspbe~1/picosd~1.1/gcc-ar~1/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .ARM.attributes
