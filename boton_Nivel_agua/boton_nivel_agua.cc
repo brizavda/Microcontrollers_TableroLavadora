@@ -1,6 +1,7 @@
 #include "boton_nivel_agua.h"
+#include <cstdio>
 
-BotonNivelAgua::BotonNivelAgua(uint gpio) : BOTON_GPIO(gpio), nivelAgua(1) {}
+BotonNivelAgua::BotonNivelAgua(uint gpio) : BOTON_GPIO(gpio), nivelAgua(MINIMO), ultima_pulsacion(false) {}
 
 void BotonNivelAgua::inicializar() {
     gpio_init(BOTON_GPIO);
@@ -13,12 +14,43 @@ bool BotonNivelAgua::is_pressed() {
 }
 
 int BotonNivelAgua::get_nivel() {
-    if (is_pressed()) {
+    if (is_pressed() && !ultima_pulsacion) {
         // Cambiar entre los niveles de agua al presionar el botón
-        nivelAgua = (nivelAgua % 3) + 1;
-        // Retornar el nivel actual
-        return nivelAgua;
+        switch (nivelAgua) {
+            case MINIMO:
+                nivelAgua = MEDIO;
+                break;
+            case MEDIO:
+                nivelAgua = MAXIMO;
+                break;
+            case MAXIMO:
+                nivelAgua = MINIMO;
+                break;
+        }
+        
+        // Mostrar el nivel de agua seleccionado
+        switch (nivelAgua) {
+            case MINIMO:
+                printf("Nivel de agua seleccionado: Mínimo\n");
+                break;
+            case MEDIO:
+                printf("Nivel de agua seleccionado: Medio\n");
+                break;
+            case MAXIMO:
+                printf("Nivel de agua seleccionado: Máximo\n");
+                break;
+        }
+
+        // Registrar la última pulsación y esperar un pequeño retardo
+        ultima_pulsacion = true;
+        sleep_ms(200); // Retardo de 200 milisegundos (ajustar según sea necesario)
     }
-    // Si no se presiona, retorna el nivel actual sin cambiarlo
+
+    // Si el botón se suelta, actualizar la variable de última pulsación
+    if (!is_pressed()) {
+        ultima_pulsacion = false;
+    }
+
+    // Retornar el nivel actual
     return nivelAgua;
 }
