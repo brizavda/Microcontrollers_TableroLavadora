@@ -6,24 +6,34 @@
 int main() {
     stdio_init_all();
 
+    // Crear instancias de los botones
     BotonNivelAgua botonNivelAgua(BOTON_LVL_AGUA);
-    botonNivelAgua.inicializar(); // Inicializar el botón de nivel de agua
-
     BotonTemporizador botonTemporizador(BOTON_TEMP);
-    botonTemporizador.inicializar(); // Inicializar el botón de temporizador
 
-    int nivelAgua = 1; // Nivel de agua por defecto
+    // Inicializar los botones
+    botonNivelAgua.inicializar();
+    botonTemporizador.inicializar();
+
     int minutos = 0;
     int segundos = 0;
 
     while (true) {
-        nivelAgua = botonNivelAgua.get_nivel(); // Obtener el nivel de agua actual
+        // Actualizar el nivel de agua seleccionado
+        int nivelAgua = botonNivelAgua.get_nivel();
+
+        // Mostrar el nivel de agua seleccionado
+        // Esto es opcional, solo para propósitos de demostración
         printf("Nivel de agua seleccionado: %d\n", nivelAgua);
 
-        botonTemporizador.aumentar_tiempo(minutos, segundos); // Aumentar tiempo si se presiona el botón de temporizador
+        // Aumentar el tiempo del temporizador si se presiona el botón
+        botonTemporizador.aumentar_tiempo(minutos, segundos);
 
-        // Otras tareas del programa
-        sleep_ms(50); // Pequeña pausa entre iteraciones del bucle
+        // Mostrar el tiempo del temporizador
+        // Esto es opcional, solo para propósitos de demostración
+        printf("Tiempo del temporizador: %02d:%02d\n", minutos, segundos);
+
+        sleep_ms(2000); // Pequeña pausa entre iteraciones
     }
+
     return 0;
 }
