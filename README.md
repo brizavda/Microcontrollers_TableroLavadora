@@ -203,6 +203,8 @@ El esquema de conexión de los pines GPIO se define en el código de la siguient
 
 Asegúrate de conectar correctamente los pines GPIO de acuerdo con este esquema.
 
+[![Whats-App-Image-2024-04-23-at-7-36-23-PM.jpg](https://i.postimg.cc/1zRcBXkQ/Whats-App-Image-2024-04-23-at-7-36-23-PM.jpg)](https://postimg.cc/DSDXyvfj)
+
 ## Descripción del Código
 El código se divide en varias secciones principales:
 
@@ -210,6 +212,10 @@ El código se divide en varias secciones principales:
 2. Definición de constantes y variables globales
 3. Configuración inicial de los pines GPIO
 4. Bucle principal para el barrido del display
+[![](https://mermaid.ink/img/pako:eNp1kktuwjAQhq9iedVKcIFUqlRICuEZCdRN3YWbDGApsSM_FhRxpK56BC7WyVCpJCJezv9_ySd7Tjw3BfCI762sD2wbPwktNMPjwud1lmqVK1mqL5mry89f2pyXd8ErqfTDo-AfbDh8ZiOcKK081WGSpWtH4T8zot4YewXssGrfZGksuAV4K90qVGBNlxk3SILIBkrIc2W0tCyzCrssvnzvlTetfkL_eEVgaRx-tltmoFmsXF3KY4t7JW6CXOJqQK6VTiiddjQ2sA-6MHc9pkSkNx6ddp9ISuCsR2RG6bwjsgWb99zHnIDFjUe73KexIG7Zo7GkdNXRGAdp_f3rWBGwvtFol_s01sRlPRoZpcl1ALpo1pcPOD43rmaBi31qIsH9ASoQPGK0eTKUXnChz1iVwZvNUec88jbAgIe6kB5iJXH9Kx7tZOng_AvY0PjC?type=png)](https://mermaid.live/edit#pako:eNp1kktuwjAQhq9iedVKcIFUqlRICuEZCdRN3YWbDGApsSM_FhRxpK56BC7WyVCpJCJezv9_ySd7Tjw3BfCI762sD2wbPwktNMPjwud1lmqVK1mqL5mry89f2pyXd8ErqfTDo-AfbDh8ZiOcKK081WGSpWtH4T8zot4YewXssGrfZGksuAV4K90qVGBNlxk3SILIBkrIc2W0tCyzCrssvnzvlTetfkL_eEVgaRx-tltmoFmsXF3KY4t7JW6CXOJqQK6VTiiddjQ2sA-6MHc9pkSkNx6ddp9ISuCsR2RG6bwjsgWb99zHnIDFjUe73KexIG7Zo7GkdNXRGAdp_f3rWBGwvtFol_s01sRlPRoZpcl1ALpo1pcPOD43rmaBi31qIsH9ASoQPGK0eTKUXnChz1iVwZvNUec88jbAgIe6kB5iJXH9Kx7tZOng_AvY0PjC)
+
+
+
 
 ### Definición de Constantes y Variables
 - `FIRST_GPIO`: Define el primer pin GPIO a utilizar.
@@ -241,6 +247,8 @@ La clase `modu_display4x7` proporciona las siguientes funcionalidades:
 
 ## 3. Implementación
 La clase `modu_display4x7` se implementa utilizando el lenguaje de programación C++. A continuación, se detallan los aspectos clave de su implementación:
+
+[![Whats-App-Image-2024-04-23-at-7-36-23-PM.jpg](https://i.postimg.cc/1zRcBXkQ/Whats-App-Image-2024-04-23-at-7-36-23-PM.jpg)](https://postimg.cc/DSDXyvfj)
 
 ### Atributos Privados:
 - `palabra`: Arreglo que almacena los valores hexadecimales para cada dígito del display.
