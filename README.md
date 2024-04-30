@@ -31,7 +31,29 @@ A continuación se muestra el esquema de conexión del botón al microcontrolado
 5. Para pausar el ciclo, presiona nuevamente el botón. Para reanudar el ciclo, presiona el botón otra vez.
 
 
+# Botones nivel de agua y temporizador modularizados
 
+## Botón temporizador
 
+El botón temporizador permite controlar el tiempo de un ciclo de lavado, aumentando el tiempo en intervalos de 30 segundos con cada pulsación.
 
+### **Clase: BotónTemporizador**
+
+#### Metodos:
+- BotonTemporizador(uint gpio): Constructor de la clase, inicializa el botón temporizador con el GPIO especificado.
+- void inicializar(): Inicializa el botón temporizador.
+- bool is_pressed(): Verifica si el botón está presionado.
+- void aumentar_tiempo(int& minutos, int& segundos): Aumenta el tiempo del temporizador en 30 segundos.
+
+## Botón Nivel de Agua
+
+El botón nivel de agua permite seleccionar entre tres niveles de agua: mínimo, medio y máximo.
+
+### **Clase: BotónNivelAgua**
+
+#### Metodos:
+- BotonNivelAgua(uint gpio): Constructor de la clase, inicializa el botón nivel de agua con el GPIO especificado.
+- void inicializar(): Inicializa el botón nivel de agua.
+- bool is_pressed(): Verifica si el botón está presionado.
+- int get_nivel(): Obtiene el nivel actual de agua (MINIMO, MEDIO, MAXIMO).
 
