@@ -225,3 +225,80 @@ En el bucle principal del programa, se realiza el barrido del display. Se altern
 
 ## Conclusiones
 El sistema de barrido de display 4x7 proporciona una manera eficiente de controlar un display de siete segmentos utilizando la Raspberry Pi Pico WH. Con este código como base, se pueden realizar diversas modificaciones y mejoras para adaptarse a diferentes aplicaciones y requerimientos específicos.
+
+# Documentación sobre la Clase modu_display4x7 en C++
+
+## 1. Introducción
+La clase `modu_display4x7` está diseñada para controlar el funcionamiento de un display de siete segmentos 4x7 utilizando la Raspberry Pi Pico WH. Este informe proporcionará una visión general de su funcionalidad, métodos, implementación y la importancia de la modularización en su diseño.
+
+## 2. Funcionalidad
+La clase `modu_display4x7` proporciona las siguientes funcionalidades:
+- Inicialización de los pines GPIO requeridos para el control del display.
+- Establecimiento de los valores a mostrar en el display.
+- Control del tiempo de visualización de cada dígito.
+- Encendido y apagado del display.
+- Reactivación del display con los valores iniciales.
+
+## 3. Implementación
+La clase `modu_display4x7` se implementa utilizando el lenguaje de programación C++. A continuación, se detallan los aspectos clave de su implementación:
+
+### Atributos Privados:
+- `palabra`: Arreglo que almacena los valores hexadecimales para cada dígito del display.
+- `val`: Almacena el índice del dígito actual a mostrar.
+- `temp`: Almacena el tiempo de visualización de cada dígito en milisegundos.
+- `y`, `x`, `w`, `z`: Almacenan los valores iniciales de los dígitos del display para su reactivación.
+
+### Métodos Públicos:
+- `modu_display4x7(int, int, int, int, int)`: Constructor de la clase.
+- `inicializar()`: Inicializa los pines GPIO requeridos.
+- `leerPalabra(int, int, int, int)`: Establece los valores de los dígitos del display.
+- `ajustarTiempo(int)`: Ajusta el tiempo de visualización de cada dígito.
+- `encenderDisplay4x7()`: Enciende el display y muestra los dígitos.
+- `restablecerDisplay4x7(int, int, int, int, int)`: Restablece el display con nuevos valores.
+- `apagarDisplay4x7()`: Apaga el display.
+- `reactivarDisplay()`: Reactiva el display con los valores iniciales.
+
+### Método `modu_display4x7()`
+- **Descripción**: Constructor de la clase `modu_display4x7`.
+- **Función**: Inicializa los atributos de la clase con los valores proporcionados.
+
+### Método `inicializar()`
+- **Descripción**: Inicializa los pines GPIO requeridos para el control del display.
+- **Función**: Utiliza las funciones de inicialización y configuración de GPIO de la Raspberry Pi Pico SDK.
+
+### Método `leerPalabra()`
+- **Descripción**: Establece los valores de los dígitos del display.
+- **Función**: Actualiza el arreglo `palabra` con los valores proporcionados.
+
+### Método `ajustarTiempo()`
+- **Descripción**: Ajusta el tiempo de visualización de cada dígito.
+- **Función**: Actualiza el atributo `temp` con el valor proporcionado.
+
+### Método `encenderDisplay4x7()`
+- **Descripción**: Enciende el display y muestra los dígitos.
+- **Función**: Realiza el barrido del display, mostrando cada dígito durante el tiempo especificado.
+
+### Método `restablecerDisplay4x7()`
+- **Descripción**: Restablece el display con nuevos valores.
+- **Función**: Actualiza los valores de los dígitos y el tiempo de visualización, y luego enciende el display.
+
+### Método `apagarDisplay4x7()`
+- **Descripción**: Apaga el display.
+- **Función**: Configura los valores del display para mostrar todos los dígitos apagados.
+
+### Método `reactivarDisplay()`
+- **Descripción**: Reactiva el display con los valores iniciales.
+- **Función**: Restaura los valores iniciales de los dígitos y enciende el display.
+
+## 4. Modularización y Ventajas
+La modularización de la funcionalidad del display de siete segmentos en una clase proporciona varias ventajas:
+- Reutilización de Código.
+- Abstracción.
+- Mantenimiento Simplificado.
+- Legibilidad Mejorada.
+
+## 5. Conclusiones
+La clase `modu_display4x7` en C++ ofrece una solución modular y eficiente para controlar un display de siete segmentos 4x7 utilizando la Raspberry Pi Pico WH. Su implementación sigue los principios de la programación orientada a objetos y demuestra los beneficios de la modularización en el desarrollo de software.
+
+En resumen, la modularización de la funcionalidad del display en una clase en C++ mejora la organización, reutilización y mantenibilidad del código, lo que conduce a un desarrollo más eficiente y robusto.
+
