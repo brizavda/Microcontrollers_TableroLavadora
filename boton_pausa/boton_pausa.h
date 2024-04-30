@@ -1,12 +1,12 @@
 #ifndef BOTON_PAUSA_INICIO_H
 #define BOTON_PAUSA_INICIO_H
 
-#include <iostream> // @brief Incluye la biblioteca estándar de entrada y salida.
-#include <vector> // @brief Incluye la biblioteca para utilizar vectores.
-#include <stdio.h> // @brief Incluye la biblioteca estándar de entrada y salida.
-#include "pico/stdlib.h" // @brief Incluye la biblioteca de pico estándar.
-#include "hardware/gpio.h" // @brief Incluye la biblioteca de GPIO del hardware.
-#include "../include/pin_list.h" // @brief Incluye el archivo de encabezado que contiene la lista de pines utilizados.
+#include <iostream> 
+#include <vector> 
+#include <stdio.h>
+#include "pico/stdlib.h" 
+#include "hardware/gpio.h" 
+#include "../include/pin_list.h" 
 
 using namespace std; // @brief Utiliza el espacio de nombres estándar.
 
