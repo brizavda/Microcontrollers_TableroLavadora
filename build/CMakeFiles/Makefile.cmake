@@ -42,6 +42,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "boton_Fases/elf2uf2/tmp/ELF2UF2Build-mkdirs.cmake"
   "pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/tmp/PioasmBuild-mkdirs.cmake"
   "C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/Microcontrollers_TableroLavadora/pico_sdk_import.cmake"
+  "C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/Microcontrollers_TableroLavadora/temp4x7/CMakeLists.txt"
   "C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/CMakeLists.txt"
   "C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/cmake/Platform/PICO.cmake"
   "C:/Users/royza/Documents/UAM/Trimestre_24I/Microcontroladores/Pico/pico-sdk/cmake/pico_pre_load_platform.cmake"
@@ -251,6 +252,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "boton_Fases/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch-info.txt"
   "boton_Fases/elf2uf2/tmp/ELF2UF2Build-cfgcmd.txt"
   "boton_Fases/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "temp4x7/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -262,4 +264,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/DependInfo.cmake"
   "boton_Fases/CMakeFiles/boton_Fases.dir/DependInfo.cmake"
   "boton_Fases/CMakeFiles/ELF2UF2Build.dir/DependInfo.cmake"
+  "temp4x7/CMakeFiles/temp4x7.dir/DependInfo.cmake"
   )

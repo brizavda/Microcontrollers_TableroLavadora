@@ -11,3 +11,4 @@ set(PICO_BOARD pico_w)
 pico_sdk_init()
 
 add_subdirectory(boton_Fases)
+add_subdirectory(temp4x7)

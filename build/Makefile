@@ -196,6 +196,19 @@ ELF2UF2Build\fast:
 	$(MAKE) $(MAKESILENT) -f boton_Fases\CMakeFiles\ELF2UF2Build.dir\build.make /nologo -$(MAKEFLAGS) boton_Fases\CMakeFiles\ELF2UF2Build.dir\build
 .PHONY : ELF2UF2Build\fast
 
+#=============================================================================
+# Target rules for targets named temp4x7
+
+# Build rule for target.
+temp4x7: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) temp4x7
+.PHONY : temp4x7
+
+# fast build rule for target.
+temp4x7\fast:
+	$(MAKE) $(MAKESILENT) -f temp4x7\CMakeFiles\temp4x7.dir\build.make /nologo -$(MAKEFLAGS) temp4x7\CMakeFiles\temp4x7.dir\build
+.PHONY : temp4x7\fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -211,6 +224,7 @@ help:
 	@echo ... cyw43_driver_picow_cyw43_bus_pio_spi_pio_h
 	@echo ... boton_Fases
 	@echo ... bs2_default
+	@echo ... temp4x7
 .PHONY : help
 
 

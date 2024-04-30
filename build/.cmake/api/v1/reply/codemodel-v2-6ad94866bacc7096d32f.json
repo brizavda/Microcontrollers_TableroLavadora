@@ -9,7 +9,8 @@
 					"childIndexes" : 
 					[
 						1,
-						81
+						81,
+						82
 					],
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -1025,6 +1026,21 @@
 						0,
 						2
 					]
+				},
+				{
+					"build" : "temp4x7",
+					"jsonFile" : "directory-temp4x7-Debug-a3bc765988d446c9e54d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "temp4x7",
+					"targetIndexes" : 
+					[
+						7
+					]
 				}
 			],
 			"name" : "Debug",
@@ -1038,13 +1054,15 @@
 					"directoryIndexes" : 
 					[
 						0,
-						81
+						81,
+						82
 					],
 					"name" : "PanelLavadora",
 					"targetIndexes" : 
 					[
 						0,
-						2
+						2,
+						7
 					]
 				},
 				{
@@ -1193,6 +1211,13 @@
 					"jsonFile" : "target-cyw43_driver_picow_cyw43_bus_pio_spi_pio_h-Debug-e15b6cc18e202cbf60f6.json",
 					"name" : "cyw43_driver_picow_cyw43_bus_pio_spi_pio_h",
 					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 82,
+					"id" : "temp4x7::@8277d9045a5d05f22698",
+					"jsonFile" : "target-temp4x7-Debug-812bf4f890dd7808de4a.json",
+					"name" : "temp4x7",
+					"projectIndex" : 0
 				}
 			]
 		}
