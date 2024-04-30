@@ -10,30 +10,40 @@ using namespace std;
 
 int main()
 {
-
     boton_encendido boton = boton_encendido();
     boton.inicializar();
-   
-    modu_display4x7 display_on= modu_display4x7(0x76, 0x3F, 0x38, 0x77, 1000);
-    display_on.inicializar();
-    
-    modu_display4x7 display_off= modu_display4x7(0x00, 0x7f, 0x6e, 0x79, 1000);
-    display_off.inicializar();
 
+    modu_display4x7 display = modu_display4x7(0x76, 0x3F, 0x38, 0x77, 500);
+    display.inicializar();
+
+    bool encendida = false; 
 
     while (true)
     {
-
-        boton.get_estado_lavadora();
-        boton.encender_o_apagar_lavadora();
-        if(boton.get_estado_lavadora() == true){
-            display_on.encenderDisplay4x7();
-        } else{
-            display_off.encenderDisplay4x7();
-            
+        while(!encendida && gpio_get(BOTON_ON_OFF) == 1){
+            display.restablecerDisplay4x7(0x00, 0x3f, 0x71, 0x71, 3);
+            if(gpio_get(BOTON_ON_OFF) == 0){
+                encendida = true;
+            }
 
         }
-        sleep_ms(1000);
+        boton.encender_o_apagar_lavadora();
+
+        if (boton.get_estado_lavadora() == true)
+        {
+            display.restablecerDisplay4x7(0x76, 0x3f, 0x38, 0x77, 500);
+            for (int i = 0; i <= 250; i++)
+            {
+                display.restablecerDisplay4x7(0xef, 0xef, 0xef, 0xef, 2);
+            }
+
+        }
+        else
+        {
+            display.restablecerDisplay4x7(0x00, 0x7f, 0x6e, 0x79, 1000);
+            encendida = false;
+        }
+        sleep_ms(100);
     }
 
     return 0;

@@ -13,6 +13,10 @@ private:
     int palabra[4];
     int val = 0;
     int temp = 0;
+    int y; 
+    int x; 
+    int w; 
+    int z; 
 
 public:
     modu_display4x7(int, int, int, int, int);
@@ -21,16 +25,23 @@ public:
     void ajustarTiempo(int);
     void establecerVal(int);
     void encenderDisplay4x7();
+    void reactivarDisplay();
     void restablecerDisplay4x7(int, int, int, int, int);
     void apagarDisplay4x7();
 };
 
-modu_display4x7::modu_display4x7(int a, int b, int c, int d, int temp)
+modu_display4x7::modu_display4x7(int _a, int _b, int _c, int _d, int temp)
 {
-    palabra[0] = a;
-    palabra[1] = b;
-    palabra[2] = c;
-    palabra[3] = d;
+    palabra[0] = _a;
+    palabra[1] = _b;
+    palabra[2] = _c;
+    palabra[3] = _d;
+
+    y = _a;
+    x = _b;
+    w = _c;
+    z = _d;
+
 
     this->val = val;
     this->temp = temp;
@@ -55,17 +66,17 @@ void modu_display4x7::inicializar()
     }
 }
 
-void modu_display4x7::leerPalabra(int a, int b, int c, int d)
+void modu_display4x7::leerPalabra(int _a, int _b, int _c, int _d)
 {
-    palabra[0] = a;
-    palabra[1] = b;
-    palabra[2] = c;
-    palabra[3] = d;
+    palabra[0] = _a;
+    palabra[1] = _b;
+    palabra[2] = _c;
+    palabra[3] = _d;
 }
 
-void modu_display4x7::ajustarTiempo(int a)
+void modu_display4x7::ajustarTiempo(int t)
 {
-    temp = a;
+    temp = t;
 }
 
 void modu_display4x7::encenderDisplay4x7()
@@ -125,22 +136,35 @@ void modu_display4x7::establecerVal(int v){
     val = v; 
 }
 
-void modu_display4x7::restablecerDisplay4x7(int a, int b, int c, int d, int temp)
+void modu_display4x7::restablecerDisplay4x7(int _a, int _b, int _c, int _d, int temp)
 {
-        leerPalabra(a, b, c, d);
+        leerPalabra(_a, _b, _c, _d);
         ajustarTiempo(temp);
         val = 0;
+
+        encenderDisplay4x7();
 }
 
 void modu_display4x7::apagarDisplay4x7()
 
 {
-
-    
-    
     leerPalabra(0x00, 0x00, 0x00, 0x00);
-    temp = 0;
+    temp = 1000;
     val = 0;
+}
+
+void modu_display4x7::reactivarDisplay(){
+
+    palabra[0] = y;
+    palabra[1] = x;
+    palabra[2] = w;
+    palabra[3] = z;
+
+    temp = 1000; 
+    val = 0;
+
+    encenderDisplay4x7();
+
 }
 
 /**
