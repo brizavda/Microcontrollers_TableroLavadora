@@ -23,16 +23,16 @@ int main() {
 
         // Mostrar el nivel de agua seleccionado
         // Esto es opcional, solo para propósitos de demostración
-        printf("Nivel de agua seleccionado: %d\n", nivelAgua);
+        // printf("Nivel de agua seleccionado: %d\n", nivelAgua);
 
         // Aumentar el tiempo del temporizador si se presiona el botón
         botonTemporizador.aumentar_tiempo(minutos, segundos);
 
         // Mostrar el tiempo del temporizador
         // Esto es opcional, solo para propósitos de demostración
-        printf("Tiempo del temporizador: %02d:%02d\n", minutos, segundos);
+        // printf("Tiempo del temporizador: %02d:%02d\n", minutos, segundos);
 
-        sleep_ms(2000); // Pequeña pausa entre iteraciones
+        sleep_ms(200); // Pequeña pausa entre iteraciones
     }
 
     return 0;
