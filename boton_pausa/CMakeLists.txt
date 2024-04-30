@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.13)
 
 add_executable(boton_pausa
     boton_pausa.cc
-    main.cc
+    test.cc
 )
 
 target_link_libraries(boton_pausa pico_stdlib)
