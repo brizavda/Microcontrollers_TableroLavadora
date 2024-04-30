@@ -4,6 +4,7 @@
 class BotonTemporizador {
 private:
     uint BOTON_GPIO;
+    bool ultima_pulsacion;
 
 public:
     BotonTemporizador(uint gpio);
