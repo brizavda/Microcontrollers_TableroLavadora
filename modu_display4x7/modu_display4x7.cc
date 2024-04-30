@@ -13,6 +13,7 @@ private:
     int palabra[4];
     int val = 0;
     int temp = 0;
+    int sleep; 
     int y; 
     int x; 
     int w; 
@@ -20,13 +21,15 @@ private:
 
 public:
     modu_display4x7(int, int, int, int, int);
+    modu_display4x7(int, int, int, int, int, int);
     void inicializar();
     void leerPalabra(int, int, int, int);
     void ajustarTiempo(int);
     void establecerVal(int);
+    void establecerSleep(int);
     void encenderDisplay4x7();
     void reactivarDisplay();
-    void restablecerDisplay4x7(int, int, int, int, int);
+    void restablecerDisplay4x7(int, int, int, int, int, int);
     void apagarDisplay4x7();
 };
 
@@ -46,6 +49,26 @@ modu_display4x7::modu_display4x7(int _a, int _b, int _c, int _d, int temp)
     this->val = val;
     this->temp = temp;
     val = 0;
+    sleep = 1; 
+}
+
+modu_display4x7::modu_display4x7(int _a, int _b, int _c, int _d, int temp, int sleep)
+{
+    palabra[0] = _a;
+    palabra[1] = _b;
+    palabra[2] = _c;
+    palabra[3] = _d;
+
+    y = _a;
+    x = _b;
+    w = _c;
+    z = _d;
+
+
+    this->val = val;
+    this->temp = temp;
+    val = 0;
+    this->sleep = sleep;  
 }
 
 void modu_display4x7::inicializar()
@@ -122,11 +145,12 @@ void modu_display4x7::encenderDisplay4x7()
         int32_t mask = palabra[val] << FIRST_GPIO;
 
         gpio_set_mask(mask);
-        sleep_ms(1);
+        sleep_ms(sleep);
         gpio_clr_mask(mask);
 
         val++;
     }
+
     val = 0;
 
     apagarDisplay4x7();
@@ -136,11 +160,12 @@ void modu_display4x7::establecerVal(int v){
     val = v; 
 }
 
-void modu_display4x7::restablecerDisplay4x7(int _a, int _b, int _c, int _d, int temp)
+void modu_display4x7::restablecerDisplay4x7(int _a, int _b, int _c, int _d, int temp, int _sleep)
 {
         leerPalabra(_a, _b, _c, _d);
         ajustarTiempo(temp);
         val = 0;
+        sleep = _sleep;
 
         encenderDisplay4x7();
 }
@@ -166,7 +191,6 @@ void modu_display4x7::reactivarDisplay(){
     encenderDisplay4x7();
 
 }
-
 /**
 void modu_display4x7::prenderDisplay(int val)
 {
