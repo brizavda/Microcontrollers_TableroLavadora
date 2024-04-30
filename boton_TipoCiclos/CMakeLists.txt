@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.13)
 
 add_executable(boton_TipoCiclos
         boton_TipoCiclos.cc
-        main.cc
+        test.cc
         )
 
 # pull in common dependencies

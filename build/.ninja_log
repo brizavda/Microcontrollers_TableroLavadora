@@ -4,7 +4,7 @@
 270	886	7358113499828649	boton_TipoCiclos/CMakeFiles/boton_TipoCiclos.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj	ab210e782ebcffad
 179	858	7358114096044576	boton_TipoCiclos/CMakeFiles/boton_TipoCiclos.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj	b061012475f78c59
 93	392	7356903446230237	pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h	a26fc08d33302b06
-36	2127	7358981016574495	build.ninja	6cc08430b98179c9
+36	2127	7362101288098502	build.ninja	6cc08430b98179c9
 1693	2144	7358113511965464	boton_TipoCiclos/CMakeFiles/boton_TipoCiclos.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj	964badfe548bd9d6
 1255	1309	7356903455318931	C:/Users/brizi/Documents/Pico-v1.5.1/pico-trad/Microcontrollers_TableroLavadora/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin	9fa3340ef7a677a5
 6118	7359	7356917951763978	boton_TipoCiclos/CMakeFiles/boton_TipoCiclos.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj	7a14fe9b36d67493
@@ -40,7 +40,7 @@
 221	1175	7358113502026887	boton_TipoCiclos/CMakeFiles/boton_TipoCiclos.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj	8596f33bcf3ffb86
 196	1873	7358113316235312	boton_TipoCiclos/CMakeFiles/boton_TipoCiclos.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/sem.c.obj	14a2ae4aaf92518e
 2107	3042	7358113520651427	boton_TipoCiclos/CMakeFiles/boton_TipoCiclos.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj	230c0cbcdc1021ce
-140	657	7358686748499642	boton_TipoCiclos/CMakeFiles/boton_TipoCiclos.dir/main.cc.obj	964a00cd8ada4810
+63	499	7358991843861653	boton_TipoCiclos/CMakeFiles/boton_TipoCiclos.dir/main.cc.obj	964a00cd8ada4810
 169	1857	7358113315648290	boton_TipoCiclos/CMakeFiles/boton_TipoCiclos.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj	9e96ee478e7acf56
 182	1907	7358113315997577	boton_TipoCiclos/CMakeFiles/boton_TipoCiclos.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj	7e54f615af5f8de8
 255	1909	7358113316846130	boton_TipoCiclos/CMakeFiles/boton_TipoCiclos.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_time/time.c.obj	483ab9ee3e47b811
@@ -95,8 +95,7 @@
 6578	7725	7356917956099848	boton_TipoCiclos/CMakeFiles/boton_TipoCiclos.dir/ae783cfadb10a0055c655bcf0b179659/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj	94087d3aa7e9318e
 7021	7788	7356917956770752	boton_TipoCiclos/CMakeFiles/boton_TipoCiclos.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj	2128928f79ebf5f1
 6275	8270	7356917961604404	boton_TipoCiclos/CMakeFiles/boton_TipoCiclos.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj	e0da51275fa5e4f8
-87	1168	7358688087477233	boton_TipoCiclos/CMakeFiles/boton_TipoCiclos.dir/boton_TipoCiclos.cc.obj	734da7b41af9b243
-1170	2690	7358688094478321	boton_TipoCiclos/boton_TipoCiclos.elf	27a867e6df8da0c3
 71	1504	7358991501545810	boton_TipoCiclos/CMakeFiles/boton_TipoCiclos.dir/boton_TipoCiclos.cc.obj	734da7b41af9b243
-63	499	7358991843861653	boton_TipoCiclos/CMakeFiles/boton_TipoCiclos.dir/main.cc.obj	964a00cd8ada4810
 501	2687	7358991857312877	boton_TipoCiclos/boton_TipoCiclos.elf	27a867e6df8da0c3
+96	3561	7362101362686672	boton_TipoCiclos/CMakeFiles/boton_TipoCiclos.dir/test.cc.obj	4c2689d0c0cd1b11
+3564	6952	7362101387871289	boton_TipoCiclos/boton_TipoCiclos.elf	d6f920436f42531b
