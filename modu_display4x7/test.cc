@@ -9,8 +9,9 @@ using namespace std;
 int main()
 {
 
-    modu_display4x7 display = modu_display4x7(0x00, 0x00, 0x00, 0x00, 1000, 1, true, 845);
+    modu_display4x7 display = modu_display4x7();
     display.inicializar();
 
-    display.establecerCrono4x7(1000, 1);
+    display.establecerCrono4x7(1000, 1, 150);
+    display.establecerPalabraDisplay4x7(0xff, 0xff, 0xff, 0xff, 1000, 10);
 }

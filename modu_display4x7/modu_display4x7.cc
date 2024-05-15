@@ -15,7 +15,6 @@ private:
     int temp = 0;
     int sleep;
     bool cronometro;
-    int temp_crono;
 
     int segundos_unidades[10] = {
         0x3f, // 0
@@ -54,10 +53,10 @@ private:
     };
 
 public:
-    modu_display4x7(int, int, int, int, int, int, bool, int);
+    modu_display4x7();
     void inicializar();
     void establecerPalabraDisplay4x7(int, int, int, int, int, int);
-    void establecerCrono4x7(int, int);
+    void establecerCrono4x7(int, int, int);
     void encenderDisplay4x7();
     void apagarDisplay4x7();
     void leerPalabra(int, int, int, int);
@@ -66,19 +65,14 @@ public:
     void establecerSleep(int);
 };
 
-modu_display4x7::modu_display4x7(int _a, int _b, int _c, int _d, int temp, int sleep, bool cronometro, int temp_crono)
+modu_display4x7::modu_display4x7()
 {
-    palabra[0] = _a;
-    palabra[1] = _b;
-    palabra[2] = _c;
-    palabra[3] = _d;
 
-    this->val = val;
-    this->temp = temp;
-    val = 0;
-    this->sleep = sleep;
-    this->cronometro = cronometro;
-    this->temp_crono = temp_crono;
+    palabra[4];
+    val;
+    temp;
+    val;
+    sleep;
 }
 
 void modu_display4x7::inicializar()
@@ -109,7 +103,7 @@ void modu_display4x7::establecerPalabraDisplay4x7(int _a, int _b, int _c, int _d
     encenderDisplay4x7();
 }
 
-void modu_display4x7::establecerCrono4x7(int _temp, int _sleep)
+void modu_display4x7::establecerCrono4x7(int _temp, int _sleep, int temp_crono)
 {
 
     int segundos_uni = 0, segundos_dec = 0, minut = 0;
