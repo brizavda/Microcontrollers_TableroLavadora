@@ -13,62 +13,35 @@ private:
     int palabra[4];
     int val = 0;
     int temp = 0;
-    int sleep; 
-    int y; 
-    int x; 
-    int w; 
-    int z; 
+    int sleep;
+    bool cronometro;
+    int temp_crono;
 
 public:
-    modu_display4x7(int, int, int, int, int);
-    modu_display4x7(int, int, int, int, int, int);
+    modu_display4x7(int, int, int, int, int, int, bool, int);
     void inicializar();
     void leerPalabra(int, int, int, int);
     void ajustarTiempo(int);
     void establecerVal(int);
     void establecerSleep(int);
     void encenderDisplay4x7();
-    void reactivarDisplay();
     void restablecerDisplay4x7(int, int, int, int, int, int);
     void apagarDisplay4x7();
 };
 
-modu_display4x7::modu_display4x7(int _a, int _b, int _c, int _d, int temp)
+modu_display4x7::modu_display4x7(int _a, int _b =, int _c, int _d = 0x00, int temp = 100, int sleep = 1, bool cronometro = false, int temp_crono = 0)
 {
     palabra[0] = _a;
     palabra[1] = _b;
     palabra[2] = _c;
     palabra[3] = _d;
 
-    y = _a;
-    x = _b;
-    w = _c;
-    z = _d;
-
-
     this->val = val;
     this->temp = temp;
     val = 0;
-    sleep = 1; 
-}
-
-modu_display4x7::modu_display4x7(int _a, int _b, int _c, int _d, int temp, int sleep)
-{
-    palabra[0] = _a;
-    palabra[1] = _b;
-    palabra[2] = _c;
-    palabra[3] = _d;
-
-    y = _a;
-    x = _b;
-    w = _c;
-    z = _d;
-
-
-    this->val = val;
-    this->temp = temp;
-    val = 0;
-    this->sleep = sleep;  
+    this->sleep = sleep;
+    this->cronometro = cronometro;
+    this->temp_crono = temp_crono;
 }
 
 void modu_display4x7::inicializar()
@@ -104,15 +77,12 @@ void modu_display4x7::ajustarTiempo(int t)
 
 void modu_display4x7::encenderDisplay4x7()
 {
-    
     for (int i = 0; i <= temp * 4; i++)
     {
-
         if (val == 4)
         {
             val = 0;
         }
-
         if (val == 0)
         {
             gpio_put(COMMUN_1, 0);
@@ -156,50 +126,80 @@ void modu_display4x7::encenderDisplay4x7()
     apagarDisplay4x7();
 }
 
-void modu_display4x7::establecerVal(int v){
-    val = v; 
+void modu_display4x7::establecerVal(int v)
+{
+    val = v;
 }
 
-void modu_display4x7::restablecerDisplay4x7(int _a, int _b, int _c, int _d, int temp, int _sleep)
+void modu_display4x7::restablecerDisplay4x7(int _a, int _b, int _c, int _d, int _temp, int _sleep)
 {
+    if (cronometro == false)
+    {
         leerPalabra(_a, _b, _c, _d);
-        ajustarTiempo(temp);
+        ajustarTiempo(_temp);
         val = 0;
-        sleep = _sleep;
+        establecerSleep(_sleep);
+        encenderDisplay4x7();
+    }
+    else
+    {
+        int segundos_unidades[10] = {
+            0x3f, // 0
+            0x06, // 1
+            0x5b, // 2
+            0x4f, // 3
+            0x66, // 4
+            0x6d, // 5
+            0x7d, // 6
+            0x07, // 7
+            0x7f, // 8
+            0x67  // 9
+        };
+
+        int segundos_decenas[7] = {
+            0x3f, // 0
+            0x06, // 1
+            0x5b, // 2
+            0x4f, // 3
+            0x66, // 4
+            0x6d, // 5
+            0x7d, // 6
+        };
+
+        int minutos[10] = {
+            0x3f, // 0
+            0x06, // 1
+            0x5b, // 2
+            0x4f, // 3
+            0x66, // 4
+            0x6d, // 5
+            0x7d, // 6
+            0x07, // 7
+            0x7f, // 8
+            0x67  // 9
+        };
+
+        int segundos_uni, segundos_dec, minut;
+        minut = temp_crono / 100;
+        temp_crono = temp_crono % 100;
+        segundos_dec = temp_crono / 10;
+        temp_crono = temp_crono % 10;
+        segundos_uni = temp_crono;
+
+        leerPalabra(0x00, minutos[minut - 1], segundos_decenas[segundos_dec - 1], segundos_unidades[segundos_uni - 1]);
 
         encenderDisplay4x7();
+    }
 }
 
-void modu_display4x7::apagarDisplay4x7()
+    void modu_display4x7::apagarDisplay4x7()
+    {
+        leerPalabra(0x00, 0x00, 0x00, 0x00);
+        temp = 1000;
+        val = 0;
+    }
 
-{
-    leerPalabra(0x00, 0x00, 0x00, 0x00);
-    temp = 1000;
-    val = 0;
-}
-
-void modu_display4x7::reactivarDisplay(){
-
-    palabra[0] = y;
-    palabra[1] = x;
-    palabra[2] = w;
-    palabra[3] = z;
-
-    temp = 1000; 
-    val = 0;
-
-    encenderDisplay4x7();
-
-}
-/**
-void modu_display4x7::prenderDisplay(int val)
-{
-    int32_t mask = palabra[val] << FIRST_GPIO;
-    gpio_set_mask(mask);
-}
-
-void modu_display4x7::limpiarMascara(int val){
-int32_t mask = palabra[val] << FIRST_GPIO;
-    gpio_clr_mask(mask);
-
-}**/
+    void modu_display4x7::establecerSleep(int _sleep)
+    {
+        sleep = _sleep;
+    }
