@@ -39,7 +39,7 @@ private:
         0x7d, // 6
     };
 
-    int minutos[10] = {
+    int minutos_unidades[10] = {
         0x3f, // 0
         0x06, // 1
         0x5b, // 2
@@ -50,6 +50,17 @@ private:
         0x07, // 7
         0x7f, // 8
         0x67  // 9
+    };
+
+    int minutos_decenas[7]{
+        0x3f, // 0
+        0x06, // 1
+        0x5b, // 2
+        0x4f, // 3
+        0x66, // 4
+        0x6d, // 5
+        0x7d, // 6
+
     };
 
 public:
@@ -106,46 +117,55 @@ void modu_display4x7::establecerPalabraDisplay4x7(int _a, int _b, int _c, int _d
 void modu_display4x7::establecerCrono4x7(int _temp, int _sleep, int temp_crono)
 {
 
-    int segundos_uni = 0, segundos_dec = 0, minut = 0;
-    minut = temp_crono / 100;
-    cout << minut;
+    int segundos_uni = 0, segundos_dec = 0, minut_uni = 0, minut_dec = 0;
+    minut_dec = temp_crono / 1000; 
+    temp_crono = temp_crono % 1000; 
+    minut_uni = temp_crono / 100;
     temp_crono = temp_crono % 100;
     segundos_dec = temp_crono / 10;
-    cout << segundos_dec;
     temp_crono = temp_crono % 10;
     segundos_uni = temp_crono;
-    cout << segundos_uni;
 
     ajustarTiempo(_temp);
     val = 0;
     establecerSleep(_sleep);
 
-
-    bool parar_cronometro = false; 
-    while (!parar_cronometro) {
-    if (segundos_uni > 0) {
-        segundos_uni--;
-    } else {
-        segundos_uni = 9;
-        if (segundos_dec > 0) {
-            segundos_dec--;
-        } else {
-            segundos_dec = 5;
-            if (minut > 0) {
-                minut--;
-            } else {
-                parar_cronometro = true; 
+    bool parar_cronometro = false;
+    while (!parar_cronometro)
+    {
+        if (segundos_uni > 0)
+        {
+            segundos_uni--;
+        }
+        else
+        {
+            segundos_uni = 9;
+            if (segundos_dec > 0)
+            {
+                segundos_dec--;
+            }
+            else
+            {
+                segundos_dec = 5;
+                if (minut_uni > 0)
+                {
+                    minut_uni--;
+                }
+                else
+                {
+                    minut_uni = 9; 
+                    if (minut_dec > 0){
+                        minut_dec--;
+                    }else {
+                        parar_cronometro = true;
+                    }
+                    
+                }
             }
         }
-    }
 
-
-
-        leerPalabra(0x00, minutos[minut], segundos_decenas[segundos_dec], segundos_unidades[segundos_uni]);
+        leerPalabra(minutos_decenas[minut_dec], minutos_unidades[minut_uni], segundos_decenas[segundos_dec], segundos_unidades[segundos_uni]);
         encenderDisplay4x7();
-        if(minut == 0 && segundos_dec == 0 && segundos_uni == 0){
-            break;
-        }
     }
 }
 
