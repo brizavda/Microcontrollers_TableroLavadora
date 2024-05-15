@@ -114,37 +114,44 @@ void modu_display4x7::establecerCrono4x7(int _temp, int _sleep)
 
     int segundos_uni = 0, segundos_dec = 0, minut = 0;
     minut = temp_crono / 100;
+    cout << minut;
     temp_crono = temp_crono % 100;
     segundos_dec = temp_crono / 10;
+    cout << segundos_dec;
     temp_crono = temp_crono % 10;
     segundos_uni = temp_crono;
+    cout << segundos_uni;
 
     ajustarTiempo(_temp);
     val = 0;
     establecerSleep(_sleep);
 
-    //minut != 0, segundos_dec != 0, segundos_uni != 0
 
-    while (true)
-    {
-        if (segundos_uni > 0)
-        {
-            segundos_uni--;
-        }
-        else
-        {
-            segundos_uni = 9;
-            segundos_dec --;
-            if (segundos_dec < 0){
-                segundos_dec = 5;
-                minut--; 
-
+    bool parar_cronometro = false; 
+    while (!parar_cronometro) {
+    if (segundos_uni > 0) {
+        segundos_uni--;
+    } else {
+        segundos_uni = 9;
+        if (segundos_dec > 0) {
+            segundos_dec--;
+        } else {
+            segundos_dec = 5;
+            if (minut > 0) {
+                minut--;
+            } else {
+                parar_cronometro = true; 
             }
         }
+    }
+
 
 
         leerPalabra(0x00, minutos[minut], segundos_decenas[segundos_dec], segundos_unidades[segundos_uni]);
         encenderDisplay4x7();
+        if(minut == 0 && segundos_dec == 0 && segundos_uni == 0){
+            break;
+        }
     }
 }
 
@@ -220,7 +227,6 @@ void modu_display4x7::encenderDisplay4x7()
 void modu_display4x7::apagarDisplay4x7()
 {
     leerPalabra(0x00, 0x00, 0x00, 0x00);
-    temp = 1000;
     val = 0;
 }
 
