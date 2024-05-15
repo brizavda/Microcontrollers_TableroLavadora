@@ -8,7 +8,17 @@ using namespace std;
 
 int main() {
 
-    modu_display4x7 display = modu_display4x7( int temp = 1; int sleep = 1000)
+    modu_display4x7 display = modu_display4x7(0x00, 0x00, 0x00, 0x00, 1000, 1, true, 123);
+    display.inicializar();
+
+    while(true){
+        display.establecerCrono4x7(10000, 1);
+
+    }
+
+    
+
+
 
 }
     

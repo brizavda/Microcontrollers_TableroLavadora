@@ -13,7 +13,7 @@ int main()
     boton_encendido boton = boton_encendido();
     boton.inicializar();
 
-    modu_display4x7 display = modu_display4x7(0x76, 0x3F, 0x38, 0x77, 500, 1);
+    modu_display4x7 display = modu_display4x7(0x00, 0x00, 0x00, 0x00, 1, 1000, true, 123);
     display.inicializar();
 
     bool encendida = false; 

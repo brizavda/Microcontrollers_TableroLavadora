@@ -17,19 +17,56 @@ private:
     bool cronometro;
     int temp_crono;
 
+    int segundos_unidades[10] = {
+        0x3f, // 0
+        0x06, // 1
+        0x5b, // 2
+        0x4f, // 3
+        0x66, // 4
+        0x6d, // 5
+        0x7d, // 6
+        0x07, // 7
+        0x7f, // 8
+        0x67  // 9
+    };
+
+    int segundos_decenas[7] = {
+        0x3f, // 0
+        0x06, // 1
+        0x5b, // 2
+        0x4f, // 3
+        0x66, // 4
+        0x6d, // 5
+        0x7d, // 6
+    };
+
+    int minutos[10] = {
+        0x3f, // 0
+        0x06, // 1
+        0x5b, // 2
+        0x4f, // 3
+        0x66, // 4
+        0x6d, // 5
+        0x7d, // 6
+        0x07, // 7
+        0x7f, // 8
+        0x67  // 9
+    };
+
 public:
     modu_display4x7(int, int, int, int, int, int, bool, int);
     void inicializar();
+    void establecerPalabraDisplay4x7(int, int, int, int, int, int);
+    void establecerCrono4x7(int, int);
+    void encenderDisplay4x7();
+    void apagarDisplay4x7();
     void leerPalabra(int, int, int, int);
     void ajustarTiempo(int);
     void establecerVal(int);
     void establecerSleep(int);
-    void encenderDisplay4x7();
-    void restablecerDisplay4x7(int, int, int, int, int, int);
-    void apagarDisplay4x7();
 };
 
-modu_display4x7::modu_display4x7(int _a, int _b =, int _c, int _d = 0x00, int temp = 100, int sleep = 1, bool cronometro = false, int temp_crono = 0)
+modu_display4x7::modu_display4x7(int _a, int _b, int _c, int _d, int temp, int sleep, bool cronometro, int temp_crono)
 {
     palabra[0] = _a;
     palabra[1] = _b;
@@ -62,6 +99,55 @@ void modu_display4x7::inicializar()
     }
 }
 
+void modu_display4x7::establecerPalabraDisplay4x7(int _a, int _b, int _c, int _d, int _temp, int _sleep)
+{
+
+    leerPalabra(_a, _b, _c, _d);
+    ajustarTiempo(_temp);
+    val = 0;
+    establecerSleep(_sleep);
+    encenderDisplay4x7();
+}
+
+void modu_display4x7::establecerCrono4x7(int _temp, int _sleep)
+{
+
+    int segundos_uni = 0, segundos_dec = 0, minut = 0;
+    minut = temp_crono / 100;
+    temp_crono = temp_crono % 100;
+    segundos_dec = temp_crono / 10;
+    temp_crono = temp_crono % 10;
+    segundos_uni = temp_crono;
+
+    ajustarTiempo(_temp);
+    val = 0;
+    establecerSleep(_sleep);
+
+    //minut != 0, segundos_dec != 0, segundos_uni != 0
+
+    while (true)
+    {
+        if (segundos_uni > 0)
+        {
+            segundos_uni--;
+        }
+        else
+        {
+            segundos_uni = 9;
+            segundos_dec --;
+            if (segundos_dec < 0){
+                segundos_dec = 5;
+                minut--; 
+
+            }
+        }
+
+
+        leerPalabra(0x00, minutos[minut], segundos_decenas[segundos_dec], segundos_unidades[segundos_uni]);
+        encenderDisplay4x7();
+    }
+}
+
 void modu_display4x7::leerPalabra(int _a, int _b, int _c, int _d)
 {
     palabra[0] = _a;
@@ -75,9 +161,14 @@ void modu_display4x7::ajustarTiempo(int t)
     temp = t;
 }
 
+void modu_display4x7::establecerVal(int v)
+{
+    val = v;
+}
+
 void modu_display4x7::encenderDisplay4x7()
 {
-    for (int i = 0; i <= temp * 4; i++)
+    for (int i = 0; i <= temp; i++)
     {
         if (val == 4)
         {
@@ -126,80 +217,14 @@ void modu_display4x7::encenderDisplay4x7()
     apagarDisplay4x7();
 }
 
-void modu_display4x7::establecerVal(int v)
+void modu_display4x7::apagarDisplay4x7()
 {
-    val = v;
+    leerPalabra(0x00, 0x00, 0x00, 0x00);
+    temp = 1000;
+    val = 0;
 }
 
-void modu_display4x7::restablecerDisplay4x7(int _a, int _b, int _c, int _d, int _temp, int _sleep)
+void modu_display4x7::establecerSleep(int _sleep)
 {
-    if (cronometro == false)
-    {
-        leerPalabra(_a, _b, _c, _d);
-        ajustarTiempo(_temp);
-        val = 0;
-        establecerSleep(_sleep);
-        encenderDisplay4x7();
-    }
-    else
-    {
-        int segundos_unidades[10] = {
-            0x3f, // 0
-            0x06, // 1
-            0x5b, // 2
-            0x4f, // 3
-            0x66, // 4
-            0x6d, // 5
-            0x7d, // 6
-            0x07, // 7
-            0x7f, // 8
-            0x67  // 9
-        };
-
-        int segundos_decenas[7] = {
-            0x3f, // 0
-            0x06, // 1
-            0x5b, // 2
-            0x4f, // 3
-            0x66, // 4
-            0x6d, // 5
-            0x7d, // 6
-        };
-
-        int minutos[10] = {
-            0x3f, // 0
-            0x06, // 1
-            0x5b, // 2
-            0x4f, // 3
-            0x66, // 4
-            0x6d, // 5
-            0x7d, // 6
-            0x07, // 7
-            0x7f, // 8
-            0x67  // 9
-        };
-
-        int segundos_uni, segundos_dec, minut;
-        minut = temp_crono / 100;
-        temp_crono = temp_crono % 100;
-        segundos_dec = temp_crono / 10;
-        temp_crono = temp_crono % 10;
-        segundos_uni = temp_crono;
-
-        leerPalabra(0x00, minutos[minut - 1], segundos_decenas[segundos_dec - 1], segundos_unidades[segundos_uni - 1]);
-
-        encenderDisplay4x7();
-    }
+    sleep = _sleep;
 }
-
-    void modu_display4x7::apagarDisplay4x7()
-    {
-        leerPalabra(0x00, 0x00, 0x00, 0x00);
-        temp = 1000;
-        val = 0;
-    }
-
-    void modu_display4x7::establecerSleep(int _sleep)
-    {
-        sleep = _sleep;
-    }
