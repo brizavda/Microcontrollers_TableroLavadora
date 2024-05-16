@@ -7,7 +7,8 @@
 uint32_t BotonFases::delay = 2500000; // Tiempo inicial: 250 ms
 
 BotonFases::BotonFases() 
-    : secLavar{0x01, 0x22, 0x14, 0x08},
+    : secCompleto{0x01, 0x40, 0x08, 0x22, 0x14},
+      secLavar{0x01, 0x22, 0x14, 0x08},
       secEnjuagar{0x01, 0x02, 0x40, 0x10, 0x08, 0x04, 0x40, 0x20},
       secCentrifugar{0x01, 0x02, 0x04, 0x08, 0x10, 0x20},
       fase_actual(1),
@@ -29,7 +30,7 @@ void BotonFases::configurarGPIOs() {
 
 void BotonFases::cambiarFase() {
     if (botonFasesPresionado()) {
-        fase_actual = (fase_actual % 3) + 1;
+        fase_actual = (fase_actual % 4) + 1;
     }
 }
 
@@ -37,12 +38,15 @@ void BotonFases::mostrarFase() {
     if (fase_actual != fase_anterior) {
         switch (fase_actual) {
             case 1:
-                std::cout << "Fase actual: " << fase_actual << " - Lavado\n";
+                std::cout << "Fase actual: " << fase_actual << " - Completo\n";
                 break;
             case 2:
-                std::cout << "Fase actual: " << fase_actual << " - Enjuague\n";
+                std::cout << "Fase actual: " << fase_actual << " - Lavado\n";
                 break;
             case 3:
+                std::cout << "Fase actual: " << fase_actual << " - Enjuague\n";
+                break;
+            case 4:
                 std::cout << "Fase actual: " << fase_actual << " - Centrifugado\n";
                 break;
             default:
@@ -55,6 +59,14 @@ void BotonFases::mostrarFase() {
 void BotonFases::ejecutarSecuencia() {
     switch (fase_actual) {
         case 1:
+            for (int i = 0; i < 5; i++) {
+                int32_t mask = secCompleto[i] << SECOND_GPIO;
+                gpio_set_mask(mask); // Activar los segmentos correspondientes
+                for (uint32_t j = 0; j < delay; j++) {} // Esperar utilizando un bucle
+                gpio_clr_mask(mask); // Apagar los segmentos del display
+            }
+            break;
+        case 2:
             for (int i = 0; i < 4; i++) {
                 int32_t mask = secLavar[i] << SECOND_GPIO;
                 gpio_set_mask(mask); // Activar los segmentos correspondientes
@@ -63,7 +75,7 @@ void BotonFases::ejecutarSecuencia() {
             }
             break;
 
-        case 2:
+        case 3:
             for (int i = 0; i < 8; i++) {
                 int32_t mask = secEnjuagar[i] << SECOND_GPIO;
                 gpio_set_mask(mask); // Activar los segmentos correspondientes
@@ -72,7 +84,7 @@ void BotonFases::ejecutarSecuencia() {
             }
             break;
 
-        case 3:
+        case 4:
             for (int i = 0; i < 6; i++) {
                 int32_t mask = secCentrifugar[i] << SECOND_GPIO;
                 gpio_set_mask(mask); // Activar los segmentos correspondientes

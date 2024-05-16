@@ -4,6 +4,7 @@
 
 class BotonFases{
     private:
+        int secCompleto[5]; /**@brief Arreglo que contiene la secuencia para el ciclo completo. */
         int secLavar[4];    /**@brief Arreglo que contiene la secuencia para la fase de lavado. */
         int secEnjuagar[8]; /**@brief Arreglo que contiene la secuencia para la fase de enjuague. */
         int secCentrifugar[6];  /**@brief Arreglo que contiene la secuencia para la fase de centrifugado. */

@@ -2899,22 +2899,118 @@ boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: C:\Users\royza\Docume
 boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\include\pico\stdio_usb.h
 boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\_ansi.h"
 boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\_newlib_version.h"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\alloca.h"
 boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\assert.h"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\arm-none-eabi\thumb\v6-m\nofp\bits\atomic_word.h"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\arm-none-eabi\thumb\v6-m\nofp\bits\c++allocator.h"
 boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\arm-none-eabi\thumb\v6-m\nofp\bits\c++config.h"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\arm-none-eabi\thumb\v6-m\nofp\bits\c++locale.h"
 boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\arm-none-eabi\thumb\v6-m\nofp\bits\cpu_defines.h"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\arm-none-eabi\thumb\v6-m\nofp\bits\ctype_base.h"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\arm-none-eabi\thumb\v6-m\nofp\bits\ctype_inline.h"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\arm-none-eabi\thumb\v6-m\nofp\bits\error_constants.h"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\arm-none-eabi\thumb\v6-m\nofp\bits\gthr-default.h"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\arm-none-eabi\thumb\v6-m\nofp\bits\gthr.h"
 boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\arm-none-eabi\thumb\v6-m\nofp\bits\os_defines.h"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\backward\binders.h"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\alloc_traits.h"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\allocator.h"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\basic_ios.h"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\basic_ios.tcc"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\basic_string.h"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\basic_string.tcc"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\char_traits.h"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\charconv.h"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\concept_check.h"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\cpp_type_traits.h"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\cxxabi_forced.h"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\cxxabi_init_exception.h"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\exception.h"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\exception_defines.h"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\exception_ptr.h"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\functexcept.h"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\functional_hash.h"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\hash_bytes.h"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\ios_base.h"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\istream.tcc"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\iterator_concepts.h"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\locale_classes.h"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\locale_classes.tcc"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\locale_facets.h"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\locale_facets.tcc"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\localefwd.h"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\memoryfwd.h"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\move.h"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\nested_exception.h"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\ostream.tcc"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\ostream_insert.h"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\postypes.h"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\predefined_ops.h"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\ptr_traits.h"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\range_access.h"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\range_cmp.h"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\std_abs.h"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\stl_algobase.h"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\stl_construct.h"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\stl_function.h"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\stl_iterator.h"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\stl_iterator_base_funcs.h"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\stl_iterator_base_types.h"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\stl_pair.h"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\streambuf.tcc"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\streambuf_iterator.h"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\string_view.tcc"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\stringfwd.h"
 boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\cassert"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\cctype"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\cerrno"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\clocale"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\concepts"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\cstdint"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\cstdio"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\cstdlib"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\cwchar"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\cwctype"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\debug\assertions.h"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\debug\debug.h"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\exception"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\ext\alloc_traits.h"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\ext\atomicity.h"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\ext\new_allocator.h"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\ext\numeric_traits.h"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\ext\string_conversions.h"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\ext\type_traits.h"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\initializer_list"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\ios"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\iosfwd"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\iostream"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\istream"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\new"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\ostream"
 boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\pstl\pstl_config.h"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\stdexcept"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\streambuf"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\string"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\string_view"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\system_error"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\type_traits"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\typeinfo"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\ctype.h"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\errno.h"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\locale.h"
 boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\_default_types.h"
 boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\_endian.h"
 boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\_types.h"
 boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\endian.h"
 boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\ieeefp.h"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\stdlib.h"
 boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\types.h"
 boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\newlib.h"
 boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\stdint.h"
 boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\stdio.h"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\stdlib.h"
 boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_intsup.h"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_locale.h"
 boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_pthreadtypes.h"
 boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_sigset.h"
 boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_stdint.h"
@@ -2923,6 +3019,7 @@ boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x8
 boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_types.h"
 boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\cdefs.h"
 boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\config.h"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\errno.h"
 boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\features.h"
 boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\lock.h"
 boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\reent.h"
@@ -2931,6 +3028,8 @@ boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x8
 boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\stdio.h"
 boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\timespec.h"
 boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\types.h"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\wchar.h"
+boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\wctype.h"
 boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdarg.h"
 boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdbool.h"
 boton_Fases\CMakeFiles\boton_Fases.dir\boton_fases.cc.obj: "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stddef.h"
@@ -3018,9 +3117,17 @@ boton_Fases\CMakeFiles\boton_Fases.dir\test.cc.obj: "C:\Program Files (x86)\GNU 
 
 "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\types.h":
 
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\functional_hash.h":
+
 C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\lib\tinyusb\src\common\tusb_common.h:
 
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\wctype.h":
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\ext\string_conversions.h":
+
 C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c:
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\ostream.tcc":
 
 "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\_default_types.h":
 
@@ -3031,6 +3138,8 @@ C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\lib\
 C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2_common\hardware_irq\include\hardware\irq.h:
 
 generated\pico_base\pico\version.h:
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\concept_check.h":
 
 C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\common\pico_base\include\pico.h:
 
@@ -3066,6 +3175,8 @@ C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\
 
 C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\timer.h:
 
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\exception_ptr.h":
+
 C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\lib\tinyusb\src\common\tusb_timeout.h:
 
 C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\common\pico_sync\include\pico\mutex.h:
@@ -3074,11 +3185,15 @@ C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\
 
 C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.h:
 
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\streambuf_iterator.h":
+
 "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\inttypes.h":
 
 C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\lib\tinyusb\src\common\tusb_types.h:
 
 "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_locale.h":
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\cctype":
 
 C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\lib\tinyusb\src\device\dcd.h:
 
@@ -3128,6 +3243,8 @@ C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\
 
 C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\common\pico_sync\include\pico\sem.h:
 
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\stl_iterator_base_funcs.h":
+
 C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\common\pico_time\include\pico\time.h:
 
 C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2040\hardware_regs\include\hardware\platform_defs.h:
@@ -3140,11 +3257,17 @@ C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\
 
 C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\intctrl.h:
 
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\cwchar":
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\arm-none-eabi\thumb\v6-m\nofp\bits\c++allocator.h":
+
 C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\m0plus.h:
 
 "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\machine\endian.h":
 
 "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\stdio.h":
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\arm-none-eabi\thumb\v6-m\nofp\bits\ctype_inline.h":
 
 "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stddef.h":
 
@@ -3168,6 +3291,8 @@ C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\
 
 C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2_common\pico_stdio\include\pico\stdio.h:
 
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\cerrno":
+
 C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2_common\hardware_timer\include\hardware\timer.h:
 
 "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\_newlib_version.h":
@@ -3182,7 +3307,11 @@ C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\
 
 "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\string.h":
 
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\exception.h":
+
 "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_intsup.h":
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\wchar.h":
 
 "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_pthreadtypes.h":
 
@@ -3191,6 +3320,8 @@ C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\lib\
 "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_sigset.h":
 
 "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\_stdint.h":
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\ext\numeric_traits.h":
 
 "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\alloca.h":
 
@@ -3208,9 +3339,13 @@ C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\
 
 "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\features.h":
 
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\memoryfwd.h":
+
 "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\lock.h":
 
 "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\reent.h":
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\stl_function.h":
 
 "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\sched.h":
 
@@ -3218,7 +3353,11 @@ C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\
 
 "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\stdio.h":
 
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\cpp_type_traits.h":
+
 "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\string.h":
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\exception":
 
 "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\timespec.h":
 
@@ -3254,9 +3393,13 @@ C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\lib\
 
 C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid.h:
 
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\arm-none-eabi\thumb\v6-m\nofp\bits\ctype_base.h":
+
 C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2_common\pico_printf\include\pico\printf.h:
 
 C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\lib\tinyusb\src\device\usbd.h:
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\ptr_traits.h":
 
 C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\common\pico_time\time.c:
 
@@ -3268,9 +3411,13 @@ C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\
 
 C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\common\pico_sync\lock_core.c:
 
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\stringfwd.h":
+
 C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\common\pico_sync\mutex.c:
 
 C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\common\pico_sync\sem.c:
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\typeinfo":
 
 C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\common\pico_util\include\pico\util\pheap.h:
 
@@ -3280,15 +3427,21 @@ C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\
 
 "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\lib\gcc\arm-none-eabi\10.3.1\include-fixed\limits.h":
 
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\ios":
+
 C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\boton_Fases\boton_fases.h:
 
 "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\lib\gcc\arm-none-eabi\10.3.1\include-fixed\syslimits.h":
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\ext\new_allocator.h":
 
 C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\common\pico_util\datetime.c:
 
 C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\common\pico_util\pheap.c:
 
 C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\common\pico_util\queue.c:
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\allocator.h":
 
 C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\common\pico_util\include\pico\util\queue.h:
 
@@ -3301,6 +3454,8 @@ C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\
 C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\pads_bank0.h:
 
 C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\interp.h:
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\string_view":
 
 C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\padsbank0.h:
 
@@ -3348,6 +3503,8 @@ C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\
 
 C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\xosc.h:
 
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\errno.h":
+
 C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\xosc.h:
 
 C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2_common\hardware_xosc\include\hardware\xosc.h:
@@ -3394,6 +3551,8 @@ C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\lib\
 
 C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c:
 
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\localefwd.h":
+
 C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\include\pico\fix\rp2040_usb_device_enumeration.h:
 
 C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\common\pico_time\timeout_helper.c:
@@ -3406,9 +3565,15 @@ C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\
 
 C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2_common\hardware_clocks\clocks.c:
 
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\iostream":
+
 C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\watchdog.h:
 
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\initializer_list":
+
 C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2_common\hardware_watchdog\include\hardware\watchdog.h:
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\ext\type_traits.h":
 
 C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\io_qspi.h:
 
@@ -3432,9 +3597,15 @@ C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\
 
 C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\psm.h:
 
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\cstdint":
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\streambuf.tcc":
+
 C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2040\hardware_structs\include\hardware\structs\psm.h:
 
 C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c:
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\alloc_traits.h":
 
 C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c:
 
@@ -3455,6 +3626,8 @@ C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\
 C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2040\hardware_regs\include\hardware\regs\tbman.h:
 
 "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\time.h":
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\char_traits.h":
 
 "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\unistd.h":
 
@@ -3480,11 +3653,123 @@ C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\
 
 C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c:
 
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\arm-none-eabi\thumb\v6-m\nofp\bits\error_constants.h":
+
 C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c:
 
 C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\pico-sdk\lib\tinyusb\src\tusb.c:
 
 C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\boton_Fases\boton_fases.cc:
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\arm-none-eabi\thumb\v6-m\nofp\bits\atomic_word.h":
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\cwctype":
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\clocale":
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\arm-none-eabi\thumb\v6-m\nofp\bits\c++locale.h":
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\arm-none-eabi\thumb\v6-m\nofp\bits\gthr-default.h":
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\arm-none-eabi\thumb\v6-m\nofp\bits\gthr.h":
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\backward\binders.h":
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\basic_ios.h":
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\basic_ios.tcc":
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\basic_string.h":
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\basic_string.tcc":
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\charconv.h":
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\cxxabi_forced.h":
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\cxxabi_init_exception.h":
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\exception_defines.h":
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\string":
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\functexcept.h":
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\hash_bytes.h":
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\postypes.h":
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\ios_base.h":
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\istream.tcc":
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\iterator_concepts.h":
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\locale_classes.h":
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\locale_classes.tcc":
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\locale_facets.h":
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\locale_facets.tcc":
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\move.h":
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\nested_exception.h":
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\ostream_insert.h":
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\predefined_ops.h":
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\range_access.h":
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\range_cmp.h":
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\system_error":
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\stl_algobase.h":
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\stl_construct.h":
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\stl_iterator.h":
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\stl_iterator_base_types.h":
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\stl_pair.h":
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\bits\string_view.tcc":
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\concepts":
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\cstdio":
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\debug\assertions.h":
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\debug\debug.h":
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\ext\alloc_traits.h":
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\ext\atomicity.h":
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\type_traits":
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\iosfwd":
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\istream":
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\new":
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\ostream":
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\stdexcept":
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\c++\10.3.1\streambuf":
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\ctype.h":
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\locale.h":
+
+"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\include\sys\errno.h":
 
 C:\Users\royza\Documents\UAM\Trimestre_24I\Microcontroladores\Pico\Microcontrollers_TableroLavadora\include\pin_list.h:
 
