@@ -1,13 +1,13 @@
 # ninja log v5
+5331	5717	7361629879176247	boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj	7cd2a5a8136eb836
+48	202	7361629824272079	pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.obj	f4b44207e123cf59
 19939	20772	7361630029659886	modu_boton_encendido/CMakeFiles/modu_boton_encendido.dir/ae783cfadb10a0055c655bcf0b179659/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj	68463a9fc3966705
 1159	1879	7361629839502165	boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj	493af9a4350371ad
 10758	11277	7361629934560381	sistema_de_barrido/CMakeFiles/sistema_de_barrido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj	6016b90ad6e85d38
-48	202	7361629824272079	pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.obj	f4b44207e123cf59
-5331	5717	7361629879176247	boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj	7cd2a5a8136eb836
+448	1139	7361629833591432	C:/Users/Gamaliel Abad/Documents/Microcontroladores/Microcontrollers_TableroLavadora/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S	24238fade6643117
 26675	27523	7361630097120255	modu_display4x7/CMakeFiles/modu_display4x7.dir/ae783cfadb10a0055c655bcf0b179659/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj	3a709273c9b79a44
 2196	3456	7361629856100631	boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj	83f4bc51b070412e
 22310	22872	7361630050263868	modu_display4x7/CMakeFiles/modu_display4x7.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj	1cced3c42e7281b4
-448	1139	7361629833591432	C:/Users/Gamaliel Abad/Documents/Microcontroladores/Microcontrollers_TableroLavadora/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S	24238fade6643117
 204	417	7361629825396269	pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf	fbbc6c68a14db78b
 1907	2783	7361629849717098	boton_encendido/CMakeFiles/boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/queue.c.obj	f3a3e55f3b164267
 19542	20193	7361630023761388	modu_boton_encendido/CMakeFiles/modu_boton_encendido.dir/ae783cfadb10a0055c655bcf0b179659/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj	b69d027e2949de84
@@ -288,7 +288,7 @@
 17348	18133	7361630001230102	modu_boton_encendido/CMakeFiles/modu_boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj	c0220e6c6f566317
 15097	18142	7361630002989674	modu_boton_encendido/CMakeFiles/modu_boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj	ffb635f5c59710b3
 15796	18152	7361629994483503	sistema_de_barrido/sistema_de_barrido.elf	350631428c35fa97
-692	1586	7374509775258155	modu_display4x7/modu_display4x7.elf	1f84a9ddd12494b6
+777	1731	7374518336341828	modu_display4x7/modu_display4x7.elf	1f84a9ddd12494b6
 36	830	7374406798438751	modu_boton_encendido/CMakeFiles/modu_boton_encendido.dir/test.cc.obj	bba5282ba562e62d
 16656	18286	7361630004307944	modu_boton_encendido/CMakeFiles/modu_boton_encendido.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj	1086a167d9cf0d30
 25330	25912	7361630080886392	modu_display4x7/CMakeFiles/modu_display4x7.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj	81ea6d284f8aba6b
@@ -335,7 +335,7 @@
 22803	24266	7361630063951920	modu_display4x7/CMakeFiles/modu_display4x7.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_sync/lock_core.c.obj	206a782b6c22d30c
 23435	24275	7361630063977496	modu_display4x7/CMakeFiles/modu_display4x7.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj	fa58c498c17fef22
 24067	24459	7361630066488487	modu_display4x7/CMakeFiles/modu_display4x7.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj	79ed4ba756b272ec
-51	691	7374509771411463	modu_display4x7/CMakeFiles/modu_display4x7.dir/test.cc.obj	438ccd3f04b9356d
+56	776	7374518332347165	modu_display4x7/CMakeFiles/modu_display4x7.dir/test.cc.obj	438ccd3f04b9356d
 23416	28337	7361630105572177	modu_display4x7/CMakeFiles/modu_display4x7.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/queue.c.obj	c3106776647e34e7
 24166	24736	7361630069520502	modu_display4x7/CMakeFiles/modu_display4x7.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj	271a0c0830d5f9ee
 24558	25006	7361630072001350	modu_display4x7/CMakeFiles/modu_display4x7.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj	b8cba5be1d56dbe6
@@ -360,11 +360,3 @@
 27523	28216	7361630104380371	modu_display4x7/CMakeFiles/modu_display4x7.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj	f80024e242c29e40
 23398	28261	7361630104819369	modu_display4x7/CMakeFiles/modu_display4x7.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/src/common/pico_util/datetime.c.obj	f42fb38cfae6e77f
 27657	28488	7361630107089397	modu_display4x7/CMakeFiles/modu_display4x7.dir/C_/Program_Files/Raspberry_Pi/Pico_SDK_v1.5.1/pico-sdk/lib/tinyusb/src/tusb.c.obj	f8ad9b594a5df5d9
-49	952	7374515821703189	modu_display4x7/CMakeFiles/modu_display4x7.dir/test.cc.obj	438ccd3f04b9356d
-953	2419	7374515829253772	modu_display4x7/modu_display4x7.elf	1f84a9ddd12494b6
-35	685	7374516456027911	modu_display4x7/CMakeFiles/modu_display4x7.dir/test.cc.obj	438ccd3f04b9356d
-686	1596	7374516460017440	modu_display4x7/modu_display4x7.elf	1f84a9ddd12494b6
-49	745	7374517630558411	modu_display4x7/CMakeFiles/modu_display4x7.dir/test.cc.obj	438ccd3f04b9356d
-746	1666	7374517634638361	modu_display4x7/modu_display4x7.elf	1f84a9ddd12494b6
-56	776	7374518332347165	modu_display4x7/CMakeFiles/modu_display4x7.dir/test.cc.obj	438ccd3f04b9356d
-777	1731	7374518336341828	modu_display4x7/modu_display4x7.elf	1f84a9ddd12494b6
