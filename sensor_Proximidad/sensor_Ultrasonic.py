@@ -14,6 +14,9 @@ def measure_distance(trigger: Pin, echo: Pin) -> float:
     utime.sleep(0.00001)
     trigger.low()
 
+    comienzo=0
+    final=0
+
     # Wait for echo to start
     while echo.value() == 0:
         comienzo = utime.ticks_us()
