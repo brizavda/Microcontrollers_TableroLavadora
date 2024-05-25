@@ -63,3 +63,9 @@ def melodia_apagado():
         ('G5', 300), ('E5', 300), ('C5', 300)
     ]
     reproducir_melodia(melodia)
+
+def melodia_pausa():
+    melodia = [
+        ('D5', 150), ('F5', 150), ('A5', 150), ('D6', 300)
+    ]
+    reproducir_melodia(melodia)
