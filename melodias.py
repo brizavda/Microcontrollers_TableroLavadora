@@ -21,3 +21,12 @@ NOTAS = {
     'GS7': 3322, 'A7': 3520, 'AS7': 3729, 'B7': 3951, 'C8': 4186, 'CS8': 4435,
     'D8': 4699, 'DS8': 4978
 }
+
+def reproducir_tono(frecuencia, duracion):
+    if frecuencia == 0:  
+        zumbador.duty_u16(0)
+    else:
+        zumbador.freq(frecuencia)
+        zumbador.duty_u16(8000)  # Ajustar el volumen aquí
+    time.sleep_ms(duracion)
+    zumbador.duty_u16(0)
