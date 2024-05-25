@@ -36,6 +36,12 @@ def reproducir_melodia(melodia):
         reproducir_tono(NOTAS.get(nota, 0), duracion)
         time.sleep_ms(50)
 
+def melodia_encendido():
+    melodia = [
+        ('E5', 100), ('G5', 100), ('C6', 200)
+    ]
+    reproducir_melodia(melodia)
+
 def melodia_inicio():
     melodia = [
         ('C5', 200), ('E5', 200), ('G5', 200), ('C6', 400)
