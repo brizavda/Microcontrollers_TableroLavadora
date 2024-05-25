@@ -57,3 +57,9 @@ def melodia_final():
         ('E7', 125), (0, 125), ('C7', 125), ('D7', 125), ('B6', 125)
     ]
     reproducir_melodia(melodia)
+
+def melodia_apagado():
+    melodia = [
+        ('G5', 300), ('E5', 300), ('C5', 300)
+    ]
+    reproducir_melodia(melodia)
