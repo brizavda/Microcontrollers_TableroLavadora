@@ -30,3 +30,8 @@ def reproducir_tono(frecuencia, duracion):
         zumbador.duty_u16(8000)  # Ajustar el volumen aquí
     time.sleep_ms(duracion)
     zumbador.duty_u16(0)
+
+def reproducir_melodia(melodia):
+    for nota, duracion in melodia:
+        reproducir_tono(NOTAS.get(nota, 0), duracion)
+        time.sleep_ms(50)
