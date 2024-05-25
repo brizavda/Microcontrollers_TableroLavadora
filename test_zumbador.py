@@ -7,6 +7,7 @@ def seleccionar_melodia():
     print("2: Melodía de Finalización")
     print("3: Melodía de Apagado")
     print("4: Melodía de Pausa")
+    print("5: Melodía de Encendido")
     opcion = input("Ingrese el número de la opción deseada: ")
 
     if opcion == '1':
@@ -21,6 +22,9 @@ def seleccionar_melodia():
     elif opcion == '4':
         print("Reproduciendo Melodía de Pausa...")
         melodias.melodia_pausa()
+    elif opcion == '5':
+        print("Reproduciendo Melodía de Encendido...")
+        melodias.melodia_encendido()
     else:
         print("Opción no válida. Por favor, intente nuevamente.")
 
