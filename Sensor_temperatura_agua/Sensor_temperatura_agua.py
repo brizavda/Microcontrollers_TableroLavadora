@@ -1,20 +1,22 @@
 from machine import Pin
 from time import sleep
-
 import onewire
 from ds18x20 import DS18X20
 
-import binascii
+class SensorTemperatura():
+    
+    def __init__(self, x: int) -> None:
+        self.__x = x
+        ow = onewire.OneWire(Pin(self.__x)) 
+        self.sensor = DS18X20(ow) 
+    
+        
 
-ow = onewire.OneWire(Pin(4),) 
-
-sensor = DS18X20(ow) 
-
-direcciones = sensor.scan()
-id = direcciones[0]
-
-while (True):
-    sensor.convert_temp()
-    sleep (1)
-    temperatura = sensor.read_temp(id)
-    print (temperatura)
+    def lectura_sensor(self) -> int:
+    
+        direcciones = self.sensor.scan()
+        self.id = direcciones[0]
+        self.sensor.convert_temp()
+        sleep (1)
+        temperatura = self.sensor.read_temp(self.id)
+        return temperatura
