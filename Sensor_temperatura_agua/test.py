@@ -1,5 +1,8 @@
 from sensor_temperatura_agua import SensorTemperatura
+from time import sleep
 
 Sensor_temperatura = SensorTemperatura(4)
 
-print(Sensor_temperatura.lectura_sensor())
+while(True):
+    print(Sensor_temperatura.lectura_sensor())
+    sleep(1)
