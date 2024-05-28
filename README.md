@@ -25,10 +25,8 @@ El siguiente apartado mostrará la prioridad de los botones dentro del proyecto 
 1. Encender la lavadora
     - Presionar el botón de encendido/apagado
         - Si la lavadora está apagada:
-            - Encender el LED
             - Mostrar mensaje "Lavadora encendida"
         - Si la lavadora está encendida:
-            - Apagar el LED
             - Mostrar mensaje "Lavadora apagada"
 2. Escoger el tipo de lavado
     - Presionar el segundo botón para seleccionar el tipo de lavado:
@@ -64,7 +62,6 @@ El siguiente apartado mostrará la prioridad de los botones dentro del proyecto 
         - Mostrar mensaje "Ciclo de lavado completado"
 8. Apagar la lavadora
     - Presionar el botón de encendido/apagado para apagar la lavadora
-        - Apagar el LED
         - Mostrar mensaje "Lavadora apagada"
 9. Fin
 
@@ -103,7 +100,7 @@ D2| <font color='black'>negro</font>| 8
 D3| <font color='black'>negro</font>| 9
 D4| <font color='black'>negro</font>| 10
 
-2.  **GP 11 - GP 17**
+2.  **GP 11 - GP 15 y GP 18-19**
 
 Estos 7 pines seran ocupados por un display de 7 segmentos normal, el cual cumplira la función de mostrar las animaciones de los ciclos de lavado. 
 
@@ -119,21 +116,20 @@ b|<font color='orange'>naranja</font>| 12
 c|<font color='yellow'>amarillo</font>| 13
 d|<font color='green '>verde</font>| 14
 e|<font color='blue'>azul</font>| 15
-f|<font color='purple'>morado</font>| 16
-g|<font color='gray'>gris</font>| 17
+f|<font color='purple'>morado</font>| 18
+g|<font color='gray'>gris</font>| 19
 
-3.  **GP 18 - GP 19**
+3.  **GP 20**
 
-Estos 2 pines quedaron reservados para la funcionalidad de On/Off, esto debido a que se usara un botón y un led indicador. 
+Este pin quedo reservado para la funcionalidad de On/Off, esto debido a que se usara un botón y un led indicador. 
 
 La aignacion de colores y de pines es la siguiente: 
 
 |Componente| color asignado | GPIO asignado |
 |--- |---------------|---------------|
-LED| <font color='turquoise'>turquesa</font> | 18
-Botón|<font color='orange'>naranja</font>| 19
+BOTON| <font color='turquoise'>turquesa</font> | 20
 
-4.  **GP 20 - GP 21**
+4.  **GP 21**
 
 Al igual que los pines anteriores, estos quedaron reservados para la funcionalidad de Star/Pause, igualmente hara usode un botón y un led indicador. 
 
@@ -141,8 +137,8 @@ La aignacion de colores y de pines es la siguiente:
 
 |Componente| color asignado | GPIO asignado |
 |--- |---------------|---------------|
-LED| <font color='turquoise'>turquesa</font> | 20
 Botón|<font color='orange'>naranja</font>| 21
+
 5.  **GP 22**
  Este pin se reservo para poder colocar el botón de selección de fases ciclos, solo hara uso de un solo botón. 
 
@@ -151,6 +147,7 @@ Botón|<font color='orange'>naranja</font>| 21
 |Componente| color asignado | GPIO asignado |
 |--- |---------------|---------------|
 Botón|<font color='orange'>naranja</font>| 22
+
 6. **GP 26**
 
 Al igual que el pin anterior solo se hara uso de un botón el cual se usará para poder hacer la selección de ciclo de lavado.
@@ -180,3 +177,66 @@ Este pin se reservo para ser ocupado por el botón del aumento de temporizador.
 |Componente| color asignado | GPIO asignado |
 |--- |---------------|---------------|
 Botón|<font color='orange'>naranja</font>| 28
+
+
+9. **Pines reservados para Comunicación UART**
+La comunicación UART (Transmisión Asíncrona Universal por Receptor) se utiliza para la transmisión de datos entre dos microcontroladores. En este proyecto, se establece una comunicación UART entre una Raspberry Pi Pico W y una Raspberry Pi Pico normal. La Pico W ejecuta código en C, mientras que la Pico normal utiliza MicroPython.
+
+*Conexión de Pines*
+- Raspberry Pi Pico W:
+  
+TX (Transmisión) en el pin 16
+
+RX (Recepción) en el pin 17
+
+- Raspberry Pi Pico Normal:
+  
+TX en el pin 16
+
+RX en el pin 17
+
+La configuración de la comunicación UART entre la Raspberry Pi Pico W y la Raspberry Pi Pico normal permite una transmisión de datos eficiente y fiable. Esta configuración es útil para aplicaciones donde se necesita intercambiar información entre dos microcontroladores.
+
+
+
+
+# Componentes Conectados a la Raspberry Pi Pico Normal
+- Pantalla OLED
+
+Descripción: La pantalla OLED muestra un resumen de la configuración y el estado actual de la lavadora. La información presentada incluye el nivel de agua, la temperatura del agua y el estado del ciclo de lavado (en curso, terminado, etc.).
+
+Funcionalidad: Permite a los usuarios visualizar información importante sobre el funcionamiento de la lavadora de manera clara y en tiempo real.
+- Sensor de Proximidad
+  
+Descripción: El sensor de proximidad se utiliza para medir el nivel de agua en el tambor de la lavadora. Este sensor proporciona datos que se pueden traducir en el nivel de agua presente.
+
+Funcionalidad: Ayuda a asegurar que la lavadora tenga la cantidad adecuada de agua para los diferentes ciclos de lavado, y puede alertar si el nivel de agua está fuera del rango deseado.
+
+- Sensor de Temperatura
+
+Descripción: El sensor de temperatura mide la temperatura del agua en el tambor de la lavadora. Esta información es crucial para los ciclos de lavado que requieren temperaturas específicas.
+
+Funcionalidad: Permite el control preciso de la temperatura del agua, asegurando que se cumplan los requisitos de temperatura para diferentes tipos de ropa y detergentes.
+
+- Buzzer
+
+Descripción: El buzzer emite una melodía cuando un ciclo de lavado ha terminado. Esto sirve como una notificación auditiva para los usuarios.
+
+Funcionalidad: Proporciona una alerta sonora que informa a los usuarios cuando el ciclo de lavado ha concluido, mejorando la experiencia de usuario mediante una señal clara y reconocible.
+
+**Integración y Operación**
+
+La integración de estos componentes en la Raspberry Pi Pico normal permite una monitorización y control precisos de los distintos aspectos del ciclo de lavado. A continuación, se describe cómo se espera que funcionen estos componentes en conjunto:
+
+Inicio del Ciclo: Al inicio del ciclo de lavado, la Raspberry Pi Pico normal recibe configuraciones y comandos a través de UART desde la Raspberry Pi Pico W.
+
+Monitorización Continua:
+
+- Pantalla OLED: Actualiza continuamente para mostrar el nivel de agua, la temperatura y el estado del ciclo.
+- Sensor de Proximidad: Mide y envía datos del nivel de agua, que se muestran en la pantalla OLED y se utilizan para ajustar el llenado de agua si es necesario.
+- Sensor de Temperatura: Mide y envía datos de la temperatura del agua, que también se muestran en la pantalla OLED. Esta información puede usarse para ajustar la temperatura del agua durante el ciclo de lavado.
+
+Finalización del Ciclo:
+
+- Buzzer: Reproduce una melodía predefinida para notificar a los usuarios que el ciclo de lavado ha terminado.
+
