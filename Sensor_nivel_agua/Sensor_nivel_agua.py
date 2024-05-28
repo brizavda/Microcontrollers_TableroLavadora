@@ -1,12 +1,13 @@
-import machine
-import time
+from machine import ADC 
+from time import sleep
 
-# Configura el pin donde está conectado el sensor de nivel de agua DGZZI
-sensor_pin = machine.Pin(15, machine.Pin.IN)  # Usamos el pin D6 en ESP8266
+sensor_pin = ADC(26)  # Usamos el pin A0 en ESP8266
 
 while True:
-    # Lee el estado del sensor
-    nivel_agua = sensor_pin.value()
-    time.sleep(1)
+    # Lee el valor analógico del sensor
+    valor_analogico = sensor_pin.read_u16()
+    print(valor_analogico)
     
-    print(nivel_agua)
+    
+    
+    sleep(1)  # Espera 1 segundo antes de la siguiente lectura
