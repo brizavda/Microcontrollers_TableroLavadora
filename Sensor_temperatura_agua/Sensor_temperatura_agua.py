@@ -13,3 +13,8 @@ sensor = DS18X20(ow)
 direcciones = sensor.scan()
 id = direcciones[0]
 
+while (True):
+    sensor.convert_temp()
+    sleep (1)
+    temperatura = sensor.read_temp(id)
+    print (temperatura)
