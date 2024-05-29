@@ -2,7 +2,7 @@ from Sensor_temperatura_agua import SensorTemperatura
 from Sensor_nivel_agua import SensorNivelAgua 
 from sensor_Ultrasonic import init_ultrasonic, measure_distance
 import melodias
-import BlynkLib
+from blynk_connection import blynk
 from machine import Pin, PWM
 from time import sleep_ms
 import network
@@ -12,24 +12,116 @@ from ssd1306 import SSD1306_I2C
 
 
 def main():
-    # Configuración del zumbador en el pin GP14
-    zumbador = PWM(Pin(13))
+     # Configuración del zumbador en el pin GP1
     Sensor_temperatura_agua = SensorTemperatura(4)
     Sensor_nivel_agua = SensorNivelAgua(26)
-    # Initialize GPIOs
+    # # Initialize GPIOs
     trigger_pin = 15
     echo_pin = 14
     trigger, echo = init_ultrasonic(trigger_pin, echo_pin)
     
-    Pin_SDA = 18
-    Pin_SCL = 19
-    
     uart = UART(0, baudrate=9600, tx=Pin(16), rx=Pin(17))
+    i2c = I2C(1, sda=Pin(18), scl=Pin(19), freq=400000)
+    display = SSD1306_I2C(128, 64, i2c)
+    
+    musica_inicio = True
+    cmd_value = 2
+    
+    while True:
+        
+        
+        if uart.any():
+            cmd = uart.read(1)
+            try:
+                cmd_value = int(cmd)
+            except ValueError:
+                print(cmd)
+                display.text(f'Error: cmd', 0, 10)
+                display.text('is not numeric', 0, 20)
+            except:
+                display.text('Error: cmd unknown', 0, 10)
+          
+          
+        if cmd_value == 1:
+            display.fill(0)
+            display.text("Encendida ", 0, 0)
+            display.show()
+            melodias.melodia_encendido()
+            sleep_ms(1000)
+            
+            
+            cmd_value = 6
+        elif cmd_value == 2:
+            # Apagar
+            display.fill(0)
+            display.text("Apagada", 0, 0)
+            display.show()
+            melodias.melodia_apagado()
+            sleep_ms(1000)
+            
+            
+            
+        elif cmd_value == 6:  
+            display.fill(0)
+            display.text("Configuracion", 0, 0)
+            display.show()
+            sleep_ms(1000)
+            
+        elif cmd_value == 4: 
+            musica_inicio = True
+            display.fill(0)
+            display.text("Pausa", 0, 0)
+            display.show()
+            melodias.melodia_pausa()
+            sleep_ms(1000)
+            
+        elif cmd_value == 3:
+            
+            if musica_inicio == True: 
+                melodias.melodia_inicio()
+                musica_inicio = False
+                
+            
+            
+            temp = Sensor_temperatura_agua.lectura_sensor()
+            agua = Sensor_nivel_agua.valor_analogico()
+            niv_ag = Sensor_nivel_agua.lectura_valor()
+            dist = measure_distance(trigger, echo)
+            temperatura = f"Temp: : {temp}"
+            nivel_agua = f"{niv_ag}"
+            distancia = f"{dist}"
+            display.fill(0)
+            display.text(temperatura, 0, 0)
+            display.text(nivel_agua, 0, 10)
+            display.text(distancia, 0, 20)
+            display.show()
+            blynk.run()
+            blynk.virtual_write(5, temp)
+            blynk.virtual_write(6, agua)
+            sleep_ms(1000)
+        
+        elif cmd_value == 5:
+            display.fill(0)
+            display.text("Finalizacion", 0, 0)
+            display.show()
+            melodias.melodia_final()
+            sleep_ms(1000)
+            cmd_value = 6
+        else:
+            display.fill(0)
+            display.text("Error", 0, 0)
+            print("Error")
+            display.show()
+            sleep_ms(1000)
+           
+            
+        
+            
+
     
 
-    pinesI2c = I2C(sda = Pin(Pin_SDA), scl = Pin(Pin_SCL), id = 1)
-
-    display = SSD1306_I2C(128, 64, pinesI2c)
+            
+            
     
     """
     # Configuración de la red WiFi
@@ -72,16 +164,52 @@ def main():
             uart.write('OFF\n')
     """
             
-    cmd_value = 1
-    while(True):
+    
+    
+    
+    
+    while(False):
         
         if uart.any():
             cmd = uart.read(1)
             cmd_value = int(cmd)
             print(cmd_value)
+           
             
-        if cmd_value == 1:  
-                
+        if cmd_value == 1:
+            display.fill(0)
+            display.text("Encendida ", 0, 0)
+            display.show()
+            melodias.melodia_encendido()
+            sleep_ms(1000)
+            
+            
+            cmd_value = 6
+        elif cmd_value == 2:
+            # Apagar
+            display.fill(0)
+            display.text("Apagada", 0, 0)
+            display.show()
+            melodias.melodia_apagado()
+            sleep_ms(1000)
+            
+            
+            
+        elif cmd_value == 6:  
+            display.fill(0)
+            display.text("Configuracion", 0, 0)
+            display.show()
+            sleep_ms(1000)
+            
+        elif cmd_value == 4: 
+            display.fill(0)
+            display.text("Pausa", 0, 0)
+            display.show()
+            melodias.melodia_pausa()
+            sleep_ms(1000)
+            
+        elif cmd_value == 3:
+            
             temp = Sensor_temperatura_agua.lectura_sensor()
             niv_ag = Sensor_nivel_agua.lectura_valor()
             dist = measure_distance(trigger, echo)
@@ -94,18 +222,26 @@ def main():
             display.text(distancia, 0, 20)
             display.show()
             sleep_ms(50)
-            
-        elif cmd_value == 2: 
+        
+        elif cmd_value == 5:
             display.fill(0)
-            display.text("Pausa", 0, 0)
+            display.text("Finalizacion", 0, 0)
+            display.show()
+            melodias.melodia_final()
+            sleep_ms(1000)
+            cmd_value = 6
+        else:
+            display.fill(0)
+            display.text("Error", 0, 0)
+            print("Error")
             display.show()
             sleep_ms(1000)
             
-        elif cmd_value == 3: 
-            display.fill(0)
-            display.text("Configuracion", 0, 0)
-            display.show()
-            sleep_ms(1000)
+            
+            
+            
+            
+            
             
 if __name__ == "__main__":
     main()
