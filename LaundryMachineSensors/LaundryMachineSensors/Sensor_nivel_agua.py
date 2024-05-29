@@ -9,14 +9,20 @@ class SensorNivelAgua():
     def lectura_valor(self) -> str:
         
         valor_analogico = self.sensor_pin.read_u16()
-        
+        print(valor_analogico)
     
-        if valor_analogico < 850:
+        if valor_analogico < 700:
             return "Sin agua"
-        elif valor_analogico > 851 and valor_analogico < 24000:
-            return "Nivel_agua bajo"
+        elif valor_analogico > 700 and valor_analogico < 24000:
+            return "Agua: bajo"
         elif valor_analogico > 24001 and valor_analogico < 24999: 
-            return "Nivel_agua media"
+            return "Agua: media"
         else: 
-            return "Nivel_agua lleno"
+            return "Agua; lleno"
+            
+            
+    def valor_analogico(self) -> int: 
+        valor_analogico = self.sensor_pin.read_u16()
+        return valor_analogico 
+        
             
