@@ -5,6 +5,7 @@ class BotonTemporizador {
 private:
     uint BOTON_GPIO; /**< GPIO utilizado para el botón del temporizador. */
     bool ultima_pulsacion; /**< Estado de la última pulsación del botón. */
+    int tiempo = 0;
 
 public:
     /**
@@ -26,8 +27,9 @@ public:
 
     /**
      * @brief Aumenta el tiempo del temporizador en 30 segundos.
-     * @param minutos Referencia al número de minutos del temporizador.
-     * @param segundos Referencia al número de segundos del temporizador.
+     * @param tiempo Referencia al número de segundos del temporizador.
      */
-    void aumentar_tiempo(int& minutos, int& segundos);
+    int aumentar_tiempo();
+
+    int limpiar_tiempo();
 };
