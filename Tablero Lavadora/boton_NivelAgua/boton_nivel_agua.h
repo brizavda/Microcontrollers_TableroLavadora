@@ -4,7 +4,7 @@
 class BotonNivelAgua {
 private:
     uint BOTON_GPIO; /**< GPIO utilizado para el botón de nivel de agua. */
-    int nivelAgua; /**< Nivel actual de agua (MINIMO, MEDIO, MAXIMO). */
+    int nivelAgua = 1; /**< Nivel actual de agua (MINIMO, MEDIO, MAXIMO). */
     bool ultima_pulsacion; /**< Estado de la última pulsación del botón. */
     static const int MINIMO = 1; /**< Nivel de agua mínimo. */
     static const int MEDIO = 2; /**< Nivel de agua medio. */

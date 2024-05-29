@@ -1,12 +1,15 @@
-#include "boton_nivel_agua.h"
+#include "pico/stdlib.h"
+#include "hardware/gpio.h"
+#include "boton_NivelAgua.h"
+#include "../include/pin_list.h"
 #include <cstdio>
 
 BotonNivelAgua::BotonNivelAgua(uint gpio) : BOTON_GPIO(gpio), nivelAgua(MINIMO), ultima_pulsacion(false) {}
 
 void BotonNivelAgua::inicializar() {
-    gpio_init(BOTON_GPIO);
-    gpio_set_dir(BOTON_GPIO, GPIO_IN);
-    gpio_pull_up(BOTON_GPIO);
+    gpio_init(BOTON_LVL_AGUA);
+    gpio_set_dir(BOTON_LVL_AGUA, GPIO_IN);
+    gpio_pull_up(BOTON_LVL_AGUA);
 }
 
 bool BotonNivelAgua::is_pressed() {
