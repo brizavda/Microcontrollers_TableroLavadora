@@ -2,7 +2,7 @@ import time
 from machine import Pin, PWM
 
 # Configuración del zumbador en el pin GP14
-zumbador = PWM(Pin(14))
+zumbador = PWM(Pin(12))
 
 NOTAS = {
     'B0': 31, 'C1': 33, 'CS1': 35, 'D1': 37, 'DS1': 39, 'E1': 41, 'F1': 44,
