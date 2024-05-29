@@ -201,6 +201,9 @@ La configuración de la comunicación UART entre la Raspberry Pi Pico W y la Ras
 
 
 # Componentes Conectados a la Raspberry Pi Pico Normal
+
+![Imagen de WhatsApp 2024-05-29 a las 13 24 32_2f7cc810](https://github.com/brizavda/Microcontrollers_TableroLavadora/assets/141947806/80d4d898-bb67-48c2-b406-04c245fb5814)
+
 - Pantalla OLED
 
 Descripción: La pantalla OLED muestra un resumen de la configuración y el estado actual de la lavadora. La información presentada incluye el nivel de agua, la temperatura del agua y el estado del ciclo de lavado (en curso, terminado, etc.).
